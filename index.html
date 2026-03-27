@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>互動式故事 & 遊戲化日語學習</title>
+    <link rel="stylesheet" href="./styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
+        .nav-logo {
+            font-size: 1.4rem;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .nav-logo span {
+            color: var(--primary-coral);
+        }
+        .nav-links {
+            display: flex;
+            gap: 1.5rem;
+            list-style: none;
+        }
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 0;
+            border-bottom: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+        .nav-links a:hover {
+            border-bottom: 2px solid var(--accent-mint);
+            color: var(--accent-mint);
+        }
+        .gamification-hub {
+            background-color: var(--primary-coral);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        .gamification-hub:hover {
+            background-color: var(--accent-mint);
+            color: var(--primary-navy);
+        }
+        .hero {
+            padding: 5rem 5%;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 3rem;
+            background: linear-gradient(135deg, var(--base-cream) 0%, #f0ebe8 100%);
+            border-bottom: 3px solid var(--japan-indigo);
+        }
+        .hero-text {
+            flex: 1 1 400px;
+        }
+        .hero-text h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--primary-navy);
+        }
+        .hero-text h1 span {
+            color: var(--primary-coral);
+        }
+        .hero-text p {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            max-width: 600px;
+        }
+        .cta-btn {
+            background-color: var(--primary-navy);
+            color: white;
+            padding: 0.8rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-right: 1rem;
+            transition: all 0.3s ease;
+            display: inline-block;
+            cursor: pointer;
+            border: none;
+        }
+        .cta-btn.secondary {
+            background-color: transparent;
+            border: 2px solid var(--primary-coral);
+            color: var(--primary-coral);
+        }
+        .cta-btn:hover {
+            background-color: var(--japan-indigo);
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .cta-btn.secondary:hover {
+            background-color: var(--primary-coral);
+            color: white;
+        }
+        .hero-visual {
+            flex: 1 1 400px;
+            text-align: center;
+        }
+        .hero-visual img {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+        }
+        .section {
+            padding: 4rem 5%;
+        }
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            color: var(--primary-navy);
+            margin-bottom: 3rem;
+            position: relative;
+        }
+        .section-title::after {
+            content: '';
+            width: 80px;
+            height: 4px;
+            background-color: var(--primary-coral);
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 2px;
+        }
+        .section-title span {
+            font-size: 1.2rem;
+            color: var(--japan-indigo);
+            font-style: italic;
+            margin-left: 1rem;
+        }
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 1.5rem;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            transition: all 0.3s ease;
+            border-top: 4px solid var(--japan-indigo);
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+        }
+        .card.vocab {
+            border-top-color: var(--primary-coral);
+        }
+        .card.resource {
+            border-top-color: var(--accent-mint);
+        }
+        .card h3 {
+            color: var(--primary-navy);
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .card h3 i {
+            color: var(--primary-coral);
+        }
+        .card p {
+            margin-bottom: 1.5rem;
+            color: #555;
+        }
+        .card-btn {
+            display: inline-block;
+            background-color: var(--accent-mint);
+            color: var(--primary-navy);
+            padding: 0.6rem 1.2rem;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+        .card-btn:hover {
+            background-color: var(--primary-coral);
+            color: white;
+        }
+        .gamification-section {
+            background-color: var(--primary-navy);
+            color: white;
+            border-radius: 10px;
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+        .gamification-section h3 {
+            color: var(--accent-yellow);
+            margin-bottom: 1.5rem;
+            font-size: 1.5rem;
+        }
+        .progress-bar {
+            width: 100%;
+            height: 20px;
+            background-color: var(--light-gray);
+            border-radius: 10px;
+            margin-bottom: 1rem;
+            overflow: hidden;
+        }
+        .progress-fill {
+            height: 100%;
+            background-color: var(--accent-yellow);
+            width: 0%;
+            border-radius: 10px;
+            transition: width 0.5s ease;
+        }
+        .badge-grid {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }
+        .badge {
+            background-color: white;
+            color: var(--primary-navy);
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.8rem;
+            font-weight: 600;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+        }
+        .badge.locked {
+            opacity: 0.5;
+            background-color: var(--light-gray);
+        }
+        .badge i {
+            font-size: 1.5rem;
+            margin-bottom: 0.5rem;
+            color: var(--primary-coral);
+        }
+        footer {
+            background-color: var(--primary-navy);
+            color: white;
+            padding: 3rem 5%;
+            margin-top: 4rem;
+        }
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        .footer-col h3 {
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            color: var(--accent-mint);
+        }
+        .footer-col a {
+            color: #ddd;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 0.8rem;
+            transition: color 0.3s ease;
+        }
+        .footer-col a:hover {
+            color: var(--primary-coral);
+        }
+        .social-links {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        .social-links a {
+            background-color: var(--japan-indigo);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+        }
+        .social-links a:hover {
+            background-color: var(--primary-coral);
+            color: white;
+        }
+        .copyright {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid #555;
+            color: #ddd;
+            font-size: 0.9rem;
+        }
+        /* 組句遊戲專用樣式 */
+        .game-modal {
+            display: none;
+            position: fixed;
+            z-index: 9999;
+            left:0; top:0;
+            width:100%; height:100%;
+            background: rgba(0,0,0,0.6);
+        }
+        .game-box {
+            background: white;
+            max-width: 650px;
+            margin: 50px auto;
+            padding: 30px;
+            border-radius: 16px;
+            max-height: 85vh;
+            overflow-y: auto;
+        }
+        .game-close {
+            text-align: right;
+            cursor: pointer;
+            font-size: 18px;
+            color: #666;
+        }
+        .staff-question {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .jp-question {
+            font-size: 28px;
+            font-weight: bold;
+            color: var(--primary-navy);
+        }
+        .cn-question {
+            font-size: 14px;
+            color: #666;
+            margin-top: 6px;
+        }
+        .answer-area {
+            min-height: 60px;
+            border: 2px dashed #ccc;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 20px 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            align-items: center;
+            justify-content: center;
+        }
+        .word-pool {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .word-piece {
+            background: var(--japan-indigo);
+            color: white;
+            padding: 10px 14px;
+            border-radius: 8px;
+            cursor: pointer;
+            user-select: none;
+        }
+        .word-piece.used {
+            background: #ccc;
+            pointer-events: none;
+        }
+        .answer-piece {
+            background: var(--accent-mint);
+            color: var(--primary-navy);
+            padding: 10px 14px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        .game-feedback {
+            text-align: center;
+            font-weight: bold;
+            font-size: 16px;
+            margin: 10px 0;
+            height: 24px;
+        }
+        .game-next {
+            background: var(--primary-navy);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            margin: 10px auto;
+            display: block;
+        }
+        .game-finish {
+            text-align: center;
+            padding: 30px 10px;
+        }
+        @media (max-width: 768px) {
+            .nav-links { display: none; }
+            .hero h1 { font-size: 2rem; }
+            .cta-btn { width: 100%; margin-bottom: 10px; }
+            .jp-question { font-size: 24px; }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+<!-- 你的原本頁面 100% 完全保留 -->
+<nav>
+    <div class="nav-logo">
+        <i class="fas fa-book-open"></i>
+        <span>日語</span> 學習與故事
+    </div>
+    <ul class="nav-links">
+        <li><a href="#home">首頁</a></li>
+        <li><a href="#vocab">單字文法</a></li>
+        <li><a href="#stories">互動故事</a></li>
+        <li><a href="#gamification">遊戲化學習</a></li>
+        <li><a href="#resources">學習資源</a></li>
+        <li><a href="#about">關於我們</a></li>
+    </ul>
+    <a href="#gamification" class="gamification-hub"><i class="fas fa-trophy"></i> 我的獎勵</a>
+</nav>
+<section id="home" class="hero">
+    <div class="hero-text">
+        <h1>互動式故事 & <span>遊戲化</span> 日語學習</h1>
+        <p>透過真實生活場景、文化洞察和有趣的任務精通日語——結合故事敘事與遊戲化設計，打造有趣且有效的學習體驗。</p>
+        <a href="#stories" class="cta-btn">開始東京冒險</a>
+        <a href="#vocab" class="cta-btn secondary">立即學習單字</a>
+    </div>
+    <div class="hero-visual">
+        <img src="./japan-banner.jpg" alt="透過故事學習日語">
+    </div>
+</section>
+<!-- 東京冒險 - 組句遊戲關卡 -->
+<section id="stories" class="section">
+    <h2 class="section-title">互動故事 ストーリー <span>選擇你的學習旅程</span></h2>
+    <div class="card-grid">
+        <div class="card">
+            <h3><i class="fas fa-map-marker-alt"></i> 東京冒險｜機場問路組句</h3>
+            <p>機場工作人員提問，你組裝正確日文回答，多邻国式玩法！</p>
+            <a class="card-btn" href="./adventure.html">開始遊玩 <i class="fas fa-play"></i></a>
+            <!-- <button class="card-btn" onclick="startGame()">開始遊玩 <i class="fas fa-play"></i></button> -->
+        </div>
+        <div class="card">
+            <h3><i class="fas fa-tea"></i> 傳統旅館體驗</h3>
+            <p>體驗日式旅館——與工作人員互動、學習文化禮儀。</p>
+            <button class="card-btn">即將推出</button>
+        </div>
+        <div class="card">
+            <h3><i class="fas fa-briefcase"></i> 日本職場</h3>
+            <p>透過會議、郵件和辦公室互動學習商務日語。</p>
+            <button class="card-btn">即將推出</button>
+        </div>
+    </div>
+</section>
+<!-- 組句遊戲彈窗 -->
+<div class="game-modal" id="gameModal">
+    <div class="game-box">
+        <div class="game-close" onclick="closeGame()">✕ 關閉</div>
+        <div id="gameContent"></div>
+    </div>
+</div>
+<!-- 其餘區塊完全不動 -->
+<section id="vocab" class="section">
+    <h2 class="section-title">單字文法 単語 <span>發音與使用情境</span></h2>
+    <div class="card-grid">
+        <div class="card vocab"><h3>である - 文法</h3><p>書面/演講中使用的正式助動詞</p><a class="card-btn" href="./mc-quiz.html">開始測驗</a></div>
+        <div class="card vocab"><h3>ことだ - 文法</h3><p>表達建議或推薦</p><a class="card-btn">開始測驗</a></div>
+        <div class="card vocab"><h3>四字熟語</h3><p>高頻率日本四字成語</p><a class="card-btn">聆聽學習</a></div>
+    </div>
+</section>
+<section id="gamification" class="section">
+    <h2 class="section-title">遊戲化學習 ゲーム化</h2>
+    <div class="gamification-section">
+        <h3>你的學習進度</h3>
+        <div class="progress-bar"><div class="progress-fill" id="progressBar"></div></div>
+        <p>完成度：<span id="progressPercent">0</span>%</p>
+    </div>
+</section>
+<footer id="about">
+    <div class="copyright">© 2026 互動式故事 & 遊戲化日語學習</div>
+</footer>
+<script>
+// ========================
+// 機場組句遊戲 - 完全依你需求
+// ========================
+const levels = [
+    {
+        jp: "すみません、搭乗口はどこですか？",
+        cn: "請問，登机口在哪裡？",
+        answer: ["すみません","あちらの","右側です"],
+        words: ["すみません","あちらの","右側です","左へ","ここです"]
+    },
+    {
+        jp: "すみません、お手洗いはどこですか？",
+        cn: "請問，洗手間在哪裡？",
+        answer: ["すみません","まっすぐ","行ってください"],
+        words: ["すみません","まっすぐ","行ってください","ここ","座って"]
+    },
+    {
+        jp: "待合室はどこにありますか？",
+        cn: "請問，候機室在哪裡？",
+        answer: ["二階の","エレベーターで","上がってください"],
+        words: ["二階の","エレベーターで","上がってください","外へ","来て"]
+    },
+    {
+        jp: "荷物受取所はどこですか？",
+        cn: "請問，行李提取處在哪裡？",
+        answer: ["地下一階へ","お願いします","まっすぐです"],
+        words: ["地下一階へ","お願いします","まっすぐです","ここ","食べて"]
+    },
+    {
+        jp: "VIPラウンジはどこですか？",
+        cn: "請問，貴賓室在哪裡？",
+        answer: ["あちらの","隣の","部屋です"],
+        words: ["あちらの","隣の","部屋です","ここ","出て"]
+    }
+];
+let current = 0;
+let selected = [];
+function startGame() {
+    current = 0;
+    selected = [];
+    loadLevel();
+    document.getElementById("gameModal").style.display = "block";
+}
+function loadLevel() {
+    const lv = levels[current];
+    const content = document.getElementById("gameContent");
+    content.innerHTML = `
+        <h3>🛫 東京空港 問路組句</h3>
+        <div class="staff-question">
+            <div class="jp-question">${lv.jp}</div>
+            <div class="cn-question">${lv.cn}</div>
+        </div>
+        <p>請組裝你的回答：</p>
+        <div class="answer-area" id="answerArea"></div>
+        <div class="word-pool" id="wordPool"></div>
+        <div class="game-feedback" id="feedback"></div>
+        <button class="game-next" id="nextBtn" style="display:none;" onclick="nextLevel()">下一題</button>
+    `;
+    renderWords();
+}
+function renderWords() {
+    const lv = levels[current];
+    const pool = document.getElementById("wordPool");
+    pool.innerHTML = "";
+    lv.words.forEach((w,i) => {
+        const piece = document.createElement("div");
+        piece.className = "word-piece";
+        piece.innerText = w;
+        piece.onclick = () => pickWord(w, piece);
+        pool.appendChild(piece);
+    });
+}
+function pickWord(word, el) {
+    selected.push(word);
+    el.classList.add("used");
+    const area = document.getElementById("answerArea");
+    const ans = document.createElement("div");
+    ans.className = "answer-piece";
+    ans.innerText = word;
+    ans.onclick = () => removeWord(word, ans, el);
+    area.appendChild(ans);
+    checkAnswer();
+}
+function removeWord(word, ansEl, wordEl) {
+    selected = selected.filter(w => w !== word);
+    ansEl.remove();
+    wordEl.classList.remove("used");
+}
+function checkAnswer() {
+    const lv = levels[current];
+    const fb = document.getElementById("feedback");
+    const next = document.getElementById("nextBtn");
+    if (selected.join(',') === lv.answer.join(',')) {
+        fb.innerText = "✅ 正解！";
+        next.style.display = "block";
+    } else {
+        fb.innerText = "";
+    }
+}
+function nextLevel() {
+    current++;
+    selected = [];
+    if (current >= levels.length) {
+        document.getElementById("gameContent").innerHTML = `
+            <div class="game-finish">
+                <h2>🎉 關卡全破！</h2>
+                <p>你已學會機場所有問路回答！</p>
+                <button class="game-next" onclick="closeGame()">完成</button>
+            </div>
+        `;
+        updateProgress(100);
+        return;
+    }
+    loadLevel();
+    updateProgress(Math.round((current / levels.length) * 100));
+}
+function updateProgress(p) {
+    document.getElementById("progressBar").style.width = p + "%";
+    document.getElementById("progressPercent").innerText = p;
+}
+function closeGame() {
+    document.getElementById("gameModal").style.display = "none";
+}
+</script>
+</body>
+</html>

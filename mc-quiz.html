@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japanese Quiz</title> <!-- ✅ UPDATED: CLEAN SIMPLE TITLE AS REQUESTED -->
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Noto Sans JP', 'Noto Sans TC', 'Montserrat', sans-serif;
+        }
+        /* ✨ REFINED: Premium Japanese Washi Paper Background (subtle grain + soft wave pattern) */
+        body {
+            background-color: #FFF8E1; 
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><path fill="%23FFC2D125" d="M0 50 C20 30, 40 30, 50 50 C60 70, 80 70, 100 50 L100 100 L0 100 Z"/></svg>');
+            background-blend-mode: overlay;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            color: #263238; /* Deep soft navy (Japanese ink - refined darker tone) */
+            line-height: 1.5;
+        }
+        /* ✨ REFINED: Premium Quiz Container (Elegant Washi Box Style) */
+        .quiz-container {
+            background: #FFFFFF;
+            width: 100%;
+            max-width: 680px;
+            border-radius: 24px; /* Rounded softer corners */
+            padding: 35px 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08), 0 0 0 6px #FFC2D118;
+            border: 1px solid #FFC2D1; /* Muted Sakura Pink (softer than before) */
+            animation: fadeIn 0.9s ease-in-out 0.1s both; /* Delayed smooth fade */
+            position: relative;
+            overflow: hidden;
+            background-clip: padding-box;
+        }
+        /* ✨ REFINED: Sakura & Matcha Deco (bigger, softer position, subtle shadow) */
+        .quiz-container::before {
+            content: "🌸";
+            font-size: 36px;
+            position: absolute;
+            top: 20px;
+            left: 25px;
+            filter: drop-shadow(0 2px 2px rgba(0,0,0,0.05));
+        }
+        .quiz-container::after {
+            content: "🍵";
+            font-size: 36px;
+            position: absolute;
+            bottom: 20px;
+            right: 25px;
+            filter: drop-shadow(0 2px 2px rgba(0,0,0,0.05));
+        }
+        /* ✨ REFINED: Score Bar (Polished Sakura Dotted Line + Perfect Spacing) */
+        .score {
+            text-align: right;
+            font-size: 19px;
+            font-weight: 600;
+            color: #66BB6A; /* Soft Premium Matcha Green (not bright) */
+            margin-bottom: 25px;
+            padding-bottom: 12px;
+            border-bottom: 2px dotted #FFC2D1;
+            letter-spacing: 0.5px;
+        }
+        /* ✨ REFINED: Question Style (Ultra Clear, Bigger, Centered Perfectly) */
+        .question {
+            font-size: 21px;
+            margin-bottom: 30px;
+            line-height: 1.7;
+            text-align: center;
+            font-weight: 600;
+            color: #263238;
+            animation: fadeIn 0.6s ease 0.2s both;
+            letter-spacing: 0.3px;
+        }
+        /* ✨ REFINED: Answer Grid (Better Gap + Perfect Alignment) */
+        .answers {
+            display: grid;
+            gap: 14px;
+            margin-bottom: 22px;
+        }
+        /* ✨ REFINED: Answer Buttons (ULTIMATE POLISH - Core Feature!) */
+        .answer-btn {
+            background: #FFFDF7; /* Warm off-white (luxury washi) */
+            border: 2px solid #FFC2D1;
+            border-radius: 18px; /* Soft rounded buttons */
+            padding: 16px 22px;
+            font-size: 17px;
+            cursor: pointer;
+            transition: all 0.35s cubic-bezier(0.25, 0.8, 0.25, 1); /* SMOOTHER hover curve */
+            text-align: left;
+            color: #263238;
+            letter-spacing: 0.2px;
+        }
+        /* ✨ SOFTER HOVER: Gentle bounce up (no harsh jump) + glow effect */
+        .answer-btn:hover {
+            transform: translateY(-3px); /* Smaller bounce (elegant) */
+            background: #FFC2D110;
+            border-color: #66BB6A;
+            box-shadow: 0 6px 12px rgba(102, 187, 106, 0.12);
+            outline: none;
+        }
+        /* ✨ REFINED: Correct/Incorrect Buttons (SOFT COLORS + GLOW + GENTLE FLASH) */
+        .answer-btn.correct {
+            background: #66BB6A; /* Soft Matcha Green ✅ */
+            color: white;
+            border-color: #4CAF50;
+            box-shadow: 0 0 15px rgba(102, 187, 106, 0.3); /* Soft glow */
+            animation: correctFlash 0.6s ease both;
+        }
+        .answer-btn.incorrect {
+            background: #EC407A; /* Soft Sakura Red ❌ (muted, not bright) */
+            color: white;
+            border-color: #D81B60;
+            box-shadow: 0 0 15px rgba(236, 64, 122, 0.3); /* Soft glow */
+            animation: wrongFlash 0.6s ease both;
+        }
+        .answer-btn:disabled {
+            cursor: not-allowed;
+            opacity: 0.92;
+            transform: none; /* No hover effect when disabled */
+            box-shadow: none;
+        }
+        /* ✨ REFINED: Progress Text (Polished Matcha, Better Position) */
+        .progress {
+            text-align: center;
+            font-size: 16px;
+            color: #66BB6A;
+            margin-top: 20px;
+            font-weight: 500;
+            opacity: 0.9;
+        }
+        /* ✅ 🌟 SUPER FUN + REFINED RESULT PAGE (FUNNY + CUTE + ENCOURAGING) 🌟✅ */
+        .result {
+            text-align: center;
+            padding: 25px 15px 20px;
+            animation: fadeIn 0.9s ease both;
+            position: relative;
+        }
+        /* Cute Sakura on Result Page Top */
+        .result::before {
+            content: "🌸🌸🌸";
+            font-size: 24px;
+            display: block;
+            margin-bottom: 10px;
+            filter: drop-shadow(0 1px 1px rgba(0,0,0,0.05));
+        }
+        /* Cute Matcha on Result Page Bottom */
+        .result::after {
+            content: "🍵🍵🍵";
+            font-size: 24px;
+            display: block;
+            margin-top: 15px;
+            filter: drop-shadow(0 1px 1px rgba(0,0,0,0.05));
+        }
+        .result h2 {
+            font-size: 34px;
+            color: #66BB6A;
+            margin-bottom: 12px;
+            font-weight: 700;
+            letter-spacing: 1.2px;
+            text-shadow: 0 1px 2px rgba(102,187,106,0.15);
+        }
+        .result .rank {
+            font-size: 20px;
+            color: #EC407A;
+            font-weight: 600;
+            margin-bottom: 18px;
+            letter-spacing: 0.5px;
+        }
+        .result p {
+            font-size: 22px;
+            margin-bottom: 30px;
+            color: #263238;
+            font-weight: 500;
+            line-height: 1.6;
+        }
+        /* ✨ UPGRADED: FUN Restart Button (Sparkle Hover + Soft Bounce + Cute Emoji) */
+        .restart-btn {
+            background: linear-gradient(120deg, #66BB6A, #4CAF50);
+            color: white;
+            border: none;
+            border-radius: 20px;
+            padding: 18px 40px;
+            font-size: 20px;
+            cursor: pointer;
+            transition: all 0.4s ease;
+            font-weight: 600;
+            box-shadow: 0 6px 12px rgba(102, 187, 106, 0.2);
+            letter-spacing: 0.5px;
+        }
+        .restart-btn:hover {
+            transform: translateY(-4px) scale(1.02);
+            box-shadow: 0 8px 20px rgba(76, 175, 80, 0.3);
+            filter: brightness(1.05);
+        }
+        /* ✨ REFINED: All Animations (SMOOTHER, SLOWER, GENTLER) */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(12px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @keyframes correctFlash {
+            0% { background: #FFFDF7; border-color: #FFC2D1; }
+            60% { background: #66BB6A; border-color: #4CAF50; }
+            100% { background: #66BB6A; border-color: #4CAF50; }
+        }
+        @keyframes wrongFlash {
+            0% { background: #FFFDF7; border-color: #FFC2D1; }
+            60% { background: #EC407A; border-color: #D81B60; }
+            100% { background: #EC407A; border-color: #D81B60; }
+        }
+        /* ✅ 🌟 SUPER FESTIVE CONFETTI (MORE PIECES + JAPANESE COLORS + MIXED SHAPES) 🌟✅ */
+        .confetti {
+            position: absolute;
+	width: calc(8px + var(--size, 6px));
+	height: calc(8px + var(--size, 6px));
+	background-color: var(--color);
+	border-radius: var(--radius, 50%);
+	animation: confettiFall 4s linear infinite;
+	opacity: 0.95;
+	filter: drop-shadow(0 1px 2px rgba(0,0,0,0.08));
+        }
+        /* ✨ MOBILE RESPONSIVE (PERFECT FOR PHONES - REFINED PADDING/SIZES) */
+        @media (max-width: 480px) {
+            .quiz-container { padding: 28px 20px; max-width: 95%; }
+            .question { font-size: 19px; margin-bottom: 25px; }
+            .answer-btn { font-size: 16px; padding: 14px 18px; }
+            .result h2 { font-size: 28px; }
+            .result .rank { font-size: 18px; }
+            .result p { font-size: 19px; }
+            .restart-btn { padding: 15px 30px; font-size: 18px; }
+        }
+    </style>
+</head>
+<body>
+<nav>
+    <div class="nav-logo">
+        <i class="fas fa-book-open"></i>
+        <span>日語</span> 學習與故事
+    </div>
+    <ul class="nav-links">
+        <li><a href="./index.html">首頁</a></li>
+        <li><a href="./adventure.html">東京冒險</a></li>
+        <li><a href="./mc-quiz.html">測驗</a></li>
+    </ul>
+    <a href="#" class="gamification-hub"><i class="fas fa-trophy"></i> 我的獎勵</a>
+</nav>
+<main class="max-w-6xl mx-auto" style="padding: 1rem 5%;">
+    <div class="quiz-container" id="quiz">
+        <div class="score" id="score">Score: 0 / 10</div>
+        <div class="question" id="question"></div>
+        <div class="answers" id="answers"></div>
+        <div class="progress" id="progress">Question 1 / 10</div>
+    </div>
+    <script>
+        // 🇯🇵 SUPER EASY JAPANESE VOCAB MCQs (ABSOLUTE BEGINNER - NO GRAMMAR)
+        const quizQuestions = [
+            {
+                question: "1) What does 「こんにちは」 (konnichiwa) mean?",
+                answers: [
+                    { text: "Goodbye 👋", correct: false },
+                    { text: "Hello / Good afternoon 👋", correct: true },
+                    { text: "Thank you 🙏", correct: false },
+                    { text: "Good night 🌙", correct: false }
+                ]
+            },
+            {
+                question: "2) What is the Japanese word for water (水)?",
+                answers: [
+                    { text: "みず (mizu) 💧", correct: true },
+                    { text: "おちゃ (ocha) ☕", correct: false },
+                    { text: "ジュース (juusu) 🧃", correct: false },
+                    { text: "コーヒー (koohii) ☕", correct: false }
+                ]
+            },
+            {
+                question: "3) What does 「ありがとう」 (arigatou) mean?",
+                answers: [
+                    { text: "Sorry 😥", correct: false },
+                    { text: "Thank you 🙏", correct: true },
+                    { text: "Hello 👋", correct: false },
+                    { text: "Yes ✔️", correct: false }
+                ]
+            },
+            {
+                question: "4) What is the meaning of 「おいしい」 (oishii)?",
+                answers: [
+                    { text: "Expensive 💰", correct: false },
+                    { text: "Cute 🥰", correct: false },
+                    { text: "Delicious 😋", correct: true },
+                    { text: "Cold ❄️", correct: false }
+                ]
+            },
+            {
+                question: "5) What does 「はい」 (hai) mean?",
+                answers: [
+                    { text: "Yes ✔️", correct: true },
+                    { text: "No ❌", correct: false },
+                    { text: "Maybe 🤔", correct: false },
+                    { text: "Okay ✅", correct: false }
+                ]
+            },
+            {
+                question: "6) What is the Japanese word for house (いえ / ie)?",
+                answers: [
+                    { text: "School 🏫", correct: false },
+                    { text: "House / Home 🏠", correct: true },
+                    { text: "Park 🌳", correct: false },
+                    { text: "Shop 🛒", correct: false }
+                ]
+            },
+            {
+                question: "7) What does 「さようなら」 (sayounara) mean?",
+                answers: [
+                    { text: "Goodbye 👋", correct: true },
+                    { text: "Good morning ☀️", correct: false },
+                    { text: "Good night 🌙", correct: false },
+                    { text: "Excuse me 🙇", correct: false }
+                ]
+            },
+            {
+                question: "8) What is the meaning of 「たべもの」 (tabemono)?",
+                answers: [
+                    { text: "Drink 🧃", correct: false },
+                    { text: "Food 🍱", correct: true },
+                    { text: "Toys 🧸", correct: false },
+                    { text: "Books 📚", correct: false }
+                ]
+            },
+            {
+                question: "9) What does 「おはよう」 (ohayou) mean?",
+                answers: [
+                    { text: "Good morning ☀️", correct: true },
+                    { text: "Good afternoon ☀️", correct: false },
+                    { text: "Good night 🌙", correct: false },
+                    { text: "Thank you 🙏", correct: false }
+                ]
+            },
+            {
+                question: "10) What does 「いいえ」 (iie) mean?",
+                answers: [
+                    { text: "Yes ✔️", correct: false },
+                    { text: "No ❌", correct: true },
+                    { text: "Okay ✅", correct: false },
+                    { text: "Sorry 😥", correct: false }
+                ]
+            }
+        ];
+        // Global Variables
+        const quizContainer = document.getElementById('quiz');
+        const questionElement = document.getElementById('question');
+        const answersElement = document.getElementById('answers');
+        const scoreElement = document.getElementById('score');
+        const progressElement = document.getElementById('progress');
+        let currentQuestionIndex = 0;
+        let score = 0;
+        // Start Quiz
+        startQuiz();
+        function startQuiz() {
+            currentQuestionIndex = 0;
+            score = 0;
+            scoreElement.textContent = `Score: ${score} / 10`;
+            showQuestion(quizQuestions[currentQuestionIndex]);
+        }
+        // Show Current Question
+        function showQuestion(question) {
+            resetAnswers();
+            questionElement.textContent = question.question;
+            progressElement.textContent = `Question ${currentQuestionIndex + 1} / 10`;
+            question.answers.forEach(answer => {
+                const button = document.createElement('button');
+                button.classList.add('answer-btn');
+                button.textContent = answer.text;
+                button.dataset.correct = answer.correct;
+                button.addEventListener('click', selectAnswer);
+                answersElement.appendChild(button);
+            });
+        }
+        // Reset Answer Buttons
+        function resetAnswers() {
+            while (answersElement.firstChild) answersElement.removeChild(answersElement.firstChild);
+        }
+        // ✨ Select Answer (Smoother Feedback, No Glitches)
+        function selectAnswer(e) {
+            const selectedBtn = e.target;
+            const isCorrect = selectedBtn.dataset.correct === "true";
+            
+            if (isCorrect) {
+                selectedBtn.classList.add('correct');
+                score++;
+                scoreElement.textContent = `Score: ${score} / 10`;
+            } else {
+                selectedBtn.classList.add('incorrect');
+                // Highlight correct answer for learning
+                document.querySelectorAll('.answer-btn').forEach(btn => {
+                    if (btn.dataset.correct === "true") btn.classList.add('correct');
+                });
+            }
+            // Disable buttons with smooth state
+            document.querySelectorAll('.answer-btn').forEach(btn => {
+                btn.disabled = true;
+                btn.style.cursor = 'not-allowed';
+            });
+            // Auto next question (1s delay - perfect for animation finish)
+            setTimeout(() => {
+                currentQuestionIndex++;
+                currentQuestionIndex < quizQuestions.length ? showQuestion(quizQuestions[currentQuestionIndex]) : showResult();
+            }, 1000);
+        }
+        // ✅ 🌟 SUPER FUN + REFINED RESULT PAGE (FUNNY + CUTE + ENCOURAGING) 🌟✅
+        function showResult() {
+            resetAnswers();
+            const scorePercent = (score / quizQuestions.length) * 100;
+            let titleMsg = "", rankMsg = "", subMsg = "";
+            // 🎊 TIER 1: PERFECT SCORE (10/10) → S-RANK + SUPER CELEBRATION
+            if (scorePercent === 100) {
+                titleMsg = "🌸 完璧！満点！(Kanpeki! Manten!) 🌸";
+                rankMsg = "✨ S-RANK | Perfect Score! 🎊";
+                subMsg = `You're a Japanese Vocab Star! 🇯🇵 ${score} / 10 (${scorePercent}%)`;
+            }
+            // 🍡 TIER 2: EXCELLENT (80-99%) → A-RANK + HAPPY MESSAGE
+            else if (scorePercent >= 80) {
+                titleMsg = "🍵 すごい！めちゃ上手！(Sugoi! Mecha Jouzu!) 🍵";
+                rankMsg = "⭐ A-RANK | Excellent Work! ✨";
+                subMsg = `Almost Perfect! Keep shining! ✨ ${score} / 10 (${scorePercent}%)`;
+            }
+            // 🌸 TIER 3: GOOD (60-79%) → B-RANK + NICE MESSAGE
+            else if (scorePercent >= 60) {
+                titleMsg = "✨ よくがんばりました！(Yoku Ganbatta!) ✨";
+                rankMsg = "🌸 B-RANK | Great Job! 👍";
+                subMsg = `You're learning so well! Keep it up! 📚 ${score} / 10 (${scorePercent}%)`;
+            }
+            // 💪 TIER 4: KEEP LEARNING (0-59%) → C-RANK + FUNNY ENCOURAGING MESSAGE
+            else {
+                titleMsg = "💪 がんばろう！がんばれ！(Ganbarou! Ganbare!) 💪";
+                rankMsg = "🍡 C-RANK | Keep Practicing! 😊";
+                subMsg = `Every mistake is a step to success! 📖 ${score} / 10 (${scorePercent}%)`;
+            }
+            // ✨ RENDER THE BEAUTIFUL FUN RESULT PAGE
+            quizContainer.innerHTML = `
+                <div class="result">
+                    <h2>${titleMsg}</h2>
+                    <div class="rank">${rankMsg}</div>
+                    <p>${subMsg}</p>
+                    <button class="restart-btn" onclick="startQuiz()">🔄 Retry Quiz</button>
+                </div>
+            `;
+            createConfetti(); // 🎉 SUPER FESTIVE CONFETTI CELEBRATION!
+        }
+        // ✅ 🌟 SUPER FESTIVE CONFETTI (180 PIECES + MIXED SHAPES/COLORS) 🌟✅
+        function createConfetti() {
+            const colors = ['#FFC2D1', '#66BB6A', '#263238', '#FFF8E1', '#EC407A', '#FFE0B2'];
+            for (let i = 0; i < 180; i++) {
+                const confetti = document.createElement('div');
+                confetti.classList.add('confetti');
+                confetti.style.left = `${Math.random() * 100}%`;
+                confetti.style.setProperty('--color', colors[Math.floor(Math.random() * colors.length)]);
+                confetti.style.setProperty('--size', `${Math.random() * 8}px`);
+                confetti.style.setProperty('--radius', Math.random() > 0.5 ? '50%' : '15%');
+                confetti.style.animationDelay = `${Math.random() * 4}s`;
+                quizContainer.appendChild(confetti);
+                setTimeout(() => confetti.remove(), 4000);
+            }
+        }
+        // ✨ Confetti Fall Animation (Slow, Smooth, Natural)
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes confettiFall {
+                0% { transform: translateY(-15px) rotate(0deg); opacity: 1; }
+                100% { transform: translateY(380px) rotate(360deg); opacity: 0; }
+            }
+        `;
+        document.head.appendChild(style);
+    </script>
+</main>
+<footer>
+    <div class="copyright">© 2026 互動式故事 & 遊戲化日語學習</div>
+</footer>
+</body>
+</html>
