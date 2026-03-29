@@ -486,6 +486,12 @@
         <canvas id="stackedChart" width="800" height="450"></canvas>
     </div>
 </section>
+<section id="age-screen-time-chart" class="section">
+    <h2 class="section-title">按年齡組別的每日螢幕時間分佈圖 <span>Daily Screen Time by Age Group</span></h2>
+    <div style="max-width:800px; margin: 0 auto;">
+        <canvas id="ageChart" width="800" height="450"></canvas>
+    </div>
+</section>
 <footer id="about">
     <div class="copyright">© 2026 互動式故事 & 遊戲化日語學習</div>
 </footer>
@@ -624,7 +630,8 @@ async function fetchDataset() {
     const headers = lines[0].split(',').map(h => h.trim());
     const idxOccupation = headers.indexOf('occupation');
     const idxScreenTime = headers.indexOf('daily_screen_time_hours');
-    if (idxOccupation === -1 || idxScreenTime === -1) throw new Error('Required headers not found');
+    const idxAge = headers.indexOf('age');
+    if (idxOccupation === -1 || idxScreenTime === -1 || idxAge === -1) throw new Error('Required headers not found');
 
     const data = [];
     for (let i = 1; i < lines.length; i++) {
@@ -632,8 +639,9 @@ async function fetchDataset() {
         const row = lines[i].split(',');
         const occupation = row[idxOccupation]?.trim();
         const screenTime = parseFloat(row[idxScreenTime]?.trim());
-        if (!occupation || isNaN(screenTime)) continue;
-        data.push({ occupation, screenTime });
+        const age = parseInt(row[idxAge]?.trim());
+        if (!occupation || isNaN(screenTime) || isNaN(age)) continue;
+        data.push({ occupation, screenTime, age });
     }
     return data;
 }
@@ -694,6 +702,74 @@ async function renderStackedChart() {
 }
 
 renderStackedChart();
+
+function getAgeGroup(age) {
+    if (age <= 20) return '20 or below';
+    if (age <= 35) return '21-35';
+    if (age <= 50) return '36-50';
+    return '51+';
+}
+
+async function renderAgeChart() {
+    try {
+        const data = await fetchDataset();
+        const ageCounts = {};
+        data.forEach(item => {
+            const ageGroup = getAgeGroup(item.age);
+            if (!ageCounts[ageGroup]) {
+                ageCounts[ageGroup] = { '0-2': 0, '2-4': 0, '4-6': 0, '6-8': 0, '8+': 0 };
+            }
+            const range = getRange(item.screenTime);
+            ageCounts[ageGroup][range]++;
+        });
+
+        const ageGroups = ['20 or below', '21-35', '36-50', '51+'];
+        const ranges = ['0-2', '2-4', '4-6', '6-8', '8+'];
+        const colors = ['#42a5f5', '#66bb6a', '#ffa726', '#ab47bc', '#ef5350'];
+        const borderColors = ['#1e88e5', '#43a047', '#fb8c00', '#8e24aa', '#e53935'];
+        const datasets = ranges.map((range, i) => ({
+            label: range + ' hours',
+            data: ageGroups.map(group => ageCounts[group][range]),
+            backgroundColor: colors[i],
+            borderColor: borderColors[i],
+            borderWidth: 1
+        }));
+
+        const ctx = document.getElementById('ageChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ageGroups,
+                datasets: datasets
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    x: { title: { display: true, text: 'Age Group' }, stacked: true },
+                    y: { beginAtZero: true, title: { display: true, text: 'Count' }, precision: 0, stacked: true }
+                }
+            }
+        });
+    } catch (err) {
+        console.error('Age chart render error', err);
+        const chartArea = document.querySelector('#age-screen-time-chart');
+        if (chartArea) chartArea.insertAdjacentHTML('beforeend', `<p style="color:red;">年齡圖表載入失敗：${err.message}</p>`);
+    }
+}
+
+        // Then in renderStackedChart, it ignores age.
+
+        // In renderAgeChart, use age.
+
+    } catch (err) {
+        console.error('Age chart render error', err);
+        const chartArea = document.querySelector('#age-screen-time-chart');
+        if (chartArea) chartArea.insertAdjacentHTML('beforeend', `<p style="color:red;">年齡圖表載入失敗：${err.message}</p>`);
+    }
+}
+
+renderAgeChart();
 </script>
 </body>
 </html>
