@@ -403,6 +403,7 @@
         }
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
 <!-- 你的原本頁面 100% 完全保留 -->
@@ -476,6 +477,12 @@
         <h3>你的學習進度</h3>
         <div class="progress-bar"><div class="progress-fill" id="progressBar"></div></div>
         <p>完成度：<span id="progressPercent">0</span>%</p>
+    </div>
+</section>
+<section id="motivation-chart" class="section">
+    <h2 class="section-title">學生動機分佈圖 <span>Motivation Level Counts</span></h2>
+    <div style="max-width:800px; margin: 0 auto;">
+        <canvas id="motivationChart" width="800" height="450"></canvas>
     </div>
 </section>
 <footer id="about">
@@ -605,6 +612,65 @@ function updateProgress(p) {
 function closeGame() {
     document.getElementById("gameModal").style.display = "none";
 }
+
+// Chart.js: 根據 CSV 產生 Motivation_Level 次數長條圖
+async function fetchMotivationCounts() {
+    const csvUrl = './StudentPerformanceFactors.csv';
+    const res = await fetch(csvUrl);
+    if (!res.ok) throw new Error('CSV fetch failed: ' + res.statusText);
+    const text = await res.text();
+    const lines = text.trim().split('\n');
+    const headers = lines[0].split(',').map(h => h.trim());
+    const idx = headers.indexOf('Motivation_Level');
+    if (idx === -1) throw new Error('Motivation_Level header not found');
+
+    const counts = {};
+    for (let i = 1; i < lines.length; i++) {
+        if (!lines[i].trim()) continue;
+        const row = lines[i].split(',');
+        const value = row[idx]?.trim();
+        if (!value) continue;
+        counts[value] = (counts[value] || 0) + 1;
+    }
+    return counts;
+}
+
+async function renderMotivationChart() {
+    try {
+        const counts = await fetchMotivationCounts();
+        const labels = Object.keys(counts).sort();
+        const data = labels.map(l => counts[l]);
+
+        const ctx = document.getElementById('motivationChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels,
+                datasets: [{
+                    label: 'Entries',
+                    data,
+                    backgroundColor: ['#42a5f5', '#66bb6a', '#ffa726'],
+                    borderColor: ['#1e88e5', '#43a047', '#fb8c00'],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    x: { title: { display: true, text: 'Motivation Level' } },
+                    y: { beginAtZero: true, title: { display: true, text: 'Count' }, precision: 0 }
+                }
+            }
+        });
+    } catch (err) {
+        console.error('Chart render error', err);
+        const chartArea = document.querySelector('#motivation-chart');
+        if (chartArea) chartArea.insertAdjacentHTML('beforeend', `<p style="color:red;">圖表載入失敗：${err.message}</p>`);
+    }
+}
+
+renderMotivationChart();
 </script>
 </body>
 </html>
