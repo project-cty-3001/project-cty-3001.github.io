@@ -480,10 +480,10 @@
         <p>完成度：<span id="progressPercent">0</span>%</p>
     </div>
 </section>
-<section id="motivation-chart" class="section">
-    <h2 class="section-title">學生動機分佈圖 <span>Motivation Level Counts</span></h2>
+<section id="screen-time-chart" class="section">
+    <h2 class="section-title">每日螢幕時間分佈圖 <span>Daily Screen Time by Occupation</span></h2>
     <div style="max-width:800px; margin: 0 auto;">
-        <canvas id="motivationChart" width="800" height="450"></canvas>
+        <canvas id="stackedChart" width="800" height="450"></canvas>
     </div>
 </section>
 <footer id="about">
@@ -614,64 +614,86 @@ function closeGame() {
     document.getElementById("gameModal").style.display = "none";
 }
 
-// Chart.js: 根據 CSV 產生 Motivation_Level 次數長條圖
-async function fetchMotivationCounts() {
-    const csvUrl = './data/japan_learning_statistic.csv';
+// Chart.js: Stacked bar chart for sleep_mobile_stress_dataset.csv
+async function fetchDataset() {
+    const csvUrl = './data/sleep_mobile_stress_dataset.csv';
     const res = await fetch(csvUrl);
     if (!res.ok) throw new Error('CSV fetch failed: ' + res.statusText);
     const text = await res.text();
     const lines = text.trim().split('\n');
     const headers = lines[0].split(',').map(h => h.trim());
-    const idx = headers.indexOf('Motivation_Level');
-    if (idx === -1) throw new Error('Motivation_Level header not found');
+    const idxOccupation = headers.indexOf('occupation');
+    const idxScreenTime = headers.indexOf('daily_screen_time_hours');
+    if (idxOccupation === -1 || idxScreenTime === -1) throw new Error('Required headers not found');
 
-    const counts = {};
+    const data = [];
     for (let i = 1; i < lines.length; i++) {
         if (!lines[i].trim()) continue;
         const row = lines[i].split(',');
-        const value = row[idx]?.trim();
-        if (!value) continue;
-        counts[value] = (counts[value] || 0) + 1;
+        const occupation = row[idxOccupation]?.trim();
+        const screenTime = parseFloat(row[idxScreenTime]?.trim());
+        if (!occupation || isNaN(screenTime)) continue;
+        data.push({ occupation, screenTime });
     }
-    return counts;
+    return data;
 }
 
-async function renderMotivationChart() {
-    try {
-        const counts = await fetchMotivationCounts();
-        const labels = Object.keys(counts).sort();
-        const data = labels.map(l => counts[l]);
+function getRange(screenTime) {
+    if (screenTime < 2) return '0-2';
+    if (screenTime < 4) return '2-4';
+    if (screenTime < 6) return '4-6';
+    if (screenTime < 8) return '6-8';
+    return '8+';
+}
 
-        const ctx = document.getElementById('motivationChart').getContext('2d');
+async function renderStackedChart() {
+    try {
+        const data = await fetchDataset();
+        const occupationCounts = {};
+        data.forEach(item => {
+            if (!occupationCounts[item.occupation]) {
+                occupationCounts[item.occupation] = { '0-2': 0, '2-4': 0, '4-6': 0, '6-8': 0, '8+': 0 };
+            }
+            const range = getRange(item.screenTime);
+            occupationCounts[item.occupation][range]++;
+        });
+
+        const occupations = Object.keys(occupationCounts).sort();
+        const ranges = ['0-2', '2-4', '4-6', '6-8', '8+'];
+        const colors = ['#42a5f5', '#66bb6a', '#ffa726', '#ab47bc', '#ef5350'];
+        const borderColors = ['#1e88e5', '#43a047', '#fb8c00', '#8e24aa', '#e53935'];
+        const datasets = ranges.map((range, i) => ({
+            label: range + ' hours',
+            data: occupations.map(occ => occupationCounts[occ][range]),
+            backgroundColor: colors[i],
+            borderColor: borderColors[i],
+            borderWidth: 1
+        }));
+
+        const ctx = document.getElementById('stackedChart').getContext('2d');
         new Chart(ctx, {
             type: 'bar',
             data: {
-                labels,
-                datasets: [{
-                    label: 'Entries',
-                    data,
-                    backgroundColor: ['#42a5f5', '#66bb6a', '#ffa726'],
-                    borderColor: ['#1e88e5', '#43a047', '#fb8c00'],
-                    borderWidth: 1
-                }]
+                labels: occupations,
+                datasets: datasets
             },
             options: {
                 responsive: true,
                 maintainAspectRatio: false,
                 scales: {
-                    x: { title: { display: true, text: 'Motivation Level' } },
-                    y: { beginAtZero: true, title: { display: true, text: 'Count' }, precision: 0 }
+                    x: { title: { display: true, text: 'Occupation' }, stacked: true },
+                    y: { beginAtZero: true, title: { display: true, text: 'Count' }, precision: 0, stacked: true }
                 }
             }
         });
     } catch (err) {
         console.error('Chart render error', err);
-        const chartArea = document.querySelector('#motivation-chart');
+        const chartArea = document.querySelector('#screen-time-chart');
         if (chartArea) chartArea.insertAdjacentHTML('beforeend', `<p style="color:red;">圖表載入失敗：${err.message}</p>`);
     }
 }
 
-renderMotivationChart();
+renderStackedChart();
 </script>
 </body>
 </html>
