@@ -418,6 +418,7 @@
         <li><a href="#stories">互動故事</a></li>
         <li><a href="#gamification">遊戲化學習</a></li>
         <li><a href="#resources">學習資源</a></li>
+        <li><a href="analysis.html">統計數據</a></li>
         <li><a href="#about">關於我們</a></li>
     </ul>
     <a href="#gamification" class="gamification-hub"><i class="fas fa-trophy"></i> 我的獎勵</a>
@@ -615,7 +616,7 @@ function closeGame() {
 
 // Chart.js: 根據 CSV 產生 Motivation_Level 次數長條圖
 async function fetchMotivationCounts() {
-    const csvUrl = './StudentPerformanceFactors.csv';
+    const csvUrl = './data/japan_learning_statistic.csv';
     const res = await fetch(csvUrl);
     if (!res.ok) throw new Error('CSV fetch failed: ' + res.statusText);
     const text = await res.text();

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis</title>
+    <link rel="stylesheet" href="./styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
+        .nav-logo {
+            font-size: 1.4rem;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .nav-logo span {
+            color: var(--primary-coral);
+        }
+        .nav-links {
+            display: flex;
+            gap: 1.5rem;
+            list-style: none;
+        }
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 0;
+            border-bottom: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+        .nav-links a:hover {
+            border-bottom: 2px solid var(--accent-mint);
+            color: var(--accent-mint);
+        }
+        .gamification-hub {
+            background-color: var(--primary-coral);
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        .gamification-hub:hover {
+            background-color: var(--accent-mint);
+            color: var(--primary-navy);
+        }
+        .section {
+            padding: 4rem 5%;
+        }
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            color: var(--primary-navy);
+            margin-bottom: 3rem;
+            position: relative;
+        }
+        .section-title::after {
+            content: '';
+            width: 80px;
+            height: 4px;
+            background-color: var(--primary-coral);
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 2px;
+        }
+        .section-title span {
+            font-size: 1.2rem;
+            color: var(--japan-indigo);
+            font-style: italic;
+            margin-left: 1rem;
+        }
+        footer {
+            background-color: var(--primary-navy);
+            color: white;
+            padding: 3rem 5%;
+            margin-top: 4rem;
+        }
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        .footer-col h3 {
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            color: var(--accent-mint);
+        }
+        .footer-col a {
+            color: #ddd;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 0.8rem;
+            transition: color 0.3s ease;
+        }
+        .footer-col a:hover {
+            color: var(--primary-coral);
+        }
+        .social-links {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        .social-links a {
+            background-color: var(--japan-indigo);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+        }
+        .social-links a:hover {
+            background-color: var(--primary-coral);
+            color: white;
+        }
+        .copyright {
+            text-align: center;
+            padding-top: 2rem;
+            border-top: 1px solid #555;
+            color: #ddd;
+            font-size: 0.9rem;
+        }
+        @media (max-width: 768px) {
+            .nav-links { display: none; }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<nav>
+    <div class="nav-logo">
+        <i class="fas fa-book-open"></i>
+        <span>日語</span> 學習與故事
+    </div>
+    <ul class="nav-links">
+        <li><a href="index.html">首頁</a></li>
+        <li><a href="#vocab">單字文法</a></li>
+        <li><a href="#stories">互動故事</a></li>
+        <li><a href="#gamification">遊戲化學習</a></li>
+        <li><a href="#resources">學習資源</a></li>
+        <li><a href="analysis.html">統計數據</a></li>
+        <li><a href="#about">關於我們</a></li>
+    </ul>
+    <a href="#gamification" class="gamification-hub"><i class="fas fa-trophy"></i> 我的獎勵</a>
+</nav>
+<section class="section">
+    <h2 class="section-title">Analysis <span>Data Visualization</span></h2>
+    <div style="max-width:800px; margin: 0 auto;">
+        <canvas id="stackedChart" width="800" height="450"></canvas>
+    </div>
+</section>
+<footer id="about">
+    <div class="copyright">© 2026 互動式故事 & 遊戲化日語學習</div>
+</footer>
+<script>
+// Chart.js: Stacked bar chart for sleep_mobile_stress_dataset.csv
+async function fetchDataset() {
+    const csvUrl = './data/sleep_mobile_stress_dataset.csv';
+    const res = await fetch(csvUrl);
+    if (!res.ok) throw new Error('CSV fetch failed: ' + res.statusText);
+    const text = await res.text();
+    const lines = text.trim().split('\n');
+    const headers = lines[0].split(',').map(h => h.trim());
+    const idxOccupation = headers.indexOf('occupation');
+    const idxScreenTime = headers.indexOf('daily_screen_time_hours');
+    if (idxOccupation === -1 || idxScreenTime === -1) throw new Error('Required headers not found');
+
+    const data = [];
+    for (let i = 1; i < lines.length; i++) {
+        if (!lines[i].trim()) continue;
+        const row = lines[i].split(',');
+        const occupation = row[idxOccupation]?.trim();
+        const screenTime = parseFloat(row[idxScreenTime]?.trim());
+        if (!occupation || isNaN(screenTime)) continue;
+        data.push({ occupation, screenTime });
+    }
+    return data;
+}
+
+function getRange(screenTime) {
+    if (screenTime < 2) return '0-2';
+    if (screenTime < 4) return '2-4';
+    if (screenTime < 6) return '4-6';
+    if (screenTime < 8) return '6-8';
+    return '8+';
+}
+
+async function renderStackedChart() {
+    try {
+        const data = await fetchDataset();
+        const occupationCounts = {};
+        data.forEach(item => {
+            if (!occupationCounts[item.occupation]) {
+                occupationCounts[item.occupation] = { '0-2': 0, '2-4': 0, '4-6': 0, '6-8': 0, '8+': 0 };
+            }
+            const range = getRange(item.screenTime);
+            occupationCounts[item.occupation][range]++;
+        });
+
+        const occupations = Object.keys(occupationCounts).sort();
+        const ranges = ['0-2', '2-4', '4-6', '6-8', '8+'];
+        const colors = ['#42a5f5', '#66bb6a', '#ffa726', '#ab47bc', '#ef5350'];
+        const borderColors = ['#1e88e5', '#43a047', '#fb8c00', '#8e24aa', '#e53935'];
+        const datasets = ranges.map((range, i) => ({
+            label: range + ' hours',
+            data: occupations.map(occ => occupationCounts[occ][range]),
+            backgroundColor: colors[i],
+            borderColor: borderColors[i],
+            borderWidth: 1
+        }));
+
+        const ctx = document.getElementById('stackedChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: occupations,
+                datasets: datasets
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                scales: {
+                    x: { title: { display: true, text: 'Occupation' }, stacked: true },
+                    y: { beginAtZero: true, title: { display: true, text: 'Count' }, precision: 0, stacked: true }
+                }
+            }
+        });
+    } catch (err) {
+        console.error('Chart render error', err);
+        const chartArea = document.querySelector('#stackedChart').parentElement;
+        if (chartArea) chartArea.insertAdjacentHTML('beforeend', `<p style="color:red;">圖表載入失敗：${err.message}</p>`);
+    }
+}
+
+renderStackedChart();
+</script>
+</body>
+</html>

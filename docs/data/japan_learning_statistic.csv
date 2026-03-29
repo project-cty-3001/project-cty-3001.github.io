@@ -1,0 +1,1801 @@
+learner_id,proficiency_level,learning_goal,session_num,activity_type,content_difficulty,prev_score,real_time_score,engagement_level,adaptive_action,path_updated,reward_signal,next_proficiency
+L0085,Advanced,Conversational,7,Listening,3.9,77.73,82.47,0.61,Test,True,0.23,2.1
+L0096,Intermediate,JLPT N4,11,Grammar,1.0,62.61,66.53,0.34,Repeat,False,0.19,1.48
+L0064,Advanced,JLPT N5,12,Grammar,5.04,63.58,58.26,0.98,Test,False,-0.26,1.56
+L0034,Advanced,JLPT N5,15,Listening,7.93,66.61,67.29,0.71,Test,False,0.03,1.39
+L0066,Advanced,JLPT N5,3,Kanji,5.83,82.49,79.55,0.96,Repeat,False,-0.15,1.79
+L0081,Intermediate,Conversational,14,Kanji,3.8,84.21,87.12,0.61,Test,False,0.14,1.74
+L0007,Advanced,JLPT N4,7,Grammar,7.26,75.6,71.73,0.43,Test,False,-0.19,1.49
+L0050,Advanced,Writing,4,Listening,5.42,40.6,27.32,0.98,Revise,False,-0.58,1.31
+L0011,Beginner,Reading,12,Kanji,6.48,72.57,71.41,0.57,Advance,True,-0.06,1.65
+L0020,Advanced,JLPT N4,18,Kanji,9.68,86.06,87.03,0.49,Test,True,0.05,1.95
+L0022,Beginner,Reading,15,Kanji,1.25,49.5,55.86,0.85,Advance,False,0.31,1.38
+L0032,Advanced,Conversational,5,Vocabulary,5.42,78.96,69.99,0.56,Advance,True,-0.42,1.68
+L0059,Advanced,JLPT N5,5,Listening,6.63,90.34,89.62,0.38,Test,True,-0.04,2.1
+L0032,Beginner,Conversational,14,Vocabulary,5.94,81.04,73.24,0.33,Advance,False,-0.37,1.56
+L0011,Beginner,JLPT N5,15,Listening,4.2,69.09,54.9,0.66,Advance,True,-0.61,1.76
+L0016,Intermediate,JLPT N4,5,Listening,3.93,47.57,39.68,0.35,Test,True,-0.38,1.55
+L0052,Beginner,Reading,19,Listening,6.0,87.37,89.94,0.43,Revise,True,0.13,1.96
+L0085,Beginner,JLPT N4,11,Listening,3.45,64.6,71.84,0.49,Test,True,0.35,1.67
+L0030,Intermediate,JLPT N4,20,Kanji,2.3,54.71,55.98,0.64,Repeat,True,0.06,1.31
+L0097,Intermediate,JLPT N5,1,Vocabulary,4.31,57.97,56.35,0.66,Repeat,False,-0.08,1.64
+L0002,Advanced,JLPT N5,9,Listening,3.67,67.8,59.34,0.79,Test,True,-0.4,1.43
+L0076,Intermediate,JLPT N5,3,Listening,2.85,55.11,56.13,0.65,Test,False,0.05,1.47
+L0051,Advanced,JLPT N5,5,Kanji,7.47,48.6,51.98,0.61,Advance,True,0.17,1.91
+L0095,Advanced,Conversational,6,Grammar,6.53,52.75,45.0,0.81,Advance,True,-0.37,1.6
+L0085,Beginner,Writing,5,Listening,7.81,90.88,82.08,0.88,Revise,False,-0.41,1.84
+L0081,Advanced,Reading,6,Kanji,6.58,76.47,65.5,0.8,Test,False,-0.5,1.52
+L0007,Intermediate,JLPT N4,19,Kanji,3.56,65.95,64.52,0.66,Test,False,-0.07,1.77
+L0039,Beginner,Writing,8,Listening,4.22,56.72,53.15,0.76,Test,False,-0.18,1.64
+L0012,Advanced,Conversational,16,Listening,7.73,100.0,96.76,0.93,Advance,True,-0.16,1.93
+L0018,Intermediate,Writing,5,Grammar,4.71,72.71,82.36,0.89,Repeat,False,0.45,1.61
+L0019,Beginner,JLPT N5,20,Vocabulary,5.5,75.2,68.4,0.41,Test,False,-0.33,1.73
+L0047,Advanced,Conversational,6,Kanji,6.71,96.83,100.0,0.98,Revise,False,0.16,1.97
+L0075,Intermediate,JLPT N4,18,Vocabulary,5.35,51.75,62.24,0.46,Test,True,0.48,1.89
+L0064,Advanced,Reading,1,Listening,4.99,64.25,59.62,0.82,Repeat,True,-0.23,1.37
+L0046,Beginner,Conversational,3,Kanji,6.64,98.45,96.0,0.49,Repeat,False,-0.12,1.81
+L0041,Advanced,Reading,14,Kanji,5.63,70.89,79.99,0.6,Advance,False,0.43,1.79
+L0014,Advanced,JLPT N5,1,Vocabulary,4.47,100.0,100.0,0.5,Advance,True,0.0,1.83
+L0002,Beginner,Reading,3,Vocabulary,4.98,72.86,78.93,0.82,Repeat,False,0.29,1.72
+L0042,Advanced,Conversational,5,Grammar,4.75,81.11,76.58,0.57,Advance,False,-0.22,1.92
+L0036,Advanced,Conversational,1,Grammar,3.15,62.31,69.41,0.79,Test,True,0.34,1.71
+L0089,Intermediate,Conversational,8,Kanji,2.7,90.84,82.29,0.53,Advance,False,-0.4,1.62
+L0033,Intermediate,Conversational,8,Vocabulary,7.17,85.81,72.03,0.87,Repeat,False,-0.6,1.53
+L0033,Advanced,JLPT N5,3,Grammar,6.31,48.46,36.63,0.35,Repeat,False,-0.53,1.47
+L0005,Advanced,Reading,14,Grammar,5.46,72.64,61.12,0.37,Advance,False,-0.52,1.31
+L0066,Beginner,JLPT N5,19,Listening,9.63,41.99,48.85,0.32,Repeat,True,0.33,1.17
+L0080,Beginner,Reading,20,Vocabulary,1.02,76.39,70.98,0.98,Test,True,-0.26,1.87
+L0047,Advanced,JLPT N5,7,Kanji,9.78,97.65,100.0,0.98,Test,True,0.12,2.17
+L0045,Beginner,JLPT N5,10,Grammar,7.1,60.57,56.13,0.35,Repeat,True,-0.22,1.23
+L0012,Advanced,Conversational,5,Listening,8.56,59.84,44.35,0.37,Revise,True,-0.65,1.37
+L0099,Intermediate,JLPT N5,8,Listening,5.37,78.67,100.0,0.6,Repeat,True,0.79,2.05
+L0063,Intermediate,JLPT N4,3,Kanji,3.54,50.8,48.43,0.37,Repeat,True,-0.12,1.86
+L0078,Advanced,Conversational,16,Grammar,3.9,86.45,100.0,0.33,Revise,True,0.59,1.9
+L0032,Beginner,Reading,5,Vocabulary,4.35,77.87,100.0,0.78,Revise,True,0.8,2.02
+L0058,Beginner,JLPT N5,16,Kanji,5.4,61.0,61.69,0.96,Advance,True,0.03,1.54
+L0041,Advanced,Writing,12,Listening,8.17,51.43,72.76,0.96,Test,True,0.79,1.34
+L0051,Advanced,Writing,3,Grammar,6.0,85.91,79.22,0.45,Test,True,-0.32,1.62
+L0031,Advanced,Writing,14,Listening,4.03,73.11,81.96,0.32,Repeat,False,0.42,1.73
+L0067,Advanced,JLPT N4,2,Kanji,4.94,44.25,33.82,0.96,Revise,False,-0.48,1.6
+L0026,Advanced,Writing,4,Vocabulary,5.9,68.82,46.65,0.7,Revise,True,-0.8,1.74
+L0064,Advanced,Reading,3,Kanji,4.96,71.76,84.54,0.54,Test,False,0.56,1.73
+L0056,Advanced,Conversational,5,Vocabulary,6.53,53.33,44.71,0.56,Test,True,-0.41,1.61
+L0001,Advanced,Reading,17,Vocabulary,7.61,70.32,77.13,0.57,Test,True,0.33,1.71
+L0028,Intermediate,Conversational,12,Kanji,5.78,68.13,66.13,0.65,Repeat,False,-0.1,2.07
+L0092,Advanced,Reading,16,Listening,1.42,63.3,75.35,0.83,Repeat,False,0.54,1.51
+L0097,Intermediate,Reading,16,Kanji,3.6,69.87,48.97,0.92,Revise,True,-0.78,1.84
+L0079,Beginner,Conversational,11,Kanji,6.78,77.44,78.0,0.6,Revise,True,0.03,1.79
+L0045,Beginner,Reading,8,Listening,4.06,73.48,59.0,0.87,Advance,True,-0.62,1.31
+L0042,Advanced,Writing,7,Grammar,3.56,66.8,69.91,0.6,Repeat,True,0.15,1.99
+L0091,Beginner,Conversational,19,Listening,4.96,54.96,54.78,0.34,Test,True,-0.01,1.49
+L0084,Advanced,JLPT N5,8,Listening,5.65,57.59,62.79,0.97,Test,True,0.25,1.93
+L0023,Advanced,Conversational,17,Vocabulary,5.11,57.34,70.93,0.98,Advance,False,0.59,1.65
+L0019,Advanced,Reading,13,Grammar,5.45,70.19,71.17,0.98,Advance,True,0.05,1.56
+L0034,Advanced,Writing,18,Vocabulary,4.06,61.66,52.68,0.82,Revise,True,-0.42,1.83
+L0024,Intermediate,Writing,11,Listening,4.78,84.64,70.12,0.43,Test,False,-0.62,1.86
+L0047,Intermediate,Writing,8,Kanji,7.07,42.85,23.72,0.87,Advance,False,-0.74,1.31
+L0001,Advanced,JLPT N4,16,Kanji,6.48,92.15,99.15,0.91,Advance,True,0.34,1.97
+L0012,Beginner,JLPT N5,13,Vocabulary,4.38,52.45,51.37,0.99,Repeat,True,-0.05,1.82
+L0004,Advanced,JLPT N4,11,Vocabulary,1.57,90.31,89.16,0.59,Repeat,False,-0.06,2.14
+L0096,Beginner,Conversational,1,Vocabulary,5.68,98.67,100.0,0.71,Test,False,0.07,2.04
+L0096,Beginner,Reading,5,Vocabulary,3.71,90.34,82.94,0.48,Repeat,False,-0.35,1.7
+L0080,Advanced,Writing,13,Vocabulary,2.26,78.03,88.64,0.55,Repeat,True,0.49,2.19
+L0093,Intermediate,Reading,8,Kanji,5.0,63.61,76.36,0.52,Test,True,0.56,1.75
+L0024,Beginner,Reading,1,Kanji,9.12,96.33,93.84,0.39,Test,False,-0.12,2.13
+L0084,Advanced,Conversational,15,Kanji,7.79,64.15,75.65,0.93,Repeat,False,0.52,1.86
+L0060,Advanced,JLPT N4,2,Vocabulary,7.12,43.62,31.79,0.93,Advance,True,-0.53,1.0
+L0078,Beginner,Writing,20,Kanji,1.0,99.42,96.79,0.67,Advance,True,-0.13,2.07
+L0046,Advanced,JLPT N5,17,Listening,4.97,81.95,79.13,0.99,Revise,True,-0.14,1.46
+L0075,Advanced,Reading,2,Grammar,7.25,48.38,47.15,0.39,Revise,False,-0.06,1.46
+L0029,Beginner,JLPT N5,16,Grammar,2.8,77.32,84.79,0.63,Revise,True,0.36,1.79
+L0046,Advanced,JLPT N5,18,Kanji,2.27,77.56,72.53,0.54,Test,True,-0.25,1.93
+L0017,Advanced,Reading,6,Vocabulary,4.79,54.47,48.93,0.65,Advance,False,-0.27,1.25
+L0044,Beginner,Reading,13,Kanji,3.75,65.9,85.54,0.66,Advance,False,0.75,1.82
+L0081,Intermediate,JLPT N5,11,Vocabulary,6.7,60.69,53.33,0.45,Repeat,True,-0.35,1.65
+L0025,Beginner,JLPT N4,14,Kanji,1.97,90.5,100.0,0.33,Advance,False,0.44,1.95
+L0063,Advanced,JLPT N5,19,Grammar,6.15,74.67,100.0,0.38,Repeat,True,0.85,2.22
+L0075,Intermediate,JLPT N5,6,Vocabulary,1.79,73.05,65.49,0.31,Advance,True,-0.36,1.37
+L0075,Intermediate,Conversational,17,Listening,3.71,53.78,70.65,0.85,Revise,True,0.69,1.88
+L0052,Advanced,Conversational,13,Listening,10.0,60.64,64.66,0.71,Revise,False,0.2,1.98
+L0075,Intermediate,Writing,12,Grammar,4.22,59.97,73.93,0.7,Test,True,0.6,1.48
+L0046,Beginner,JLPT N5,13,Listening,5.99,67.09,65.02,0.9,Test,False,-0.1,1.19
+L0056,Beginner,Conversational,9,Listening,5.1,57.54,60.24,0.38,Revise,True,0.13,1.59
+L0049,Beginner,Conversational,2,Vocabulary,6.59,72.18,90.13,0.87,Repeat,False,0.72,1.89
+L0100,Advanced,Conversational,2,Grammar,9.09,94.29,100.0,0.43,Test,True,0.28,1.85
+L0035,Intermediate,Writing,4,Listening,5.56,28.89,24.3,0.73,Repeat,False,-0.23,1.18
+L0048,Intermediate,JLPT N5,6,Kanji,2.72,74.02,100.0,0.34,Advance,False,0.86,1.68
+L0060,Beginner,Conversational,18,Listening,9.13,40.83,26.82,0.78,Advance,True,-0.6,1.31
+L0072,Beginner,JLPT N5,20,Vocabulary,6.67,53.05,58.35,0.63,Repeat,True,0.26,1.87
+L0059,Intermediate,Reading,3,Vocabulary,6.15,66.95,70.67,0.96,Revise,False,0.18,1.59
+L0034,Advanced,Reading,12,Grammar,6.34,67.16,72.95,0.83,Test,True,0.28,1.83
+L0095,Intermediate,Conversational,3,Vocabulary,5.79,63.69,66.58,0.55,Revise,True,0.14,2.08
+L0048,Beginner,JLPT N4,13,Kanji,8.42,82.37,100.0,0.93,Revise,True,0.71,1.92
+L0017,Advanced,Writing,6,Grammar,1.0,92.66,74.05,0.57,Repeat,False,-0.73,1.94
+L0045,Advanced,Writing,2,Kanji,6.78,71.43,62.59,0.96,Repeat,False,-0.42,1.68
+L0049,Beginner,JLPT N4,7,Kanji,6.83,86.36,100.0,0.7,Test,True,0.59,1.99
+L0015,Advanced,Writing,6,Grammar,6.66,85.15,80.18,0.44,Revise,False,-0.24,1.88
+L0056,Intermediate,JLPT N4,2,Grammar,5.96,75.0,85.38,0.38,Advance,False,0.48,1.75
+L0094,Beginner,JLPT N4,4,Vocabulary,9.51,56.0,87.74,0.64,Repeat,True,0.92,1.91
+L0045,Intermediate,JLPT N4,4,Vocabulary,6.93,84.6,98.46,0.68,Advance,True,0.6,2.19
+L0069,Intermediate,JLPT N5,11,Kanji,7.36,75.37,74.25,0.46,Advance,True,-0.06,1.81
+L0032,Intermediate,JLPT N5,15,Grammar,6.63,47.48,44.79,0.81,Revise,True,-0.13,1.36
+L0088,Intermediate,Writing,11,Vocabulary,5.22,80.89,85.7,0.8,Test,False,0.24,1.9
+L0036,Intermediate,JLPT N4,10,Listening,3.79,89.53,83.25,0.43,Test,False,-0.3,1.73
+L0063,Advanced,JLPT N5,1,Kanji,5.11,86.41,69.49,0.34,Revise,True,-0.69,2.0
+L0072,Advanced,Writing,9,Kanji,6.23,60.54,51.39,0.59,Repeat,False,-0.43,1.56
+L0072,Intermediate,Writing,11,Vocabulary,4.87,82.11,90.52,0.71,Test,False,0.4,1.9
+L0039,Beginner,Reading,12,Kanji,4.62,74.69,62.75,0.32,Advance,False,-0.54,1.68
+L0034,Intermediate,JLPT N5,1,Grammar,7.16,42.33,32.15,0.97,Test,True,-0.47,1.42
+L0015,Intermediate,Conversational,17,Listening,7.21,72.64,59.24,0.51,Revise,False,-0.58,1.62
+L0059,Beginner,Reading,13,Vocabulary,2.27,41.33,35.66,0.63,Revise,False,-0.28,1.58
+L0100,Beginner,Conversational,17,Kanji,4.93,61.85,54.72,0.84,Revise,False,-0.34,1.57
+L0050,Intermediate,Writing,15,Kanji,9.86,99.25,93.61,0.84,Test,True,-0.27,1.22
+L0092,Intermediate,Writing,4,Vocabulary,5.58,66.18,64.68,0.49,Repeat,False,-0.07,1.75
+L0068,Beginner,JLPT N5,14,Listening,7.83,71.88,69.31,0.69,Advance,False,-0.13,1.9
+L0021,Intermediate,Conversational,3,Grammar,6.44,53.06,47.82,0.76,Advance,True,-0.26,1.58
+L0088,Advanced,Writing,15,Grammar,6.72,79.35,79.48,0.86,Repeat,True,0.01,1.81
+L0070,Intermediate,JLPT N5,16,Vocabulary,8.29,54.89,48.32,0.93,Test,False,-0.32,1.3
+L0058,Beginner,Conversational,7,Listening,7.73,81.55,84.85,0.79,Repeat,True,0.16,2.02
+L0072,Beginner,Reading,1,Vocabulary,3.95,85.74,78.69,0.71,Advance,True,-0.34,1.51
+L0014,Advanced,Reading,12,Grammar,4.05,85.24,78.96,0.9,Revise,False,-0.3,2.04
+L0026,Advanced,JLPT N4,3,Vocabulary,6.94,69.54,66.18,0.32,Repeat,False,-0.17,1.93
+L0032,Intermediate,Writing,14,Kanji,6.74,85.86,72.27,0.75,Revise,True,-0.59,1.63
+L0038,Intermediate,Writing,14,Grammar,5.04,75.21,69.82,0.31,Advance,True,-0.26,1.54
+L0085,Advanced,Reading,18,Listening,7.69,71.9,64.31,0.58,Advance,True,-0.36,1.64
+L0067,Intermediate,JLPT N5,6,Kanji,4.06,77.9,94.11,0.77,Test,True,0.67,2.26
+L0014,Beginner,JLPT N5,7,Kanji,7.37,73.86,87.9,0.6,Revise,False,0.61,1.78
+L0030,Advanced,JLPT N5,2,Listening,6.04,59.11,60.98,0.47,Repeat,False,0.09,1.46
+L0094,Beginner,Conversational,11,Grammar,3.15,49.72,39.97,0.7,Test,True,-0.45,1.61
+L0062,Beginner,Writing,2,Listening,6.04,68.23,67.73,0.49,Repeat,True,-0.02,1.45
+L0093,Intermediate,Reading,15,Kanji,6.22,47.21,47.16,0.72,Revise,True,-0.0,1.34
+L0010,Beginner,JLPT N4,2,Kanji,4.04,100.0,87.32,0.59,Advance,True,-0.56,1.61
+L0016,Beginner,Conversational,11,Vocabulary,3.11,100.0,100.0,0.97,Revise,False,0.0,1.88
+L0052,Beginner,Writing,17,Grammar,4.85,79.31,81.09,0.91,Test,False,0.09,1.54
+L0071,Advanced,Conversational,8,Listening,7.57,80.34,88.71,0.99,Test,True,0.4,2.16
+L0077,Beginner,JLPT N5,18,Kanji,1.95,69.13,77.32,0.32,Advance,False,0.39,1.8
+L0024,Intermediate,JLPT N5,7,Vocabulary,5.89,66.8,78.09,0.89,Repeat,False,0.51,1.76
+L0021,Intermediate,Reading,18,Vocabulary,9.38,75.1,62.36,0.69,Repeat,True,-0.56,1.91
+L0091,Beginner,JLPT N5,13,Kanji,5.44,62.82,75.38,0.35,Test,True,0.56,1.57
+L0094,Intermediate,Reading,15,Vocabulary,5.35,90.83,100.0,0.66,Revise,True,0.43,2.17
+L0060,Advanced,JLPT N4,13,Grammar,2.3,78.78,85.92,0.86,Advance,True,0.34,1.87
+L0068,Beginner,JLPT N5,7,Kanji,10.0,60.24,53.47,0.36,Advance,False,-0.33,1.23
+L0082,Beginner,Reading,7,Kanji,8.48,72.53,72.44,0.51,Repeat,False,-0.0,1.7
+L0032,Advanced,JLPT N4,18,Listening,2.99,58.48,58.14,0.57,Repeat,True,-0.02,1.63
+L0067,Beginner,JLPT N4,4,Listening,6.97,66.79,66.3,0.73,Repeat,False,-0.02,1.8
+L0065,Beginner,Reading,7,Listening,5.33,77.39,80.28,0.46,Revise,False,0.14,2.29
+L0020,Advanced,JLPT N4,2,Grammar,4.17,68.44,73.59,0.45,Test,True,0.25,1.97
+L0058,Advanced,Reading,9,Vocabulary,4.25,52.4,60.36,0.41,Revise,True,0.38,1.81
+L0078,Advanced,Reading,3,Kanji,3.59,59.45,83.02,0.71,Test,False,0.83,2.02
+L0046,Beginner,JLPT N5,2,Vocabulary,1.0,56.82,55.01,0.33,Advance,False,-0.09,1.2
+L0040,Intermediate,Writing,2,Grammar,5.57,75.02,81.6,0.36,Revise,True,0.32,2.22
+L0037,Advanced,JLPT N5,15,Grammar,5.09,60.54,69.61,0.7,Repeat,True,0.42,1.7
+L0047,Intermediate,JLPT N5,8,Grammar,6.36,97.7,100.0,0.86,Repeat,True,0.11,1.93
+L0022,Intermediate,Writing,8,Vocabulary,3.72,62.89,58.24,0.47,Revise,True,-0.23,1.39
+L0047,Advanced,Writing,10,Listening,5.64,60.56,62.51,0.97,Advance,True,0.1,1.59
+L0010,Intermediate,Writing,19,Listening,3.92,79.58,95.26,0.48,Test,True,0.65,2.02
+L0097,Intermediate,JLPT N5,2,Vocabulary,6.64,47.66,47.91,0.48,Revise,True,0.01,1.5
+L0068,Intermediate,Conversational,13,Vocabulary,4.38,73.29,75.78,0.97,Test,True,0.12,2.07
+L0093,Advanced,JLPT N4,15,Vocabulary,5.35,76.13,74.26,0.8,Repeat,True,-0.09,1.66
+L0031,Intermediate,Conversational,17,Listening,1.38,84.48,79.67,0.91,Repeat,False,-0.24,1.82
+L0059,Beginner,Conversational,15,Kanji,5.73,62.11,60.8,0.84,Repeat,True,-0.07,1.2
+L0095,Advanced,JLPT N4,2,Vocabulary,2.1,37.02,41.42,0.79,Repeat,False,0.22,1.31
+L0074,Advanced,Writing,20,Grammar,5.93,78.67,73.82,0.91,Revise,False,-0.24,1.67
+L0098,Intermediate,Reading,12,Kanji,1.31,61.5,73.13,0.82,Advance,False,0.52,1.55
+L0070,Beginner,Conversational,3,Vocabulary,5.15,66.56,76.06,0.63,Test,True,0.44,1.69
+L0034,Beginner,Conversational,8,Grammar,4.16,62.77,79.04,0.31,Revise,True,0.67,1.29
+L0081,Intermediate,JLPT N5,12,Grammar,7.5,77.37,67.06,0.39,Test,True,-0.47,1.66
+L0097,Beginner,Reading,12,Listening,5.73,46.3,40.57,0.76,Revise,True,-0.28,1.31
+L0009,Intermediate,Writing,2,Vocabulary,3.73,84.94,82.17,0.35,Revise,True,-0.14,1.82
+L0031,Advanced,Conversational,18,Listening,9.94,62.56,72.8,0.9,Revise,False,0.47,1.51
+L0078,Intermediate,Conversational,6,Listening,5.52,77.04,70.83,0.37,Repeat,False,-0.3,1.8
+L0013,Advanced,Writing,14,Listening,4.99,52.62,67.66,0.69,Revise,True,0.64,1.85
+L0007,Beginner,JLPT N4,18,Vocabulary,5.42,39.37,36.9,0.32,Repeat,True,-0.12,1.23
+L0061,Beginner,JLPT N5,20,Vocabulary,2.23,53.39,62.58,0.33,Revise,True,0.43,1.74
+L0041,Advanced,JLPT N5,12,Kanji,5.55,58.02,76.14,0.91,Revise,True,0.72,1.83
+L0006,Beginner,Writing,18,Kanji,7.53,78.39,75.04,0.76,Advance,False,-0.17,2.23
+L0018,Advanced,Reading,16,Kanji,7.63,72.96,93.72,0.67,Test,False,0.78,1.8
+L0037,Intermediate,Writing,10,Kanji,8.37,63.1,80.42,0.64,Revise,False,0.7,2.02
+L0084,Advanced,JLPT N4,19,Listening,2.94,62.06,68.25,0.65,Advance,True,0.3,1.91
+L0079,Beginner,JLPT N4,18,Kanji,6.01,40.04,31.61,0.58,Test,False,-0.4,1.31
+L0031,Advanced,JLPT N4,15,Kanji,4.49,44.97,48.96,0.82,Advance,False,0.2,1.62
+L0079,Intermediate,JLPT N4,20,Vocabulary,7.77,81.36,81.65,0.68,Repeat,False,0.01,2.13
+L0002,Advanced,Writing,19,Grammar,1.88,100.0,98.95,0.91,Repeat,False,-0.05,2.35
+L0069,Advanced,JLPT N4,2,Vocabulary,6.2,87.0,74.23,0.63,Test,True,-0.56,1.43
+L0041,Intermediate,JLPT N4,15,Vocabulary,6.5,59.24,75.81,0.74,Test,False,0.68,1.45
+L0034,Intermediate,Conversational,14,Listening,4.95,87.59,93.03,0.61,Repeat,True,0.27,1.86
+L0006,Beginner,Reading,7,Grammar,7.3,43.9,40.28,0.98,Repeat,False,-0.18,1.18
+L0018,Beginner,Conversational,2,Vocabulary,8.43,93.06,79.0,0.46,Test,False,-0.61,1.68
+L0066,Intermediate,Writing,10,Grammar,1.0,73.81,71.22,0.47,Test,True,-0.13,1.96
+L0026,Intermediate,Writing,11,Grammar,2.41,47.31,30.94,0.67,Test,False,-0.67,1.55
+L0029,Beginner,JLPT N4,17,Grammar,5.76,76.45,86.75,0.44,Advance,False,0.47,1.92
+L0018,Beginner,Reading,20,Vocabulary,4.86,69.44,76.72,0.33,Revise,True,0.35,1.78
+L0041,Intermediate,Conversational,3,Grammar,6.47,68.79,69.58,0.33,Advance,True,0.04,1.3
+L0020,Advanced,JLPT N5,10,Grammar,4.04,33.17,17.73,0.67,Repeat,True,-0.65,1.28
+L0020,Intermediate,Reading,12,Grammar,2.87,71.38,72.02,0.41,Repeat,False,0.03,1.74
+L0096,Intermediate,Reading,1,Grammar,3.56,77.26,85.31,0.99,Repeat,True,0.38,1.61
+L0057,Beginner,JLPT N4,11,Listening,4.94,100.0,100.0,0.7,Repeat,False,0.0,2.06
+L0099,Intermediate,JLPT N4,12,Grammar,5.4,66.11,67.91,0.96,Revise,True,0.09,1.83
+L0081,Intermediate,Reading,14,Kanji,8.27,52.8,55.83,1.0,Revise,False,0.15,1.41
+L0058,Beginner,JLPT N4,6,Grammar,6.6,64.03,61.41,0.38,Repeat,False,-0.13,1.51
+L0073,Intermediate,Conversational,2,Vocabulary,1.63,55.99,66.46,0.83,Revise,True,0.48,1.78
+L0080,Beginner,JLPT N5,9,Kanji,6.58,64.13,49.44,0.75,Advance,False,-0.63,1.31
+L0022,Intermediate,JLPT N4,15,Kanji,7.68,93.8,73.6,0.68,Repeat,False,-0.77,1.95
+L0084,Beginner,JLPT N4,1,Listening,3.72,50.15,66.57,0.73,Revise,True,0.68,1.87
+L0080,Beginner,JLPT N4,14,Vocabulary,10.0,70.5,54.19,0.63,Revise,True,-0.67,1.58
+L0083,Advanced,JLPT N4,11,Kanji,6.36,78.63,76.11,0.95,Repeat,True,-0.13,1.84
+L0032,Intermediate,JLPT N4,15,Grammar,4.81,48.86,44.19,0.73,Repeat,False,-0.23,1.36
+L0080,Beginner,Writing,20,Listening,6.04,73.1,97.66,0.36,Revise,False,0.84,2.17
+L0035,Intermediate,Writing,18,Kanji,5.63,69.0,69.92,0.39,Revise,True,0.05,1.96
+L0019,Beginner,Conversational,12,Grammar,5.21,49.99,43.98,0.7,Advance,True,-0.29,1.5
+L0012,Beginner,JLPT N5,10,Vocabulary,4.71,81.94,86.71,0.38,Test,False,0.23,1.41
+L0034,Beginner,Conversational,13,Vocabulary,7.41,75.76,72.92,0.45,Advance,False,-0.14,1.81
+L0062,Advanced,JLPT N5,10,Kanji,4.07,53.78,55.54,0.69,Advance,False,0.09,1.61
+L0008,Beginner,JLPT N5,5,Vocabulary,7.14,56.31,60.66,0.87,Test,True,0.21,1.79
+L0042,Beginner,Reading,19,Vocabulary,3.33,100.0,88.12,0.82,Advance,True,-0.53,1.94
+L0100,Advanced,Reading,2,Grammar,9.94,41.62,36.14,0.46,Test,False,-0.27,1.17
+L0049,Advanced,Conversational,7,Listening,1.93,74.02,88.61,0.65,Repeat,True,0.62,1.55
+L0042,Advanced,Writing,2,Vocabulary,6.33,46.76,40.58,0.61,Test,False,-0.3,1.79
+L0027,Advanced,JLPT N4,9,Kanji,6.14,94.43,90.63,0.36,Advance,False,-0.19,1.87
+L0069,Intermediate,JLPT N5,1,Kanji,1.74,93.71,79.34,0.73,Revise,False,-0.62,1.55
+L0042,Beginner,Reading,13,Listening,3.48,70.5,64.28,0.68,Advance,True,-0.3,1.78
+L0063,Beginner,Writing,6,Vocabulary,8.38,83.06,80.59,0.43,Repeat,False,-0.12,1.5
+L0100,Beginner,JLPT N5,2,Kanji,8.35,76.29,69.24,0.69,Revise,False,-0.34,1.68
+L0027,Advanced,JLPT N5,4,Vocabulary,5.22,75.67,68.91,0.59,Repeat,False,-0.33,1.79
+L0038,Beginner,JLPT N4,16,Listening,4.96,75.75,66.62,0.98,Repeat,False,-0.43,1.61
+L0012,Intermediate,JLPT N5,5,Listening,6.73,81.46,89.19,0.37,Repeat,True,0.37,1.66
+L0071,Advanced,JLPT N5,18,Listening,5.85,75.03,76.59,0.41,Advance,False,0.08,2.26
+L0040,Advanced,JLPT N5,14,Vocabulary,4.42,63.88,52.32,0.54,Revise,False,-0.52,1.22
+L0023,Beginner,Reading,9,Kanji,7.62,70.59,72.52,0.91,Revise,False,0.1,1.71
+L0049,Advanced,JLPT N5,6,Grammar,4.99,82.58,83.4,0.57,Revise,False,0.04,1.81
+L0049,Intermediate,Conversational,10,Listening,5.53,74.83,68.14,0.36,Test,False,-0.32,1.88
+L0093,Beginner,Conversational,3,Kanji,6.07,56.52,56.8,0.75,Repeat,False,0.01,1.57
+L0039,Advanced,JLPT N4,2,Listening,4.95,82.27,96.17,0.42,Test,True,0.6,2.07
+L0068,Advanced,JLPT N4,3,Vocabulary,3.4,75.27,84.78,0.46,Advance,False,0.44,1.17
+L0066,Beginner,Reading,13,Kanji,6.02,70.81,52.79,0.65,Revise,True,-0.72,1.4
+L0069,Advanced,Conversational,18,Vocabulary,6.45,63.12,46.55,0.57,Test,True,-0.68,1.72
+L0023,Advanced,JLPT N5,5,Vocabulary,4.57,92.36,93.85,0.99,Test,True,0.07,1.87
+L0054,Intermediate,Reading,19,Listening,3.58,82.82,88.3,0.73,Test,False,0.27,1.7
+L0067,Intermediate,Writing,4,Listening,1.93,83.69,88.68,0.6,Revise,True,0.24,2.34
+L0060,Advanced,Writing,5,Listening,4.74,84.84,79.77,0.59,Revise,True,-0.25,1.56
+L0066,Advanced,Reading,14,Listening,4.19,52.57,50.24,0.85,Repeat,True,-0.12,1.29
+L0062,Intermediate,JLPT N4,10,Vocabulary,3.01,78.69,63.36,0.88,Revise,True,-0.64,1.84
+L0047,Beginner,Reading,13,Kanji,4.97,78.69,79.89,0.62,Repeat,False,0.06,1.6
+L0023,Advanced,Reading,20,Grammar,3.63,63.13,70.45,0.87,Repeat,True,0.35,1.46
+L0086,Beginner,Writing,20,Listening,4.39,85.39,88.31,0.96,Repeat,True,0.14,1.74
+L0059,Advanced,JLPT N5,2,Listening,1.8,63.9,63.02,0.75,Advance,True,-0.04,1.81
+L0047,Beginner,JLPT N5,2,Listening,3.1,37.57,41.24,0.62,Advance,False,0.18,1.36
+L0066,Beginner,Reading,13,Vocabulary,5.92,59.83,79.97,0.33,Repeat,True,0.76,1.83
+L0041,Beginner,JLPT N5,11,Listening,7.19,78.63,54.29,0.62,Revise,True,-0.84,1.58
+L0014,Advanced,JLPT N5,4,Grammar,7.4,60.15,49.68,0.42,Revise,True,-0.48,1.6
+L0041,Beginner,Reading,5,Listening,7.51,72.83,71.57,0.36,Repeat,False,-0.06,1.57
+L0077,Beginner,Conversational,16,Kanji,6.21,89.67,77.14,0.38,Test,False,-0.56,1.67
+L0035,Intermediate,Reading,4,Grammar,6.28,88.37,82.54,0.98,Repeat,True,-0.28,1.83
+L0045,Beginner,Writing,4,Kanji,7.91,96.99,100.0,0.76,Repeat,True,0.15,2.12
+L0064,Advanced,JLPT N5,11,Grammar,3.34,73.03,81.63,0.57,Revise,False,0.41,1.39
+L0078,Intermediate,JLPT N5,18,Grammar,4.56,65.85,68.92,0.5,Revise,True,0.15,1.85
+L0038,Advanced,Conversational,7,Vocabulary,6.68,57.8,69.93,0.81,Repeat,False,0.54,1.67
+L0088,Advanced,JLPT N4,7,Listening,7.25,58.01,60.95,0.81,Revise,False,0.15,1.27
+L0054,Beginner,Reading,2,Kanji,5.8,60.23,54.94,0.65,Revise,True,-0.26,1.67
+L0053,Intermediate,JLPT N4,12,Listening,5.62,95.53,97.94,0.51,Repeat,True,0.12,2.5
+L0086,Advanced,JLPT N5,19,Grammar,7.0,73.08,61.14,0.69,Repeat,False,-0.53,1.56
+L0082,Advanced,Reading,8,Vocabulary,6.66,56.1,68.98,0.44,Revise,False,0.57,1.61
+L0060,Advanced,JLPT N5,10,Grammar,6.52,78.76,94.2,0.56,Repeat,False,0.65,2.13
+L0001,Beginner,Conversational,9,Vocabulary,4.73,70.22,62.37,0.97,Repeat,False,-0.37,1.75
+L0020,Beginner,Reading,20,Grammar,3.23,63.44,70.66,1.0,Revise,False,0.35,1.63
+L0086,Intermediate,Conversational,4,Listening,8.13,51.25,44.47,0.4,Repeat,False,-0.33,1.58
+L0017,Intermediate,JLPT N4,6,Listening,8.36,58.74,70.4,0.37,Repeat,False,0.53,1.59
+L0022,Advanced,JLPT N4,7,Listening,9.43,65.56,66.82,0.69,Repeat,True,0.06,1.53
+L0075,Beginner,Conversational,4,Kanji,4.96,60.0,76.06,0.32,Advance,True,0.67,2.07
+L0030,Beginner,Conversational,19,Kanji,3.36,69.95,68.25,0.85,Repeat,False,-0.08,1.59
+L0039,Beginner,JLPT N4,6,Vocabulary,6.11,62.59,39.55,0.39,Advance,False,-0.82,1.47
+L0026,Advanced,JLPT N5,17,Listening,3.31,67.97,72.77,0.81,Test,False,0.24,1.45
+L0039,Advanced,JLPT N5,11,Listening,3.19,85.85,90.41,0.65,Revise,False,0.22,1.69
+L0008,Beginner,Reading,15,Listening,4.55,55.61,51.89,0.7,Test,False,-0.18,1.74
+L0023,Advanced,Reading,16,Kanji,5.61,49.35,56.53,0.71,Repeat,True,0.34,1.9
+L0050,Beginner,JLPT N5,6,Kanji,1.21,72.55,82.88,0.89,Revise,False,0.47,1.79
+L0041,Advanced,JLPT N5,5,Vocabulary,1.0,58.01,59.57,0.74,Test,False,0.08,1.66
+L0030,Intermediate,Conversational,7,Kanji,4.45,55.01,54.47,0.31,Advance,True,-0.03,1.71
+L0081,Advanced,Reading,12,Listening,3.09,55.7,45.0,0.89,Revise,False,-0.49,1.06
+L0027,Advanced,JLPT N5,6,Grammar,4.96,58.79,34.55,0.54,Advance,True,-0.84,1.52
+L0073,Beginner,Writing,15,Kanji,5.13,77.74,62.11,0.81,Repeat,True,-0.65,1.52
+L0062,Beginner,JLPT N4,18,Kanji,5.89,59.45,53.88,0.52,Test,False,-0.27,1.33
+L0063,Intermediate,JLPT N5,12,Vocabulary,3.38,65.27,61.0,0.48,Advance,True,-0.21,1.5
+L0035,Intermediate,JLPT N4,7,Vocabulary,5.94,98.72,100.0,0.85,Repeat,False,0.06,1.54
+L0056,Intermediate,Reading,17,Listening,3.34,71.29,60.57,0.42,Repeat,True,-0.49,1.02
+L0028,Intermediate,Writing,2,Vocabulary,2.75,79.75,96.08,0.5,Repeat,False,0.67,1.91
+L0005,Advanced,Writing,15,Listening,7.79,70.86,64.38,0.85,Repeat,True,-0.31,1.63
+L0062,Advanced,Writing,7,Grammar,5.26,85.99,93.94,0.31,Advance,False,0.38,2.1
+L0003,Beginner,Reading,8,Listening,4.28,77.67,80.85,0.84,Advance,True,0.16,1.8
+L0054,Beginner,Writing,2,Vocabulary,4.88,58.96,59.8,0.65,Repeat,False,0.04,1.77
+L0012,Intermediate,Writing,6,Kanji,3.39,38.05,29.92,0.61,Advance,False,-0.39,1.26
+L0063,Intermediate,Conversational,11,Listening,5.23,48.43,57.62,0.7,Repeat,True,0.43,1.44
+L0073,Beginner,Conversational,8,Grammar,4.11,89.22,89.89,0.41,Revise,True,0.03,2.07
+L0041,Advanced,Writing,20,Kanji,2.54,73.19,57.53,0.93,Test,True,-0.65,1.83
+L0028,Advanced,Writing,11,Kanji,3.91,62.26,65.24,0.41,Advance,False,0.15,1.8
+L0068,Intermediate,JLPT N5,4,Kanji,3.28,87.14,87.04,0.39,Revise,False,-0.0,1.93
+L0009,Intermediate,Conversational,13,Vocabulary,5.78,58.41,53.39,0.57,Repeat,False,-0.25,1.65
+L0054,Beginner,Writing,3,Grammar,5.68,65.57,67.25,0.8,Test,False,0.08,1.94
+L0092,Advanced,Writing,12,Grammar,2.34,86.25,93.62,0.92,Repeat,False,0.35,1.82
+L0005,Beginner,Reading,16,Kanji,6.68,78.2,75.81,0.4,Revise,False,-0.12,1.68
+L0072,Intermediate,Conversational,9,Listening,3.43,79.13,67.71,0.7,Revise,True,-0.52,2.08
+L0094,Advanced,Reading,17,Listening,4.79,88.38,88.76,0.39,Advance,True,0.02,1.91
+L0083,Beginner,JLPT N5,16,Kanji,4.36,59.87,64.56,0.99,Repeat,False,0.23,1.44
+L0083,Intermediate,Reading,3,Listening,5.25,99.08,89.08,0.32,Test,True,-0.46,1.76
+L0081,Beginner,JLPT N4,14,Kanji,5.69,73.3,80.14,0.34,Test,True,0.33,1.68
+L0051,Beginner,JLPT N4,15,Listening,5.82,66.38,73.11,0.38,Revise,False,0.32,2.11
+L0045,Intermediate,Conversational,14,Vocabulary,7.21,68.19,46.47,0.98,Revise,True,-0.8,1.63
+L0090,Advanced,Reading,14,Kanji,4.24,69.75,65.7,0.98,Repeat,True,-0.2,1.64
+L0052,Advanced,Writing,16,Grammar,6.08,83.27,93.3,0.74,Revise,False,0.46,2.34
+L0062,Beginner,Conversational,19,Listening,5.73,97.57,95.34,0.31,Advance,False,-0.11,1.88
+L0018,Advanced,Conversational,20,Grammar,6.6,45.76,35.22,0.82,Test,False,-0.48,1.14
+L0012,Intermediate,Reading,4,Vocabulary,4.29,81.92,87.51,0.89,Advance,True,0.27,2.33
+L0032,Advanced,Conversational,16,Grammar,5.17,62.99,55.66,0.88,Advance,False,-0.35,1.56
+L0047,Advanced,JLPT N4,3,Kanji,8.44,68.74,63.6,0.91,Advance,True,-0.25,1.64
+L0052,Beginner,JLPT N4,2,Listening,5.38,85.02,57.98,0.52,Repeat,True,-0.87,1.72
+L0042,Intermediate,JLPT N5,12,Vocabulary,2.76,68.35,58.48,0.42,Repeat,False,-0.46,1.49
+L0049,Beginner,Writing,19,Vocabulary,7.86,65.93,79.94,0.39,Test,False,0.6,2.02
+L0028,Beginner,JLPT N5,4,Vocabulary,4.49,33.96,38.2,0.72,Advance,False,0.21,1.41
+L0074,Beginner,JLPT N4,9,Grammar,9.58,71.61,70.55,0.55,Test,False,-0.05,1.67
+L0075,Intermediate,Reading,12,Vocabulary,6.61,73.09,71.24,0.62,Revise,True,-0.09,1.39
+L0073,Advanced,JLPT N4,13,Kanji,2.19,68.75,53.71,0.44,Repeat,False,-0.64,1.69
+L0090,Advanced,Writing,13,Listening,7.32,71.82,66.97,0.62,Test,True,-0.24,1.82
+L0067,Advanced,Reading,17,Vocabulary,4.02,49.86,44.05,0.87,Revise,True,-0.28,1.61
+L0074,Intermediate,JLPT N4,19,Grammar,5.39,84.89,84.25,0.95,Repeat,False,-0.03,1.72
+L0100,Beginner,Conversational,13,Kanji,2.24,42.13,50.44,0.8,Revise,False,0.39,1.47
+L0003,Intermediate,Reading,12,Grammar,2.6,85.44,92.32,0.3,Advance,True,0.33,2.01
+L0046,Beginner,Conversational,13,Vocabulary,4.25,78.64,89.4,0.76,Advance,True,0.49,2.01
+L0005,Advanced,JLPT N4,5,Kanji,4.58,55.19,53.88,0.36,Test,True,-0.07,1.55
+L0074,Beginner,Writing,15,Vocabulary,3.95,92.59,100.0,0.92,Advance,True,0.35,2.27
+L0024,Beginner,JLPT N4,13,Kanji,5.41,81.38,85.2,0.38,Advance,False,0.19,1.98
+L0015,Intermediate,JLPT N4,2,Vocabulary,7.56,71.75,74.92,0.61,Repeat,False,0.16,2.13
+L0077,Beginner,Conversational,13,Listening,6.6,67.06,61.36,0.63,Repeat,False,-0.28,1.74
+L0009,Beginner,JLPT N5,6,Vocabulary,5.94,82.68,100.0,0.49,Advance,True,0.7,1.85
+L0076,Advanced,JLPT N5,6,Kanji,4.47,91.5,96.78,0.9,Test,True,0.26,2.07
+L0059,Beginner,JLPT N5,15,Grammar,4.28,73.48,70.76,0.58,Revise,True,-0.14,1.69
+L0044,Beginner,Conversational,7,Vocabulary,2.47,70.66,66.62,0.83,Revise,True,-0.2,1.69
+L0064,Intermediate,Writing,15,Grammar,7.62,90.94,85.31,0.59,Repeat,False,-0.27,1.81
+L0057,Intermediate,JLPT N4,17,Listening,7.44,71.67,86.81,0.37,Repeat,False,0.64,2.28
+L0065,Advanced,Writing,17,Kanji,4.91,52.8,52.85,0.97,Revise,False,0.0,1.43
+L0036,Beginner,JLPT N4,4,Vocabulary,4.77,67.64,66.16,0.58,Test,True,-0.07,1.81
+L0097,Intermediate,JLPT N4,6,Grammar,4.48,93.98,99.59,0.38,Revise,True,0.27,1.94
+L0042,Beginner,JLPT N4,10,Grammar,4.05,35.7,36.96,0.68,Repeat,False,0.06,1.37
+L0029,Beginner,JLPT N4,13,Kanji,2.85,74.95,100.0,0.42,Advance,False,0.85,1.64
+L0076,Beginner,JLPT N5,19,Kanji,7.12,62.99,54.39,0.66,Revise,True,-0.41,1.66
+L0032,Intermediate,JLPT N4,12,Vocabulary,6.27,62.37,49.95,0.71,Test,False,-0.55,1.53
+L0015,Intermediate,JLPT N4,3,Kanji,5.65,64.63,70.94,0.81,Test,True,0.31,1.58
+L0077,Intermediate,Reading,18,Kanji,7.2,99.38,87.08,0.58,Repeat,True,-0.55,1.97
+L0083,Advanced,Reading,5,Listening,10.0,47.46,49.99,0.67,Advance,True,0.13,1.59
+L0083,Beginner,JLPT N5,12,Kanji,3.64,71.14,67.52,0.32,Revise,True,-0.18,2.07
+L0096,Advanced,Reading,6,Kanji,4.75,52.41,52.28,0.9,Advance,True,-0.01,1.6
+L0029,Advanced,Writing,4,Grammar,3.19,60.19,54.24,0.66,Test,False,-0.29,1.82
+L0079,Intermediate,JLPT N5,19,Listening,7.11,73.35,72.8,0.88,Test,True,-0.03,1.79
+L0051,Advanced,JLPT N4,15,Grammar,6.11,71.34,69.37,0.9,Advance,True,-0.1,1.66
+L0029,Advanced,JLPT N5,17,Kanji,2.23,84.45,76.62,0.48,Repeat,True,-0.37,1.55
+L0020,Intermediate,Reading,5,Grammar,9.67,72.88,92.45,0.81,Advance,False,0.75,1.88
+L0040,Beginner,JLPT N5,10,Vocabulary,4.18,58.79,70.25,0.5,Revise,False,0.52,1.6
+L0090,Beginner,JLPT N5,15,Vocabulary,7.42,48.41,50.21,0.79,Revise,True,0.09,1.53
+L0065,Advanced,Reading,8,Listening,8.08,59.56,69.18,0.32,Advance,True,0.45,1.47
+L0004,Intermediate,JLPT N5,11,Listening,3.42,65.38,46.44,0.35,Advance,True,-0.74,1.51
+L0048,Intermediate,JLPT N4,2,Listening,6.32,84.06,67.99,0.46,Advance,True,-0.67,1.53
+L0016,Beginner,Reading,7,Grammar,1.81,58.64,53.94,0.32,Repeat,False,-0.23,1.4
+L0040,Advanced,Reading,7,Vocabulary,1.92,68.01,68.8,0.72,Revise,False,0.04,1.69
+L0097,Intermediate,Reading,19,Kanji,3.29,75.03,75.11,0.61,Revise,False,0.0,1.95
+L0091,Intermediate,Writing,10,Vocabulary,5.44,89.34,93.59,0.62,Advance,False,0.21,2.38
+L0018,Intermediate,Reading,14,Grammar,5.95,77.58,88.18,0.4,Test,True,0.49,2.43
+L0051,Beginner,Writing,8,Grammar,4.95,43.46,36.52,0.74,Test,False,-0.33,1.28
+L0004,Beginner,JLPT N5,11,Listening,3.69,46.92,53.99,0.72,Test,False,0.34,1.73
+L0072,Advanced,Writing,17,Listening,3.28,86.88,84.15,0.49,Repeat,False,-0.14,1.69
+L0016,Intermediate,Conversational,2,Grammar,7.05,60.04,58.45,0.94,Test,False,-0.08,1.77
+L0077,Intermediate,Writing,16,Vocabulary,5.37,76.91,84.29,0.89,Repeat,True,0.35,1.87
+L0028,Beginner,Conversational,10,Grammar,4.17,60.87,59.19,0.49,Test,True,-0.08,1.63
+L0011,Advanced,Writing,11,Vocabulary,5.18,72.96,66.78,0.85,Test,True,-0.3,1.6
+L0002,Beginner,JLPT N5,12,Vocabulary,1.0,69.55,68.82,0.38,Advance,False,-0.04,1.91
+L0062,Advanced,Reading,14,Listening,4.43,74.91,53.26,0.8,Revise,False,-0.79,1.8
+L0050,Advanced,JLPT N4,9,Kanji,4.26,100.0,97.27,0.77,Repeat,False,-0.14,2.05
+L0006,Beginner,Reading,13,Vocabulary,4.8,63.49,64.87,0.63,Repeat,False,0.07,1.58
+L0063,Beginner,JLPT N5,1,Grammar,4.34,79.05,73.61,0.38,Test,False,-0.27,1.7
+L0074,Beginner,Writing,10,Grammar,3.15,71.52,60.7,0.94,Repeat,True,-0.49,1.76
+L0080,Beginner,JLPT N5,2,Listening,4.56,30.42,38.21,0.72,Test,False,0.37,1.0
+L0067,Intermediate,JLPT N5,11,Listening,7.82,61.74,44.77,0.45,Repeat,True,-0.69,1.38
+L0022,Beginner,Conversational,12,Vocabulary,6.35,78.88,75.34,0.31,Advance,False,-0.18,1.64
+L0086,Beginner,Reading,1,Kanji,3.31,80.97,90.53,0.7,Repeat,True,0.44,2.29
+L0043,Intermediate,Reading,4,Kanji,7.06,71.97,77.17,0.88,Test,True,0.25,2.16
+L0062,Intermediate,Writing,8,Vocabulary,4.06,64.04,67.02,0.96,Revise,True,0.15,1.78
+L0065,Advanced,Reading,2,Listening,8.34,68.39,61.44,0.97,Advance,True,-0.33,1.61
+L0065,Beginner,JLPT N5,9,Kanji,5.38,46.09,59.01,0.69,Test,False,0.57,1.86
+L0020,Beginner,Conversational,9,Grammar,6.32,57.01,65.34,0.89,Repeat,False,0.39,1.7
+L0099,Advanced,JLPT N5,13,Kanji,6.81,70.91,75.29,0.87,Advance,False,0.22,1.55
+L0025,Intermediate,Reading,15,Kanji,4.53,77.0,86.87,0.8,Test,True,0.46,1.85
+L0040,Advanced,JLPT N4,18,Grammar,5.9,72.98,57.27,0.33,Repeat,False,-0.66,1.57
+L0024,Advanced,Reading,1,Listening,5.08,78.77,78.81,0.78,Repeat,True,0.0,1.46
+L0048,Intermediate,Writing,5,Kanji,6.31,72.77,75.59,0.43,Repeat,True,0.14,2.07
+L0019,Advanced,Reading,3,Vocabulary,4.6,51.52,56.0,0.47,Revise,True,0.22,1.63
+L0079,Beginner,Reading,6,Grammar,5.57,57.72,31.81,0.97,Test,True,-0.86,1.31
+L0047,Beginner,Writing,12,Grammar,4.15,45.74,38.57,0.74,Repeat,True,-0.34,1.42
+L0021,Advanced,JLPT N5,6,Grammar,6.1,61.28,61.55,0.98,Advance,False,0.01,1.73
+L0005,Intermediate,JLPT N5,8,Vocabulary,4.83,51.35,41.74,0.75,Advance,True,-0.45,1.58
+L0003,Beginner,Conversational,7,Kanji,6.12,76.26,87.64,0.85,Advance,True,0.51,1.95
+L0015,Intermediate,JLPT N4,10,Listening,4.02,77.03,90.91,0.48,Repeat,False,0.6,1.92
+L0089,Beginner,JLPT N4,3,Grammar,10.0,48.05,70.62,0.36,Test,True,0.81,1.64
+L0050,Intermediate,JLPT N5,3,Vocabulary,4.83,59.92,67.74,0.99,Advance,False,0.37,1.39
+L0016,Beginner,Conversational,20,Vocabulary,1.32,94.15,86.11,0.97,Advance,True,-0.38,2.01
+L0087,Beginner,Writing,2,Vocabulary,2.83,80.63,97.46,0.69,Test,False,0.69,1.87
+L0087,Intermediate,Writing,3,Grammar,6.85,62.9,60.72,0.93,Revise,False,-0.11,1.39
+L0073,Beginner,JLPT N4,8,Grammar,7.84,61.98,47.79,0.48,Test,False,-0.61,1.52
+L0047,Intermediate,JLPT N5,16,Vocabulary,6.77,63.69,37.65,0.87,Test,False,-0.86,1.42
+L0044,Intermediate,JLPT N5,8,Listening,3.69,88.2,88.83,0.62,Advance,False,0.03,2.15
+L0023,Advanced,JLPT N4,20,Listening,3.99,68.78,72.25,0.3,Repeat,False,0.17,1.63
+L0030,Beginner,JLPT N4,6,Vocabulary,3.54,54.65,44.35,0.3,Test,True,-0.47,1.29
+L0080,Intermediate,Writing,15,Kanji,3.81,55.51,63.63,0.59,Repeat,False,0.39,1.9
+L0016,Advanced,Reading,13,Grammar,1.55,59.84,71.78,0.87,Revise,False,0.53,1.52
+L0034,Intermediate,Reading,14,Listening,4.28,57.64,64.69,0.68,Revise,True,0.34,1.5
+L0046,Advanced,JLPT N5,8,Grammar,3.8,73.43,91.45,0.42,Test,False,0.72,1.99
+L0098,Intermediate,Reading,9,Listening,6.55,49.07,26.66,0.96,Revise,False,-0.81,1.21
+L0100,Intermediate,JLPT N5,15,Kanji,6.94,82.05,82.38,0.66,Revise,False,0.02,1.63
+L0007,Intermediate,JLPT N5,4,Grammar,4.9,76.73,73.18,0.37,Revise,True,-0.18,1.66
+L0099,Beginner,Reading,6,Kanji,5.46,77.47,84.13,0.49,Test,False,0.32,1.93
+L0094,Advanced,JLPT N4,9,Vocabulary,3.88,53.5,57.89,0.81,Test,False,0.22,1.73
+L0057,Advanced,Reading,15,Listening,8.27,37.85,36.02,0.65,Test,True,-0.09,1.0
+L0026,Beginner,Reading,4,Grammar,4.41,68.93,53.75,0.79,Repeat,False,-0.64,1.47
+L0050,Beginner,Reading,19,Kanji,5.61,97.64,74.31,0.52,Repeat,True,-0.82,2.01
+L0031,Beginner,JLPT N5,16,Vocabulary,4.52,74.04,76.47,0.58,Revise,True,0.12,2.04
+L0022,Intermediate,Writing,11,Listening,2.77,54.82,58.58,0.86,Repeat,False,0.19,1.75
+L0024,Beginner,JLPT N5,7,Listening,5.85,67.25,53.8,0.41,Test,False,-0.59,1.67
+L0093,Beginner,JLPT N4,1,Vocabulary,1.45,76.13,65.84,0.73,Repeat,False,-0.47,1.39
+L0050,Intermediate,JLPT N5,1,Listening,7.02,67.22,52.9,0.55,Repeat,False,-0.61,1.65
+L0089,Beginner,Writing,18,Vocabulary,8.63,60.14,55.82,0.56,Test,True,-0.21,1.53
+L0077,Advanced,Conversational,4,Grammar,3.88,75.1,81.82,0.72,Advance,False,0.32,1.95
+L0024,Intermediate,Reading,20,Grammar,3.07,55.64,59.08,0.35,Revise,True,0.17,1.58
+L0072,Intermediate,JLPT N4,10,Listening,4.54,56.14,65.04,0.6,Revise,True,0.42,1.86
+L0049,Intermediate,JLPT N4,17,Vocabulary,2.01,60.25,59.42,0.49,Test,True,-0.04,1.3
+L0048,Beginner,JLPT N4,10,Grammar,3.37,76.54,64.68,0.95,Revise,True,-0.53,1.72
+L0010,Beginner,JLPT N5,20,Grammar,3.91,65.93,82.66,0.75,Advance,False,0.68,2.09
+L0086,Beginner,JLPT N5,2,Listening,3.19,91.83,75.28,0.77,Repeat,True,-0.68,2.18
+L0001,Beginner,Conversational,6,Kanji,2.75,56.24,66.41,0.96,Test,True,0.47,1.72
+L0055,Advanced,Reading,10,Vocabulary,2.41,77.61,83.58,0.56,Repeat,False,0.29,2.1
+L0022,Beginner,Conversational,13,Grammar,4.54,69.35,54.04,0.62,Advance,False,-0.64,1.64
+L0061,Intermediate,Reading,1,Grammar,6.44,56.58,70.83,0.45,Repeat,False,0.61,1.85
+L0073,Beginner,Writing,6,Grammar,3.27,67.89,71.05,0.6,Advance,True,0.16,1.75
+L0040,Advanced,Reading,15,Grammar,5.11,90.2,92.84,0.77,Repeat,True,0.13,1.62
+L0048,Intermediate,Conversational,18,Grammar,3.99,73.95,76.89,0.82,Test,True,0.15,1.72
+L0064,Advanced,Writing,15,Listening,4.85,66.37,63.9,0.6,Revise,True,-0.12,1.78
+L0092,Beginner,Conversational,1,Grammar,3.84,73.59,78.59,0.95,Advance,True,0.24,1.88
+L0054,Beginner,Writing,13,Kanji,4.05,89.89,73.12,0.99,Repeat,False,-0.68,1.75
+L0044,Advanced,JLPT N5,8,Kanji,4.63,60.71,62.24,0.68,Test,False,0.08,1.78
+L0019,Beginner,Writing,17,Grammar,4.16,90.44,93.74,0.88,Advance,False,0.16,2.12
+L0023,Beginner,JLPT N5,8,Vocabulary,8.99,58.5,53.0,0.61,Test,True,-0.27,1.7
+L0052,Advanced,Conversational,13,Listening,5.05,41.2,41.07,0.95,Repeat,True,-0.01,1.27
+L0097,Beginner,Reading,15,Vocabulary,6.96,54.9,54.62,0.95,Test,False,-0.01,1.52
+L0030,Advanced,JLPT N5,16,Grammar,7.98,71.28,79.37,0.61,Repeat,False,0.38,1.9
+L0003,Intermediate,Conversational,4,Vocabulary,2.98,53.24,54.24,0.67,Revise,True,0.05,1.21
+L0071,Intermediate,Writing,20,Vocabulary,5.22,71.89,78.04,0.85,Repeat,True,0.3,1.67
+L0005,Beginner,Writing,14,Listening,5.17,36.71,34.41,0.69,Revise,True,-0.11,1.17
+L0067,Intermediate,JLPT N4,3,Vocabulary,5.62,37.65,40.49,0.54,Revise,False,0.14,1.45
+L0032,Beginner,Conversational,16,Listening,4.22,93.86,82.83,0.77,Advance,True,-0.5,1.9
+L0029,Intermediate,Conversational,13,Listening,3.47,92.17,64.55,0.82,Test,True,-0.88,1.56
+L0081,Advanced,Reading,2,Kanji,7.92,72.42,76.16,0.54,Repeat,True,0.18,1.39
+L0051,Beginner,Writing,11,Vocabulary,6.15,75.23,78.37,0.71,Repeat,False,0.16,1.61
+L0082,Intermediate,Reading,2,Grammar,9.85,76.49,62.72,0.45,Test,False,-0.6,1.51
+L0018,Intermediate,Writing,8,Listening,4.92,73.34,78.7,0.78,Advance,True,0.26,1.86
+L0026,Beginner,Writing,8,Vocabulary,3.26,78.02,51.66,0.91,Repeat,False,-0.87,1.52
+L0007,Advanced,JLPT N5,2,Kanji,4.92,98.97,97.95,0.99,Advance,True,-0.05,2.12
+L0011,Intermediate,JLPT N4,17,Vocabulary,4.05,50.73,49.41,0.66,Test,False,-0.07,1.53
+L0008,Beginner,Writing,1,Grammar,4.91,58.53,78.81,0.78,Repeat,False,0.77,1.98
+L0071,Intermediate,Conversational,16,Grammar,7.49,71.98,75.59,0.64,Test,True,0.18,1.82
+L0001,Advanced,Writing,19,Grammar,5.53,42.87,56.19,0.58,Repeat,False,0.58,1.57
+L0006,Intermediate,Conversational,15,Vocabulary,3.4,69.05,81.42,0.93,Advance,True,0.55,1.72
+L0037,Advanced,Conversational,16,Listening,2.32,68.69,75.33,0.68,Test,True,0.32,1.85
+L0065,Beginner,Conversational,17,Kanji,4.61,60.05,57.1,1.0,Advance,True,-0.15,1.84
+L0001,Advanced,Reading,10,Vocabulary,2.84,59.67,47.13,0.35,Repeat,True,-0.56,1.18
+L0058,Advanced,JLPT N4,4,Vocabulary,8.52,65.76,78.65,0.31,Advance,False,0.57,1.98
+L0024,Beginner,Reading,11,Grammar,5.63,74.58,89.05,0.37,Repeat,True,0.62,1.61
+L0007,Beginner,Writing,15,Kanji,5.21,61.31,75.67,0.66,Revise,False,0.62,1.31
+L0099,Beginner,Writing,7,Kanji,7.25,81.6,73.59,0.76,Advance,True,-0.38,2.04
+L0084,Advanced,JLPT N4,6,Kanji,5.71,73.27,78.68,0.76,Test,True,0.26,2.08
+L0036,Beginner,Writing,4,Kanji,5.27,87.43,79.5,0.59,Advance,False,-0.38,2.01
+L0057,Intermediate,Reading,11,Grammar,3.3,60.22,49.32,0.45,Advance,True,-0.5,1.34
+L0009,Advanced,JLPT N4,12,Kanji,6.89,82.91,100.0,0.39,Advance,True,0.69,2.28
+L0054,Beginner,JLPT N5,19,Grammar,6.02,85.46,78.88,0.78,Advance,False,-0.32,1.96
+L0035,Advanced,Conversational,15,Grammar,7.64,80.91,82.51,0.88,Revise,False,0.08,1.52
+L0059,Intermediate,Conversational,14,Grammar,5.93,49.49,57.97,0.87,Advance,False,0.4,1.33
+L0076,Advanced,JLPT N4,4,Vocabulary,5.7,69.58,76.24,0.82,Revise,True,0.32,1.9
+L0004,Beginner,Conversational,1,Listening,4.08,69.0,65.68,0.69,Repeat,False,-0.16,1.76
+L0095,Advanced,JLPT N5,14,Listening,2.53,87.47,94.18,1.0,Advance,True,0.32,1.88
+L0045,Advanced,Writing,6,Kanji,5.47,64.26,70.18,0.98,Repeat,True,0.29,1.88
+L0004,Intermediate,JLPT N5,20,Listening,6.2,85.63,85.5,0.7,Advance,False,-0.01,1.82
+L0052,Intermediate,Reading,16,Kanji,2.97,66.34,65.95,0.85,Repeat,True,-0.02,1.63
+L0059,Intermediate,Conversational,11,Grammar,2.94,86.7,87.05,0.3,Revise,False,0.02,1.65
+L0096,Beginner,Conversational,3,Vocabulary,6.93,74.96,91.3,0.99,Advance,False,0.67,2.26
+L0062,Advanced,Conversational,19,Kanji,8.54,62.62,49.08,0.72,Test,False,-0.59,1.38
+L0062,Beginner,JLPT N4,11,Grammar,4.59,78.41,63.7,1.0,Test,False,-0.63,1.67
+L0061,Intermediate,Reading,12,Vocabulary,7.28,69.72,76.74,0.65,Revise,False,0.34,1.76
+L0066,Advanced,JLPT N4,11,Vocabulary,4.12,85.88,87.9,0.34,Revise,False,0.1,2.01
+L0086,Advanced,JLPT N5,9,Grammar,5.19,58.77,66.27,0.59,Advance,True,0.36,1.78
+L0018,Advanced,JLPT N5,8,Vocabulary,4.2,97.3,100.0,0.42,Test,False,0.13,2.09
+L0055,Advanced,JLPT N4,20,Kanji,4.64,50.98,70.04,0.94,Test,False,0.74,1.61
+L0036,Beginner,JLPT N4,13,Listening,5.48,52.73,56.6,0.71,Revise,False,0.19,1.53
+L0020,Advanced,Conversational,8,Grammar,5.39,57.46,53.66,0.46,Test,False,-0.19,1.57
+L0049,Beginner,Conversational,17,Kanji,6.86,73.92,77.24,0.45,Advance,False,0.16,1.93
+L0039,Intermediate,JLPT N5,13,Grammar,7.43,62.45,56.42,0.78,Repeat,False,-0.29,1.44
+L0023,Beginner,Reading,8,Listening,4.29,57.04,36.89,0.77,Repeat,True,-0.76,1.12
+L0037,Beginner,JLPT N5,10,Grammar,3.67,67.33,60.74,0.63,Repeat,True,-0.32,1.47
+L0089,Beginner,Reading,6,Kanji,7.46,31.94,27.83,0.74,Advance,False,-0.2,1.18
+L0019,Beginner,Reading,10,Vocabulary,3.46,50.56,46.0,0.45,Advance,True,-0.22,1.5
+L0056,Beginner,Writing,4,Vocabulary,4.17,56.1,55.79,0.51,Revise,False,-0.02,1.39
+L0082,Advanced,JLPT N4,14,Listening,4.28,74.52,76.35,0.4,Revise,False,0.09,2.3
+L0093,Beginner,Conversational,3,Listening,4.68,85.54,85.13,0.8,Test,False,-0.02,1.89
+L0054,Intermediate,Reading,2,Kanji,8.48,65.18,83.51,0.84,Advance,True,0.72,2.0
+L0059,Intermediate,JLPT N5,15,Grammar,5.35,54.41,54.58,0.63,Repeat,True,0.01,1.48
+L0041,Intermediate,Writing,9,Vocabulary,1.0,47.97,43.72,0.9,Revise,True,-0.21,1.64
+L0099,Advanced,Writing,18,Grammar,5.75,59.37,63.71,0.93,Advance,True,0.21,1.11
+L0037,Intermediate,JLPT N4,13,Listening,8.81,94.39,100.0,0.46,Repeat,True,0.27,1.97
+L0028,Intermediate,Writing,7,Grammar,5.19,72.56,65.86,0.9,Revise,True,-0.32,1.58
+L0003,Intermediate,Reading,3,Grammar,3.78,61.91,56.43,0.95,Repeat,False,-0.27,1.73
+L0073,Advanced,Conversational,8,Grammar,1.0,83.98,77.05,0.96,Advance,True,-0.33,1.93
+L0036,Beginner,JLPT N5,12,Grammar,7.36,72.91,67.6,0.77,Test,True,-0.26,1.77
+L0037,Intermediate,Writing,9,Grammar,5.27,44.97,70.27,0.83,Test,False,0.85,1.83
+L0054,Advanced,Writing,13,Vocabulary,5.59,75.63,89.17,0.41,Repeat,False,0.59,2.03
+L0017,Intermediate,Reading,1,Grammar,2.24,73.75,63.75,0.96,Revise,False,-0.46,1.48
+L0006,Intermediate,JLPT N5,14,Grammar,6.4,72.72,77.02,0.3,Repeat,True,0.21,2.04
+L0023,Advanced,Reading,16,Kanji,7.74,79.11,97.98,0.95,Repeat,False,0.74,2.0
+L0031,Advanced,Reading,18,Vocabulary,7.34,64.52,58.53,0.66,Repeat,True,-0.29,1.36
+L0062,Intermediate,JLPT N4,20,Vocabulary,4.25,100.0,95.67,0.74,Revise,False,-0.21,2.02
+L0042,Beginner,JLPT N5,1,Kanji,3.45,80.4,76.12,0.84,Test,True,-0.21,1.35
+L0020,Advanced,JLPT N4,8,Listening,3.37,61.81,74.02,0.57,Advance,False,0.54,1.64
+L0049,Advanced,Reading,11,Kanji,8.82,82.96,85.75,0.9,Test,True,0.14,1.57
+L0038,Beginner,Reading,8,Vocabulary,4.65,80.03,81.01,0.84,Revise,False,0.05,2.07
+L0011,Advanced,Reading,3,Grammar,1.65,60.15,47.82,0.33,Test,False,-0.55,1.28
+L0057,Intermediate,JLPT N4,7,Vocabulary,6.39,48.07,36.34,0.89,Repeat,True,-0.53,1.59
+L0052,Advanced,JLPT N4,5,Grammar,5.66,78.0,68.37,0.97,Repeat,False,-0.45,1.49
+L0048,Beginner,JLPT N5,20,Kanji,5.94,99.22,91.08,0.86,Revise,False,-0.39,1.52
+L0053,Beginner,Conversational,3,Vocabulary,4.14,57.69,57.88,0.99,Test,True,0.01,1.62
+L0063,Beginner,Conversational,16,Vocabulary,2.22,66.74,61.77,0.8,Repeat,True,-0.24,1.49
+L0028,Intermediate,Reading,14,Kanji,6.7,68.42,55.29,0.42,Advance,False,-0.58,1.72
+L0076,Advanced,Reading,5,Kanji,4.61,92.18,88.23,0.8,Advance,False,-0.19,2.0
+L0011,Intermediate,JLPT N4,18,Kanji,7.27,53.41,45.16,0.43,Advance,True,-0.39,1.33
+L0019,Advanced,Writing,20,Vocabulary,5.46,95.69,95.06,0.51,Advance,True,-0.03,1.58
+L0056,Advanced,JLPT N4,20,Grammar,6.55,90.58,72.53,0.55,Test,True,-0.72,2.0
+L0062,Beginner,Writing,11,Kanji,7.53,57.31,62.74,0.87,Revise,True,0.27,1.67
+L0005,Intermediate,JLPT N5,8,Kanji,6.46,74.33,57.78,0.31,Advance,True,-0.68,1.39
+L0041,Beginner,JLPT N5,11,Vocabulary,4.75,71.4,60.1,0.38,Repeat,True,-0.51,2.08
+L0017,Advanced,Writing,13,Kanji,2.15,76.64,78.55,0.79,Repeat,True,0.1,1.84
+L0080,Beginner,Conversational,19,Vocabulary,5.85,100.0,82.56,0.96,Revise,True,-0.7,1.94
+L0002,Advanced,Writing,9,Listening,3.85,63.7,48.65,0.99,Revise,True,-0.64,1.51
+L0017,Advanced,JLPT N5,1,Kanji,5.97,46.79,57.62,0.87,Advance,False,0.49,1.48
+L0034,Intermediate,Conversational,6,Listening,5.28,72.85,61.0,0.88,Revise,False,-0.53,1.65
+L0042,Intermediate,Conversational,16,Kanji,7.47,69.03,63.47,0.87,Revise,True,-0.27,1.37
+L0003,Beginner,Reading,13,Vocabulary,1.26,64.17,66.08,0.67,Revise,False,0.09,1.75
+L0008,Beginner,Reading,15,Kanji,1.0,60.13,64.66,0.98,Repeat,False,0.22,1.45
+L0037,Intermediate,Conversational,17,Listening,3.56,58.57,74.07,0.33,Repeat,False,0.65,1.75
+L0066,Beginner,Writing,3,Kanji,4.57,60.55,38.69,0.88,Test,True,-0.8,1.62
+L0045,Advanced,Writing,8,Vocabulary,3.73,42.13,58.09,0.67,Advance,True,0.66,1.51
+L0069,Beginner,Writing,14,Kanji,3.19,59.38,64.04,0.32,Test,True,0.23,1.29
+L0035,Intermediate,Writing,16,Vocabulary,4.81,62.06,46.92,0.65,Revise,True,-0.64,1.53
+L0098,Intermediate,JLPT N5,11,Listening,3.25,53.28,30.72,0.52,Revise,True,-0.81,1.17
+L0018,Beginner,Writing,16,Listening,7.93,61.58,81.47,0.6,Advance,True,0.76,1.88
+L0056,Advanced,Conversational,2,Vocabulary,4.4,74.11,75.63,0.89,Advance,True,0.08,2.01
+L0100,Intermediate,Conversational,14,Kanji,5.51,64.42,35.98,0.47,Advance,True,-0.89,1.36
+L0012,Advanced,Reading,9,Listening,6.35,43.53,41.27,0.49,Repeat,False,-0.11,1.4
+L0093,Intermediate,Writing,11,Grammar,7.0,86.27,75.08,0.45,Repeat,True,-0.51,1.6
+L0091,Beginner,JLPT N5,6,Listening,2.86,67.4,82.28,0.62,Test,True,0.63,1.53
+L0033,Intermediate,Reading,10,Grammar,5.15,64.95,77.78,0.38,Test,True,0.57,2.0
+L0003,Intermediate,Reading,9,Grammar,4.61,84.24,92.76,0.84,Revise,False,0.4,1.93
+L0051,Beginner,JLPT N4,2,Grammar,4.4,51.86,55.75,0.36,Test,True,0.19,1.61
+L0034,Advanced,JLPT N5,9,Vocabulary,3.84,66.63,72.99,0.96,Repeat,True,0.31,1.63
+L0032,Advanced,Reading,7,Grammar,4.25,62.39,56.45,0.33,Revise,True,-0.29,1.54
+L0042,Advanced,Conversational,17,Listening,3.62,85.68,93.91,0.55,Advance,True,0.39,1.73
+L0012,Beginner,JLPT N4,4,Listening,5.08,76.65,86.16,0.49,Test,False,0.44,1.66
+L0071,Beginner,Reading,7,Listening,5.08,53.42,41.8,0.46,Advance,True,-0.52,1.36
+L0003,Intermediate,Writing,17,Listening,6.27,61.77,41.91,0.91,Revise,True,-0.76,1.3
+L0091,Beginner,JLPT N5,16,Kanji,7.43,51.22,54.86,0.81,Advance,True,0.18,1.65
+L0045,Intermediate,Reading,15,Kanji,6.35,34.45,36.97,0.86,Revise,False,0.13,1.13
+L0069,Beginner,Reading,20,Listening,8.37,75.13,64.68,0.39,Revise,True,-0.48,1.3
+L0033,Intermediate,Writing,18,Kanji,8.14,57.11,62.36,0.48,Test,True,0.26,1.4
+L0098,Intermediate,Reading,20,Listening,4.37,79.15,74.46,0.47,Test,True,-0.23,1.46
+L0071,Advanced,Writing,15,Grammar,4.12,75.33,65.79,0.33,Test,True,-0.44,1.68
+L0020,Beginner,Writing,11,Kanji,7.8,52.87,49.11,0.99,Advance,True,-0.19,1.45
+L0013,Advanced,JLPT N5,10,Listening,2.93,70.19,65.55,0.83,Test,False,-0.23,1.45
+L0061,Intermediate,Conversational,19,Grammar,1.63,39.03,54.43,0.65,Repeat,False,0.65,1.77
+L0021,Advanced,Reading,16,Listening,6.86,78.14,92.84,0.31,Advance,False,0.63,1.99
+L0062,Advanced,JLPT N4,18,Listening,4.61,45.06,31.01,0.76,Repeat,False,-0.61,1.3
+L0023,Advanced,Conversational,10,Vocabulary,5.92,89.64,82.43,0.5,Advance,True,-0.35,1.83
+L0054,Intermediate,JLPT N5,18,Listening,6.8,76.77,88.6,0.72,Test,True,0.53,1.65
+L0005,Advanced,Writing,2,Vocabulary,6.37,69.17,80.77,0.76,Test,False,0.52,1.55
+L0049,Intermediate,Reading,15,Vocabulary,7.15,74.88,72.02,0.95,Advance,False,-0.14,1.3
+L0023,Advanced,JLPT N4,8,Kanji,7.39,77.17,76.55,0.84,Test,False,-0.03,2.01
+L0083,Beginner,Conversational,19,Kanji,2.44,72.84,82.92,0.98,Advance,True,0.47,1.58
+L0026,Intermediate,Conversational,15,Kanji,5.37,84.07,84.19,0.35,Repeat,True,0.01,2.42
+L0091,Intermediate,Reading,14,Vocabulary,5.75,74.67,76.0,0.99,Advance,False,0.07,1.73
+L0035,Advanced,Writing,14,Grammar,1.82,83.11,86.85,0.71,Advance,True,0.18,2.09
+L0069,Advanced,Conversational,13,Kanji,3.24,59.32,71.18,0.72,Advance,True,0.53,2.0
+L0082,Beginner,Conversational,14,Kanji,3.19,87.59,94.25,0.54,Repeat,True,0.32,2.33
+L0089,Intermediate,Conversational,15,Vocabulary,5.46,79.7,77.54,0.81,Test,True,-0.11,1.6
+L0014,Beginner,JLPT N4,14,Kanji,3.17,90.33,100.0,0.97,Advance,True,0.45,2.03
+L0068,Beginner,Conversational,3,Listening,5.25,83.87,79.43,0.77,Test,False,-0.22,2.03
+L0097,Advanced,Writing,5,Kanji,2.22,61.07,58.24,0.37,Repeat,True,-0.14,1.46
+L0065,Advanced,JLPT N4,11,Grammar,3.41,67.24,47.62,0.63,Advance,True,-0.75,1.4
+L0088,Advanced,Writing,1,Listening,8.35,55.82,44.28,0.39,Advance,False,-0.52,1.67
+L0084,Beginner,Conversational,3,Grammar,6.69,88.1,89.99,0.48,Advance,True,0.09,1.7
+L0073,Beginner,Reading,7,Vocabulary,5.0,86.25,93.7,0.43,Revise,False,0.36,2.22
+L0019,Intermediate,Conversational,20,Vocabulary,7.89,69.42,62.03,0.69,Revise,True,-0.35,1.48
+L0048,Advanced,JLPT N4,16,Grammar,3.04,54.12,63.34,0.76,Revise,True,0.43,1.48
+L0010,Intermediate,Writing,16,Kanji,5.39,56.44,40.95,0.75,Advance,True,-0.65,1.46
+L0039,Intermediate,Writing,11,Grammar,5.0,61.16,50.24,0.52,Advance,False,-0.5,1.67
+L0019,Advanced,JLPT N5,10,Listening,2.79,72.03,82.14,0.54,Advance,True,0.47,1.97
+L0064,Beginner,Conversational,19,Kanji,4.25,67.67,75.33,0.53,Test,False,0.37,1.96
+L0093,Beginner,JLPT N5,4,Kanji,7.85,61.31,38.75,0.95,Repeat,True,-0.81,1.15
+L0094,Intermediate,JLPT N5,13,Grammar,5.44,55.32,54.44,0.34,Advance,False,-0.04,1.61
+L0023,Advanced,JLPT N4,19,Kanji,5.0,59.17,62.25,0.3,Test,True,0.15,1.62
+L0079,Advanced,JLPT N5,15,Vocabulary,3.38,100.0,90.29,0.59,Repeat,False,-0.45,1.45
+L0073,Advanced,Writing,7,Listening,5.8,71.97,71.19,0.72,Revise,True,-0.04,1.47
+L0061,Intermediate,Reading,18,Grammar,1.63,54.64,51.84,0.41,Revise,False,-0.14,1.33
+L0074,Advanced,Reading,17,Grammar,8.0,83.63,75.93,0.38,Test,True,-0.37,1.71
+L0005,Intermediate,Writing,19,Grammar,5.55,42.1,50.91,0.4,Repeat,True,0.41,1.85
+L0020,Intermediate,Writing,16,Vocabulary,7.12,72.51,86.25,0.67,Revise,True,0.6,1.55
+L0024,Intermediate,JLPT N4,14,Vocabulary,6.01,92.34,100.0,0.88,Revise,False,0.37,1.92
+L0018,Beginner,Conversational,18,Listening,3.07,60.83,49.15,0.99,Test,True,-0.53,1.73
+L0064,Advanced,JLPT N5,13,Grammar,8.08,46.31,44.89,0.6,Advance,False,-0.07,1.73
+L0077,Advanced,Writing,5,Kanji,5.8,62.66,47.2,0.91,Repeat,True,-0.65,1.7
+L0073,Intermediate,Reading,12,Vocabulary,3.82,82.66,80.91,0.75,Test,False,-0.09,1.6
+L0068,Advanced,JLPT N4,12,Grammar,5.26,61.16,58.81,0.45,Advance,True,-0.12,1.75
+L0063,Advanced,Reading,1,Grammar,4.15,77.07,63.33,0.49,Revise,False,-0.6,1.58
+L0049,Intermediate,Writing,2,Vocabulary,5.51,90.77,95.21,0.85,Repeat,False,0.22,2.17
+L0048,Advanced,Conversational,16,Kanji,4.78,71.82,69.48,0.63,Repeat,True,-0.12,1.69
+L0083,Intermediate,Writing,13,Listening,5.87,76.41,69.52,0.89,Revise,False,-0.33,1.88
+L0011,Intermediate,Conversational,7,Grammar,7.87,48.36,39.77,0.72,Test,True,-0.4,1.56
+L0037,Intermediate,Writing,12,Grammar,5.57,32.52,8.76,0.89,Repeat,False,-0.83,1.02
+L0080,Beginner,Conversational,20,Listening,4.54,69.82,70.3,0.66,Repeat,True,0.02,1.62
+L0051,Beginner,JLPT N4,3,Kanji,5.31,85.35,87.11,0.75,Revise,False,0.09,1.6
+L0033,Intermediate,Reading,1,Kanji,6.82,44.0,23.35,0.96,Repeat,False,-0.77,1.0
+L0044,Advanced,JLPT N4,17,Grammar,6.29,81.17,71.94,0.34,Test,False,-0.43,1.82
+L0067,Beginner,Reading,6,Grammar,5.64,71.97,68.63,0.69,Advance,False,-0.17,1.48
+L0014,Beginner,Reading,18,Vocabulary,3.08,77.54,75.95,0.84,Repeat,True,-0.08,1.68
+L0026,Advanced,JLPT N4,9,Vocabulary,4.28,69.04,58.93,0.37,Revise,True,-0.47,1.49
+L0089,Beginner,JLPT N4,3,Vocabulary,5.1,77.36,64.51,0.34,Revise,True,-0.57,1.64
+L0060,Intermediate,Writing,18,Listening,6.24,85.6,71.56,0.95,Revise,False,-0.61,2.24
+L0034,Advanced,JLPT N4,15,Kanji,9.02,55.14,65.04,0.53,Repeat,False,0.46,1.74
+L0074,Intermediate,Conversational,14,Vocabulary,9.61,67.32,74.08,0.31,Test,False,0.33,2.03
+L0039,Advanced,Conversational,19,Kanji,7.44,56.85,73.97,0.88,Test,False,0.69,1.39
+L0064,Advanced,Writing,20,Listening,3.41,76.37,89.16,0.58,Revise,False,0.56,1.45
+L0091,Beginner,Reading,16,Grammar,7.56,79.5,84.58,0.6,Revise,False,0.25,2.17
+L0071,Intermediate,JLPT N5,9,Listening,3.84,52.39,50.41,0.59,Advance,True,-0.1,1.92
+L0098,Beginner,JLPT N5,13,Vocabulary,7.99,97.87,96.83,0.69,Repeat,True,-0.05,1.72
+L0098,Advanced,JLPT N4,13,Kanji,3.93,80.74,74.79,0.79,Repeat,False,-0.29,1.74
+L0063,Intermediate,JLPT N5,9,Vocabulary,3.91,92.84,93.45,0.39,Repeat,True,0.03,1.65
+L0022,Advanced,Reading,17,Vocabulary,4.2,60.82,78.92,0.66,Advance,False,0.72,1.49
+L0027,Beginner,Reading,18,Listening,6.67,67.4,64.26,0.52,Advance,True,-0.16,1.6
+L0063,Beginner,JLPT N5,2,Kanji,3.22,69.07,77.6,0.59,Advance,False,0.4,2.2
+L0057,Intermediate,JLPT N4,13,Kanji,6.5,50.48,50.04,0.39,Advance,True,-0.02,1.14
+L0086,Beginner,Reading,2,Kanji,5.45,83.56,80.59,0.82,Repeat,False,-0.15,2.07
+L0057,Advanced,Conversational,19,Kanji,3.35,52.44,48.6,0.85,Revise,False,-0.19,1.41
+L0036,Intermediate,Writing,18,Kanji,6.05,42.48,26.92,0.73,Repeat,False,-0.65,1.64
+L0068,Advanced,Writing,16,Vocabulary,6.12,57.84,65.32,0.71,Revise,True,0.36,1.84
+L0025,Advanced,Reading,20,Grammar,7.46,45.39,55.38,0.52,Advance,False,0.46,1.49
+L0072,Beginner,JLPT N4,4,Kanji,3.27,51.85,69.56,0.76,Advance,True,0.71,1.79
+L0039,Advanced,JLPT N4,15,Kanji,7.52,87.2,77.46,0.92,Repeat,False,-0.45,1.98
+L0066,Intermediate,Reading,16,Vocabulary,4.22,67.61,63.68,0.55,Repeat,True,-0.19,1.36
+L0070,Advanced,Reading,9,Vocabulary,3.44,86.23,72.73,0.98,Revise,True,-0.59,1.64
+L0088,Intermediate,Writing,7,Vocabulary,4.59,58.9,67.56,0.41,Repeat,True,0.41,1.62
+L0026,Advanced,JLPT N5,18,Grammar,4.2,67.68,86.94,0.81,Revise,False,0.75,1.66
+L0040,Advanced,JLPT N4,3,Kanji,3.63,43.31,56.21,0.46,Advance,False,0.57,1.71
+L0074,Advanced,Conversational,19,Listening,6.64,70.68,75.33,0.86,Revise,False,0.23,1.84
+L0016,Advanced,JLPT N4,12,Grammar,1.98,52.65,52.42,0.38,Advance,True,-0.01,1.38
+L0063,Intermediate,Reading,8,Kanji,5.36,58.62,87.82,0.95,Advance,True,0.9,1.7
+L0047,Intermediate,Conversational,7,Listening,5.82,78.26,82.71,0.96,Test,True,0.22,1.66
+L0074,Beginner,JLPT N4,17,Grammar,2.72,80.77,72.76,0.34,Test,True,-0.38,1.52
+L0077,Beginner,JLPT N5,11,Grammar,4.74,75.11,87.14,0.87,Repeat,False,0.54,2.03
+L0054,Intermediate,Conversational,20,Vocabulary,6.89,59.44,51.83,0.75,Advance,False,-0.36,1.55
+L0051,Beginner,Writing,3,Kanji,4.87,71.09,71.83,0.63,Test,True,0.04,1.69
+L0062,Advanced,JLPT N5,6,Kanji,6.08,84.68,72.44,0.7,Revise,True,-0.55,2.06
+L0051,Intermediate,Conversational,17,Kanji,7.55,67.72,73.06,0.37,Revise,True,0.26,1.9
+L0025,Beginner,Conversational,20,Grammar,8.7,65.78,57.97,0.73,Advance,True,-0.37,1.49
+L0045,Intermediate,Conversational,14,Grammar,3.97,66.87,75.97,0.46,Repeat,True,0.43,1.68
+L0084,Advanced,JLPT N4,15,Kanji,6.99,59.06,48.83,0.31,Repeat,True,-0.47,1.43
+L0064,Beginner,JLPT N4,17,Kanji,5.38,44.89,41.19,0.62,Test,True,-0.18,1.34
+L0063,Intermediate,JLPT N4,6,Grammar,4.7,60.41,34.22,0.91,Test,False,-0.86,1.06
+L0090,Beginner,Reading,20,Kanji,7.8,64.27,69.37,0.75,Test,True,0.25,1.6
+L0035,Advanced,JLPT N4,17,Vocabulary,4.16,59.76,71.96,0.52,Test,True,0.54,1.88
+L0056,Advanced,Writing,5,Kanji,7.23,40.82,52.14,0.37,Test,False,0.51,1.51
+L0065,Beginner,Writing,11,Listening,3.57,77.82,81.04,0.6,Advance,False,0.16,1.84
+L0076,Intermediate,Writing,4,Vocabulary,1.0,72.68,86.97,0.8,Revise,False,0.61,1.57
+L0059,Intermediate,JLPT N5,9,Kanji,5.57,72.53,69.95,0.83,Test,True,-0.13,1.62
+L0046,Intermediate,JLPT N5,17,Grammar,7.51,63.28,56.35,0.77,Test,False,-0.33,1.17
+L0067,Advanced,JLPT N5,10,Listening,5.62,76.46,75.51,0.67,Revise,True,-0.05,1.76
+L0078,Intermediate,JLPT N5,4,Vocabulary,4.98,74.45,76.93,0.99,Advance,False,0.12,1.44
+L0085,Beginner,Reading,20,Grammar,4.17,79.71,91.1,0.53,Test,False,0.51,1.93
+L0073,Intermediate,JLPT N5,10,Listening,6.33,61.71,71.72,0.3,Revise,True,0.46,1.62
+L0100,Beginner,Conversational,1,Listening,2.32,72.4,65.62,0.46,Test,True,-0.33,1.63
+L0023,Beginner,Conversational,11,Vocabulary,4.97,83.74,76.52,0.97,Revise,False,-0.35,1.7
+L0007,Advanced,Writing,16,Vocabulary,7.25,52.01,42.18,0.53,Advance,True,-0.46,1.62
+L0024,Intermediate,JLPT N4,2,Kanji,5.36,89.55,95.41,0.42,Advance,False,0.28,1.87
+L0007,Beginner,JLPT N4,8,Kanji,4.36,66.39,66.48,0.31,Repeat,True,0.0,1.92
+L0064,Beginner,Writing,7,Kanji,3.72,56.64,48.11,0.58,Repeat,False,-0.4,1.19
+L0059,Intermediate,JLPT N5,14,Grammar,9.27,51.04,41.7,0.61,Repeat,True,-0.44,1.54
+L0025,Advanced,Writing,12,Listening,6.31,82.16,72.22,0.68,Revise,True,-0.46,1.81
+L0018,Intermediate,JLPT N5,6,Vocabulary,3.73,79.97,73.17,0.98,Repeat,False,-0.33,1.57
+L0015,Intermediate,JLPT N5,1,Kanji,6.11,67.99,72.02,0.38,Repeat,True,0.2,1.61
+L0016,Intermediate,Reading,6,Kanji,7.63,61.52,73.49,0.43,Repeat,True,0.54,1.44
+L0019,Intermediate,Writing,2,Vocabulary,8.11,32.77,39.96,0.79,Revise,True,0.34,1.51
+L0005,Beginner,JLPT N5,11,Kanji,4.59,62.08,72.44,0.55,Advance,False,0.48,1.44
+L0062,Intermediate,JLPT N4,7,Vocabulary,6.07,83.87,68.17,0.6,Test,True,-0.66,1.74
+L0068,Beginner,Writing,19,Grammar,3.44,54.63,66.46,0.79,Revise,False,0.53,2.0
+L0030,Beginner,JLPT N5,15,Kanji,6.6,84.66,83.36,0.63,Advance,False,-0.06,1.56
+L0056,Beginner,Reading,4,Kanji,1.0,77.7,73.88,0.35,Advance,True,-0.19,1.48
+L0074,Advanced,JLPT N4,1,Kanji,5.9,80.61,73.6,0.44,Repeat,True,-0.34,1.69
+L0098,Advanced,JLPT N4,8,Listening,5.43,48.53,54.19,0.58,Repeat,False,0.28,1.45
+L0042,Beginner,Reading,9,Vocabulary,3.44,65.27,84.03,0.8,Advance,False,0.73,2.16
+L0014,Beginner,Reading,18,Vocabulary,5.28,84.94,71.04,0.42,Repeat,True,-0.6,1.74
+L0016,Advanced,JLPT N5,5,Vocabulary,2.42,76.44,76.45,0.71,Advance,True,0.0,1.73
+L0041,Advanced,Writing,15,Vocabulary,4.52,44.95,52.39,0.94,Revise,True,0.36,1.36
+L0090,Intermediate,JLPT N5,14,Listening,4.87,78.04,56.08,0.94,Test,False,-0.8,1.53
+L0041,Advanced,Writing,17,Grammar,3.79,43.75,54.97,0.86,Revise,False,0.51,1.36
+L0009,Beginner,Reading,3,Listening,1.67,85.74,80.07,0.82,Revise,True,-0.28,1.81
+L0057,Intermediate,Reading,1,Vocabulary,4.75,61.46,55.92,0.82,Revise,True,-0.27,1.95
+L0073,Advanced,JLPT N4,6,Listening,2.73,77.32,80.29,0.44,Advance,True,0.15,2.13
+L0041,Intermediate,Writing,7,Kanji,4.06,69.77,61.33,0.67,Revise,True,-0.4,1.56
+L0081,Beginner,Reading,11,Vocabulary,7.45,76.82,99.46,0.78,Revise,False,0.81,2.13
+L0002,Beginner,Conversational,12,Vocabulary,4.47,64.95,74.56,0.69,Advance,True,0.45,1.84
+L0094,Intermediate,JLPT N4,20,Grammar,8.82,68.91,66.4,0.52,Test,True,-0.13,1.88
+L0019,Beginner,Reading,12,Listening,3.86,72.95,83.03,0.72,Repeat,False,0.47,1.72
+L0028,Beginner,Conversational,19,Kanji,5.48,49.81,36.28,0.9,Revise,False,-0.59,1.44
+L0068,Intermediate,Reading,5,Grammar,6.08,76.42,73.62,0.42,Repeat,True,-0.14,1.48
+L0001,Beginner,Conversational,5,Vocabulary,5.31,42.48,49.3,0.79,Repeat,True,0.33,1.59
+L0018,Intermediate,Writing,10,Vocabulary,3.54,98.36,98.85,0.48,Advance,True,0.02,2.14
+L0083,Intermediate,JLPT N5,9,Vocabulary,6.16,78.15,71.2,0.42,Repeat,False,-0.33,1.71
+L0062,Intermediate,JLPT N4,2,Vocabulary,7.92,47.56,48.33,0.71,Repeat,True,0.04,1.51
+L0037,Beginner,Writing,8,Grammar,4.69,39.1,23.24,0.4,Revise,False,-0.66,1.1
+L0058,Intermediate,Conversational,4,Listening,6.11,61.78,81.01,0.61,Test,True,0.75,1.66
+L0095,Beginner,JLPT N5,12,Grammar,6.1,67.08,67.13,0.53,Advance,False,0.0,1.84
+L0073,Beginner,Reading,6,Kanji,5.31,72.14,80.63,0.33,Test,True,0.4,1.72
+L0011,Beginner,Reading,6,Vocabulary,8.29,75.41,66.77,0.98,Revise,False,-0.41,1.66
+L0005,Advanced,JLPT N4,6,Listening,2.27,78.89,51.84,0.35,Repeat,True,-0.87,1.39
+L0016,Intermediate,JLPT N4,20,Kanji,4.02,79.5,79.73,0.84,Revise,True,0.01,1.52
+L0015,Advanced,Writing,10,Vocabulary,3.03,72.98,72.19,0.89,Revise,False,-0.04,1.61
+L0061,Advanced,JLPT N4,18,Grammar,4.55,57.36,67.37,0.54,Revise,True,0.46,1.74
+L0005,Beginner,Writing,18,Kanji,2.53,53.17,50.4,0.37,Repeat,False,-0.14,1.34
+L0015,Advanced,Conversational,20,Grammar,6.41,100.0,100.0,0.89,Advance,False,0.0,1.63
+L0083,Intermediate,Reading,18,Vocabulary,2.7,27.41,19.32,0.52,Repeat,True,-0.38,1.38
+L0049,Beginner,Conversational,2,Vocabulary,4.96,59.67,61.71,0.68,Repeat,True,0.1,1.77
+L0015,Advanced,Conversational,13,Kanji,2.87,59.58,50.03,0.83,Repeat,False,-0.44,1.51
+L0013,Intermediate,Writing,2,Vocabulary,7.74,45.51,47.86,0.95,Advance,False,0.12,1.37
+L0027,Beginner,Writing,12,Vocabulary,5.44,54.85,49.83,0.92,Revise,False,-0.25,1.78
+L0068,Beginner,JLPT N5,5,Kanji,6.23,57.08,47.92,0.89,Advance,False,-0.43,1.25
+L0060,Intermediate,JLPT N5,7,Listening,6.53,86.91,77.77,0.83,Test,False,-0.43,1.66
+L0076,Intermediate,Reading,1,Kanji,6.33,55.18,38.97,0.61,Repeat,True,-0.67,1.32
+L0019,Advanced,Conversational,7,Listening,4.22,65.42,71.75,0.6,Repeat,False,0.31,1.58
+L0023,Advanced,JLPT N4,16,Listening,3.83,84.92,59.35,0.74,Repeat,True,-0.86,1.62
+L0025,Advanced,Conversational,3,Listening,2.8,91.31,90.17,0.53,Revise,False,-0.06,1.95
+L0045,Beginner,Writing,9,Listening,6.19,61.15,59.83,0.57,Advance,False,-0.07,1.61
+L0039,Advanced,Reading,19,Listening,2.99,44.36,50.87,0.75,Test,True,0.31,1.24
+L0088,Advanced,Reading,18,Vocabulary,5.59,94.98,82.12,0.72,Test,True,-0.57,2.0
+L0088,Beginner,Reading,9,Grammar,4.24,61.87,66.12,0.46,Advance,True,0.21,1.62
+L0056,Intermediate,JLPT N4,2,Kanji,2.46,68.52,56.94,0.34,Repeat,False,-0.52,1.23
+L0057,Intermediate,Reading,3,Vocabulary,8.59,81.95,88.32,0.48,Repeat,False,0.31,1.56
+L0056,Intermediate,JLPT N4,17,Listening,7.14,89.08,87.97,0.99,Revise,True,-0.06,1.8
+L0070,Beginner,Writing,19,Vocabulary,7.32,70.71,49.0,0.68,Test,False,-0.8,1.39
+L0073,Beginner,Writing,13,Grammar,4.74,86.57,63.0,0.98,Repeat,True,-0.83,1.53
+L0036,Intermediate,Conversational,17,Listening,3.47,69.48,47.5,0.91,Advance,False,-0.8,1.74
+L0038,Intermediate,JLPT N4,20,Listening,1.28,71.68,83.15,0.51,Advance,False,0.52,1.81
+L0089,Intermediate,Writing,18,Grammar,5.11,50.3,48.34,0.87,Advance,True,-0.1,1.35
+L0079,Beginner,Writing,10,Vocabulary,1.04,62.47,61.76,0.48,Revise,False,-0.04,1.49
+L0060,Intermediate,JLPT N5,19,Vocabulary,2.87,70.92,72.03,0.84,Revise,True,0.06,1.8
+L0055,Advanced,JLPT N5,17,Kanji,4.8,53.38,40.29,0.32,Test,False,-0.57,1.79
+L0028,Beginner,JLPT N5,4,Kanji,3.06,72.32,84.65,0.85,Revise,False,0.55,2.24
+L0040,Beginner,Writing,4,Vocabulary,1.0,62.56,73.53,0.95,Repeat,False,0.5,1.42
+L0045,Intermediate,Reading,14,Listening,1.0,78.57,81.0,0.5,Revise,False,0.12,1.59
+L0084,Advanced,JLPT N4,19,Listening,5.22,60.61,65.55,0.48,Repeat,True,0.24,1.08
+L0001,Beginner,Reading,20,Listening,8.65,66.43,51.82,0.54,Revise,True,-0.62,1.39
+L0023,Intermediate,JLPT N4,9,Kanji,4.36,70.37,66.98,0.79,Revise,False,-0.17,1.34
+L0028,Advanced,Writing,17,Vocabulary,5.84,65.09,64.33,0.37,Advance,True,-0.04,1.61
+L0062,Beginner,JLPT N5,5,Kanji,5.55,70.13,54.42,0.84,Revise,True,-0.66,1.82
+L0091,Beginner,Writing,3,Listening,4.88,67.34,81.76,0.54,Repeat,False,0.62,1.83
+L0004,Beginner,JLPT N5,20,Vocabulary,3.48,59.18,42.01,0.31,Test,False,-0.7,1.43
+L0084,Advanced,JLPT N5,7,Listening,1.0,78.87,79.59,0.9,Test,False,0.04,1.89
+L0086,Beginner,Reading,7,Kanji,4.28,77.86,85.65,0.76,Revise,True,0.37,1.84
+L0049,Advanced,JLPT N5,4,Grammar,4.82,56.68,66.66,0.47,Revise,False,0.46,1.61
+L0083,Intermediate,Reading,19,Grammar,6.52,65.62,65.03,0.52,Repeat,False,-0.03,1.75
+L0067,Intermediate,JLPT N5,11,Grammar,3.91,58.57,55.52,0.37,Test,False,-0.15,1.47
+L0077,Intermediate,JLPT N4,15,Kanji,1.85,51.68,50.71,0.52,Revise,False,-0.05,1.11
+L0022,Intermediate,JLPT N4,18,Vocabulary,8.04,71.15,93.26,0.85,Test,False,0.8,2.0
+L0085,Advanced,JLPT N4,7,Vocabulary,7.32,84.6,76.81,0.77,Advance,True,-0.37,1.81
+L0052,Advanced,JLPT N5,6,Kanji,5.66,69.92,62.72,0.78,Revise,False,-0.35,1.32
+L0054,Advanced,Reading,6,Grammar,4.72,88.08,83.65,0.97,Advance,True,-0.22,1.77
+L0009,Beginner,Writing,3,Vocabulary,4.94,58.48,51.32,0.91,Revise,False,-0.34,1.35
+L0033,Advanced,Conversational,10,Listening,3.03,58.11,53.88,0.79,Repeat,True,-0.21,1.27
+L0080,Intermediate,Reading,13,Listening,2.39,46.03,39.73,0.35,Advance,False,-0.3,1.54
+L0070,Advanced,JLPT N5,3,Vocabulary,5.09,43.81,48.76,0.89,Repeat,True,0.24,1.56
+L0009,Beginner,JLPT N5,6,Kanji,2.75,86.92,88.46,0.31,Repeat,False,0.08,1.82
+L0055,Advanced,Reading,20,Listening,3.76,62.15,60.5,0.4,Repeat,False,-0.08,1.82
+L0003,Advanced,Conversational,3,Grammar,4.07,43.18,52.5,0.99,Test,False,0.43,1.74
+L0008,Beginner,Writing,9,Listening,5.32,56.16,32.13,0.58,Repeat,False,-0.83,1.68
+L0061,Beginner,JLPT N5,16,Kanji,5.26,44.37,36.32,0.68,Advance,True,-0.38,1.47
+L0066,Beginner,JLPT N5,20,Vocabulary,3.69,70.41,69.94,0.52,Advance,True,-0.02,1.38
+L0078,Beginner,JLPT N5,9,Vocabulary,5.69,57.25,56.48,0.69,Repeat,True,-0.04,1.44
+L0072,Intermediate,JLPT N5,7,Kanji,3.79,74.77,81.26,0.84,Repeat,False,0.31,1.93
+L0085,Advanced,Writing,15,Listening,7.07,76.68,95.27,0.62,Advance,False,0.73,2.15
+L0071,Beginner,Writing,15,Listening,6.43,61.77,42.8,0.49,Advance,False,-0.74,1.43
+L0085,Beginner,JLPT N5,16,Grammar,5.38,56.6,87.52,0.77,Revise,True,0.91,1.58
+L0025,Beginner,JLPT N4,16,Vocabulary,5.59,58.35,59.92,0.74,Test,False,0.08,1.63
+L0077,Beginner,Reading,13,Grammar,4.19,60.75,66.51,0.73,Revise,False,0.28,1.64
+L0010,Intermediate,JLPT N5,15,Kanji,5.93,24.31,31.47,0.9,Repeat,False,0.34,1.34
+L0009,Beginner,Conversational,19,Vocabulary,2.25,33.81,38.49,0.76,Revise,False,0.23,1.65
+L0095,Intermediate,JLPT N4,6,Grammar,7.16,84.14,89.01,0.75,Revise,True,0.24,2.1
+L0017,Beginner,JLPT N4,3,Vocabulary,1.69,73.97,81.57,0.71,Test,False,0.36,1.98
+L0061,Beginner,Writing,19,Listening,7.41,75.15,73.99,0.85,Revise,True,-0.06,1.97
+L0051,Intermediate,Writing,10,Vocabulary,3.61,47.05,45.05,0.94,Advance,True,-0.1,1.56
+L0053,Intermediate,JLPT N4,3,Vocabulary,1.0,64.97,76.22,0.8,Revise,False,0.51,2.02
+L0017,Advanced,Writing,12,Vocabulary,4.67,62.95,55.85,0.31,Repeat,True,-0.34,1.62
+L0008,Advanced,Conversational,3,Grammar,1.44,36.54,38.81,0.87,Revise,False,0.11,1.28
+L0089,Advanced,JLPT N4,6,Listening,5.62,46.32,44.19,0.54,Advance,False,-0.11,1.68
+L0086,Intermediate,Conversational,16,Listening,8.48,81.72,90.01,0.91,Test,True,0.39,2.08
+L0027,Advanced,Writing,13,Grammar,7.3,74.45,87.13,0.53,Revise,True,0.56,1.93
+L0089,Intermediate,Conversational,9,Kanji,4.88,77.36,84.43,0.8,Advance,True,0.34,1.74
+L0096,Beginner,Writing,5,Vocabulary,5.64,79.97,89.81,0.51,Repeat,False,0.46,1.68
+L0056,Intermediate,JLPT N4,9,Grammar,2.71,76.99,95.66,0.85,Repeat,True,0.73,2.21
+L0072,Intermediate,JLPT N4,18,Grammar,6.28,76.75,85.73,0.52,Revise,True,0.42,1.58
+L0039,Advanced,Conversational,1,Vocabulary,6.26,60.5,53.49,0.73,Advance,False,-0.34,1.67
+L0098,Advanced,JLPT N4,13,Kanji,5.84,61.33,70.14,0.4,Repeat,False,0.41,1.7
+L0043,Advanced,Conversational,17,Vocabulary,5.9,65.77,46.98,0.88,Advance,False,-0.74,1.66
+L0005,Advanced,JLPT N4,19,Grammar,1.67,65.63,63.46,0.96,Revise,False,-0.11,1.69
+L0086,Intermediate,Conversational,2,Kanji,4.9,77.34,78.84,0.51,Revise,True,0.08,1.86
+L0074,Intermediate,Writing,3,Listening,3.85,65.85,79.44,0.4,Revise,False,0.59,1.72
+L0078,Intermediate,JLPT N5,11,Listening,6.45,77.45,68.9,0.47,Repeat,True,-0.4,1.71
+L0088,Beginner,Writing,18,Grammar,7.69,51.08,70.81,0.78,Repeat,False,0.76,1.79
+L0033,Beginner,JLPT N4,7,Grammar,4.48,51.42,39.94,0.6,Revise,True,-0.52,1.41
+L0095,Beginner,JLPT N5,17,Listening,6.0,56.82,64.25,0.37,Revise,True,0.36,1.51
+L0084,Advanced,Writing,19,Vocabulary,5.57,74.81,68.69,0.45,Repeat,True,-0.3,1.1
+L0033,Beginner,JLPT N5,12,Listening,7.14,58.4,59.72,0.82,Revise,False,0.07,1.57
+L0021,Advanced,JLPT N4,1,Kanji,7.12,68.9,64.42,0.52,Advance,False,-0.22,1.44
+L0079,Intermediate,Conversational,10,Listening,4.84,65.49,55.44,0.88,Repeat,False,-0.46,1.63
+L0030,Beginner,Reading,16,Grammar,4.66,72.84,73.83,0.94,Repeat,True,0.05,1.63
+L0089,Advanced,Writing,20,Vocabulary,3.63,57.35,59.57,0.94,Revise,False,0.11,1.61
+L0011,Intermediate,JLPT N4,12,Kanji,6.24,89.33,90.07,0.67,Revise,False,0.04,1.87
+L0081,Beginner,Writing,18,Grammar,6.62,61.23,53.74,0.54,Revise,True,-0.36,1.49
+L0049,Beginner,Writing,3,Listening,2.65,97.31,91.64,0.35,Repeat,True,-0.28,2.08
+L0074,Advanced,Reading,9,Grammar,7.53,83.15,76.31,0.51,Test,False,-0.33,1.92
+L0028,Advanced,JLPT N5,5,Grammar,8.55,63.09,55.39,0.55,Advance,False,-0.37,1.66
+L0027,Beginner,Reading,5,Grammar,2.83,70.0,53.07,0.32,Test,True,-0.69,1.67
+L0075,Beginner,Writing,6,Kanji,5.84,89.65,87.49,0.72,Test,False,-0.11,2.06
+L0003,Advanced,Reading,7,Grammar,4.4,71.22,57.83,0.61,Advance,False,-0.58,1.75
+L0032,Beginner,Conversational,11,Kanji,3.25,87.23,74.69,0.97,Advance,True,-0.56,1.75
+L0080,Intermediate,Reading,20,Kanji,6.88,88.64,91.94,0.74,Advance,False,0.16,1.95
+L0089,Beginner,JLPT N4,19,Vocabulary,4.52,70.13,86.68,0.61,Repeat,True,0.68,1.75
+L0071,Advanced,Conversational,19,Kanji,2.69,63.7,55.71,0.35,Advance,False,-0.38,1.16
+L0053,Intermediate,Conversational,17,Vocabulary,1.91,61.91,65.77,0.61,Repeat,True,0.19,1.83
+L0060,Intermediate,JLPT N4,11,Listening,4.42,71.95,74.54,0.66,Repeat,False,0.13,1.85
+L0054,Advanced,Conversational,16,Grammar,10.0,61.1,78.58,0.71,Advance,False,0.7,1.71
+L0018,Intermediate,JLPT N4,8,Listening,3.56,73.06,66.01,0.88,Repeat,False,-0.34,1.5
+L0042,Advanced,JLPT N5,6,Kanji,6.49,69.66,77.47,0.62,Advance,False,0.37,1.83
+L0085,Intermediate,Writing,8,Grammar,5.49,57.97,72.79,0.45,Advance,False,0.63,1.67
+L0059,Beginner,JLPT N4,15,Grammar,7.34,68.43,65.48,0.32,Test,True,-0.15,1.47
+L0008,Advanced,JLPT N5,6,Vocabulary,7.66,48.53,43.0,0.51,Repeat,True,-0.27,1.77
+L0076,Beginner,JLPT N5,12,Listening,2.48,80.97,90.29,0.77,Test,True,0.43,2.05
+L0094,Beginner,JLPT N5,18,Listening,5.04,55.8,55.12,0.45,Revise,False,-0.03,1.48
+L0093,Advanced,Reading,4,Grammar,5.8,85.25,83.21,0.37,Advance,False,-0.1,1.96
+L0075,Beginner,Reading,19,Kanji,6.9,77.9,75.99,0.85,Repeat,True,-0.1,1.72
+L0061,Beginner,JLPT N4,16,Vocabulary,5.25,62.96,53.03,0.84,Revise,False,-0.46,1.24
+L0087,Intermediate,JLPT N5,1,Listening,6.15,68.07,82.14,0.64,Test,False,0.61,1.72
+L0100,Beginner,Writing,13,Kanji,7.42,86.53,75.09,0.87,Revise,True,-0.52,1.62
+L0096,Advanced,JLPT N5,2,Grammar,6.13,61.67,57.04,0.97,Revise,True,-0.23,1.72
+L0052,Advanced,Reading,3,Vocabulary,1.05,86.26,88.56,0.68,Revise,False,0.11,1.88
+L0085,Intermediate,Conversational,11,Listening,6.45,71.68,81.75,0.31,Test,False,0.46,1.92
+L0065,Intermediate,JLPT N4,13,Grammar,5.57,78.01,83.36,0.39,Revise,False,0.26,2.04
+L0064,Advanced,Reading,6,Listening,6.97,61.85,73.17,0.45,Repeat,True,0.51,1.75
+L0005,Beginner,JLPT N4,16,Kanji,3.42,70.51,56.86,0.86,Revise,False,-0.59,1.71
+L0018,Advanced,Writing,3,Vocabulary,6.23,72.6,79.28,0.91,Revise,True,0.32,1.63
+L0053,Advanced,Conversational,18,Listening,7.04,78.22,69.39,0.3,Test,False,-0.41,1.49
+L0050,Beginner,Reading,14,Listening,5.23,72.71,71.71,0.37,Advance,False,-0.05,1.56
+L0010,Intermediate,Writing,18,Listening,2.01,89.21,82.56,0.75,Advance,False,-0.32,1.97
+L0006,Advanced,JLPT N5,16,Grammar,6.34,75.76,65.82,0.6,Revise,False,-0.46,1.71
+L0055,Advanced,Writing,18,Listening,7.31,67.71,60.02,0.43,Advance,False,-0.37,1.63
+L0077,Beginner,Conversational,11,Listening,5.1,79.53,90.32,0.65,Advance,False,0.49,1.84
+L0043,Beginner,Reading,13,Listening,3.86,86.13,86.93,0.71,Repeat,True,0.04,1.74
+L0054,Intermediate,Conversational,17,Kanji,6.27,100.0,100.0,0.84,Revise,True,0.0,2.01
+L0084,Advanced,Writing,11,Listening,3.23,62.19,43.27,0.32,Repeat,False,-0.74,1.36
+L0044,Intermediate,JLPT N5,16,Kanji,4.26,80.06,77.68,0.77,Advance,False,-0.12,1.68
+L0007,Advanced,Writing,11,Kanji,2.21,59.38,56.75,0.83,Advance,True,-0.13,1.25
+L0045,Advanced,Conversational,2,Kanji,5.45,61.31,60.66,0.5,Repeat,True,-0.03,1.29
+L0020,Intermediate,JLPT N4,1,Listening,2.87,100.0,100.0,0.43,Advance,False,0.0,2.19
+L0042,Intermediate,JLPT N5,10,Kanji,5.29,43.89,39.22,0.39,Repeat,False,-0.23,1.33
+L0068,Advanced,Reading,20,Listening,1.58,74.99,85.05,0.99,Test,False,0.46,2.11
+L0065,Advanced,Writing,20,Vocabulary,5.43,96.21,94.04,0.57,Test,False,-0.11,1.91
+L0093,Beginner,JLPT N5,11,Grammar,6.18,79.3,60.18,0.41,Advance,True,-0.74,1.62
+L0014,Advanced,Conversational,11,Vocabulary,7.7,60.19,52.13,0.31,Test,True,-0.38,1.54
+L0027,Intermediate,JLPT N4,15,Kanji,7.79,84.54,64.0,0.99,Test,False,-0.77,2.11
+L0081,Advanced,Writing,8,Grammar,5.59,75.89,76.37,0.64,Test,True,0.02,1.51
+L0014,Advanced,Reading,3,Vocabulary,3.05,77.71,78.14,0.78,Advance,False,0.02,2.14
+L0059,Intermediate,Writing,10,Vocabulary,3.65,76.23,73.47,0.51,Test,True,-0.14,1.79
+L0077,Beginner,JLPT N5,18,Listening,6.1,74.87,74.07,0.44,Test,False,-0.04,1.6
+L0092,Advanced,Conversational,3,Listening,5.29,62.17,92.94,0.69,Advance,True,0.91,2.2
+L0056,Beginner,Reading,4,Listening,1.31,81.78,82.41,0.65,Advance,True,0.03,2.18
+L0076,Intermediate,JLPT N4,14,Grammar,3.64,84.52,94.46,0.85,Revise,True,0.46,2.22
+L0095,Advanced,Reading,15,Vocabulary,5.11,84.57,93.24,0.95,Test,True,0.41,1.78
+L0070,Advanced,Conversational,18,Listening,7.07,60.08,67.16,0.78,Revise,False,0.34,1.74
+L0075,Advanced,Writing,4,Vocabulary,7.42,60.08,55.76,0.56,Revise,True,-0.21,1.63
+L0043,Intermediate,JLPT N4,15,Kanji,2.65,43.98,39.33,0.33,Test,True,-0.23,1.63
+L0012,Beginner,Reading,18,Listening,5.1,36.64,34.87,0.65,Test,True,-0.09,1.35
+L0057,Beginner,JLPT N4,15,Vocabulary,7.13,64.37,77.88,0.91,Revise,True,0.59,2.04
+L0075,Intermediate,JLPT N4,7,Kanji,2.77,79.76,87.01,0.65,Test,True,0.35,1.69
+L0011,Advanced,Conversational,19,Listening,2.72,75.47,82.0,0.36,Test,True,0.32,2.0
+L0097,Advanced,Conversational,19,Kanji,4.35,78.92,71.36,0.57,Repeat,False,-0.36,1.65
+L0044,Advanced,Reading,19,Listening,8.07,86.84,82.24,0.38,Repeat,True,-0.23,1.93
+L0083,Intermediate,Writing,3,Listening,4.67,49.53,45.68,0.93,Advance,True,-0.19,1.63
+L0062,Advanced,Writing,2,Grammar,9.41,87.99,75.4,0.56,Advance,False,-0.56,1.91
+L0075,Advanced,Writing,15,Kanji,5.28,87.66,88.07,0.34,Revise,False,0.02,2.16
+L0033,Intermediate,JLPT N4,20,Vocabulary,5.65,49.16,47.2,0.98,Revise,True,-0.1,1.68
+L0021,Beginner,JLPT N4,2,Vocabulary,7.12,57.17,67.27,0.79,Revise,False,0.47,1.43
+L0059,Beginner,Writing,2,Kanji,7.07,59.67,52.4,0.84,Revise,False,-0.35,1.0
+L0010,Beginner,Conversational,6,Grammar,5.34,100.0,100.0,0.92,Advance,True,0.0,2.06
+L0015,Advanced,JLPT N4,14,Vocabulary,2.6,83.31,86.17,0.81,Repeat,False,0.14,1.83
+L0029,Intermediate,Conversational,5,Listening,5.17,64.97,95.12,0.55,Repeat,False,0.91,2.08
+L0029,Intermediate,Reading,14,Kanji,8.84,60.14,71.53,0.91,Advance,False,0.51,1.49
+L0020,Advanced,Writing,17,Vocabulary,6.42,100.0,100.0,0.42,Advance,True,0.0,1.83
+L0086,Intermediate,JLPT N5,4,Kanji,5.58,80.53,83.62,0.74,Revise,False,0.15,1.69
+L0067,Beginner,Reading,4,Kanji,5.4,72.63,89.46,0.49,Test,False,0.69,1.75
+L0047,Beginner,Writing,7,Listening,3.89,70.33,78.2,0.98,Revise,True,0.37,1.81
+L0076,Beginner,Writing,8,Vocabulary,2.97,60.12,81.85,0.48,Advance,True,0.8,1.96
+L0017,Advanced,Writing,15,Vocabulary,5.03,51.07,55.98,0.54,Advance,True,0.24,1.76
+L0017,Advanced,Conversational,8,Grammar,8.22,84.49,100.0,0.71,Revise,False,0.65,2.04
+L0023,Advanced,Reading,5,Grammar,6.43,100.0,100.0,0.69,Repeat,False,0.0,1.86
+L0047,Beginner,Conversational,13,Listening,6.48,62.18,81.04,0.81,Repeat,True,0.74,1.62
+L0064,Intermediate,Reading,1,Grammar,4.97,42.98,36.34,0.9,Repeat,True,-0.32,1.0
+L0064,Beginner,JLPT N5,17,Kanji,7.82,73.48,78.57,0.76,Repeat,False,0.25,1.8
+L0084,Intermediate,Reading,8,Listening,5.26,40.22,49.61,0.58,Revise,False,0.44,1.42
+L0024,Intermediate,Reading,9,Listening,6.4,64.86,72.26,0.86,Test,True,0.35,1.9
+L0032,Beginner,Reading,6,Listening,4.96,74.34,62.55,0.96,Revise,False,-0.53,1.58
+L0071,Beginner,Writing,8,Kanji,4.92,92.52,98.24,0.48,Repeat,False,0.28,1.83
+L0070,Beginner,JLPT N4,12,Listening,5.38,59.71,48.58,0.97,Test,False,-0.51,1.79
+L0047,Advanced,JLPT N5,16,Vocabulary,7.06,85.05,92.87,0.44,Test,True,0.37,1.68
+L0045,Advanced,Conversational,5,Listening,5.98,70.62,63.26,0.69,Revise,False,-0.35,1.63
+L0096,Advanced,Writing,2,Kanji,5.0,62.18,55.78,0.8,Repeat,False,-0.31,1.59
+L0023,Beginner,JLPT N5,6,Listening,6.41,75.27,75.08,0.79,Revise,True,-0.01,1.88
+L0032,Advanced,JLPT N4,13,Listening,3.47,71.02,81.31,0.75,Test,True,0.47,1.91
+L0093,Intermediate,JLPT N4,9,Kanji,5.8,73.02,62.73,0.67,Repeat,True,-0.47,1.64
+L0024,Beginner,Writing,8,Vocabulary,4.04,100.0,99.6,0.97,Repeat,True,-0.02,1.72
+L0009,Advanced,JLPT N5,16,Kanji,4.37,74.72,71.96,0.79,Repeat,False,-0.14,1.69
+L0022,Advanced,Writing,1,Vocabulary,2.87,38.46,36.38,0.4,Repeat,True,-0.1,1.55
+L0084,Advanced,JLPT N4,10,Vocabulary,3.7,79.16,78.65,0.31,Advance,True,-0.03,1.62
+L0030,Intermediate,Writing,12,Grammar,2.45,84.23,67.15,0.54,Advance,False,-0.69,1.76
+L0059,Intermediate,Conversational,5,Grammar,5.79,76.8,60.98,0.89,Advance,True,-0.66,1.62
+L0036,Advanced,Conversational,2,Kanji,5.37,48.24,55.68,0.63,Test,False,0.36,1.83
+L0039,Beginner,Writing,16,Grammar,6.26,74.09,83.35,0.36,Revise,True,0.43,2.01
+L0088,Advanced,JLPT N5,8,Kanji,5.38,87.98,95.96,0.92,Advance,False,0.38,1.72
+L0012,Advanced,Writing,7,Kanji,6.67,91.81,92.38,0.54,Advance,False,0.03,2.02
+L0013,Intermediate,Conversational,7,Listening,2.7,81.42,90.0,0.52,Revise,False,0.4,2.07
+L0007,Advanced,JLPT N4,5,Vocabulary,4.82,70.24,78.19,0.56,Advance,True,0.38,1.98
+L0076,Beginner,Reading,14,Listening,3.47,53.08,56.18,0.41,Advance,True,0.15,1.31
+L0068,Advanced,JLPT N5,4,Listening,4.83,71.04,58.21,0.82,Repeat,True,-0.57,1.83
+L0055,Beginner,JLPT N4,7,Listening,5.92,73.4,65.52,0.7,Revise,False,-0.37,1.38
+L0019,Advanced,JLPT N5,19,Kanji,5.51,60.67,52.65,0.33,Test,True,-0.38,1.04
+L0054,Intermediate,Writing,13,Kanji,4.54,91.58,82.68,0.9,Test,False,-0.42,1.52
+L0040,Advanced,JLPT N4,3,Grammar,3.83,64.77,67.41,0.71,Advance,True,0.13,1.64
+L0021,Advanced,JLPT N4,17,Grammar,6.33,71.13,72.17,0.63,Repeat,False,0.05,1.43
+L0074,Beginner,JLPT N4,10,Grammar,5.21,53.82,52.07,0.91,Repeat,True,-0.09,1.6
+L0055,Beginner,Conversational,13,Listening,5.33,63.73,84.39,0.71,Advance,False,0.78,1.92
+L0083,Intermediate,JLPT N4,15,Vocabulary,8.57,70.2,67.95,0.64,Revise,False,-0.11,1.49
+L0001,Advanced,Conversational,10,Grammar,4.27,67.25,79.79,0.61,Repeat,False,0.56,1.64
+L0044,Beginner,Writing,4,Kanji,5.8,56.96,79.08,0.54,Revise,True,0.8,1.87
+L0031,Intermediate,JLPT N4,9,Grammar,8.39,56.71,61.84,0.79,Revise,True,0.25,1.34
+L0032,Intermediate,JLPT N5,11,Kanji,6.75,67.05,70.15,0.9,Advance,False,0.15,1.83
+L0082,Advanced,Conversational,7,Listening,4.44,49.56,34.69,0.71,Test,False,-0.63,1.0
+L0008,Beginner,Conversational,11,Listening,3.36,52.99,48.87,0.7,Repeat,False,-0.2,1.34
+L0017,Advanced,Conversational,1,Listening,4.11,88.31,81.86,0.35,Revise,True,-0.31,2.02
+L0080,Beginner,Reading,12,Grammar,3.68,76.94,73.31,0.87,Repeat,False,-0.18,1.56
+L0096,Intermediate,Writing,5,Listening,8.88,89.31,100.0,0.33,Revise,False,0.49,2.01
+L0002,Advanced,Writing,6,Grammar,2.6,80.48,76.39,0.79,Revise,False,-0.2,1.92
+L0046,Beginner,JLPT N5,7,Grammar,7.08,52.58,58.63,0.86,Test,False,0.29,1.47
+L0009,Beginner,JLPT N4,12,Listening,7.05,78.99,95.18,0.76,Advance,False,0.67,2.03
+L0079,Advanced,Reading,10,Vocabulary,6.2,44.13,37.26,0.51,Test,True,-0.33,1.65
+L0013,Intermediate,JLPT N4,2,Listening,5.74,76.52,67.54,0.46,Revise,True,-0.42,1.51
+L0077,Advanced,Reading,13,Kanji,4.58,65.31,73.89,0.9,Advance,True,0.4,1.85
+L0099,Intermediate,JLPT N4,9,Kanji,5.95,57.98,56.0,0.71,Advance,True,-0.1,1.24
+L0006,Advanced,Writing,19,Vocabulary,8.81,48.46,45.86,0.36,Revise,False,-0.13,1.33
+L0085,Advanced,JLPT N4,1,Vocabulary,4.83,87.24,75.86,0.77,Advance,True,-0.51,1.7
+L0052,Advanced,Reading,13,Vocabulary,7.17,73.15,75.14,0.78,Revise,False,0.1,1.75
+L0093,Beginner,JLPT N5,15,Grammar,5.95,43.8,38.41,0.3,Repeat,True,-0.26,1.33
+L0056,Beginner,JLPT N4,9,Vocabulary,3.55,69.13,85.31,0.35,Repeat,False,0.67,2.17
+L0095,Beginner,JLPT N4,2,Vocabulary,4.31,81.56,71.02,0.6,Revise,True,-0.48,1.8
+L0073,Beginner,Reading,8,Grammar,6.6,44.51,42.3,0.69,Repeat,False,-0.11,1.21
+L0094,Intermediate,JLPT N4,15,Vocabulary,7.27,56.31,60.39,0.69,Repeat,False,0.2,1.67
+L0028,Intermediate,Writing,10,Grammar,3.34,45.93,42.44,0.5,Advance,True,-0.17,1.03
+L0058,Advanced,JLPT N5,16,Grammar,4.26,65.08,66.83,0.74,Test,False,0.09,1.49
+L0002,Intermediate,Conversational,3,Grammar,7.92,72.69,75.22,0.43,Advance,True,0.13,2.0
+L0013,Intermediate,Writing,6,Vocabulary,4.78,91.63,88.01,0.95,Test,False,-0.18,1.78
+L0063,Beginner,Conversational,3,Kanji,4.69,97.8,100.0,0.98,Advance,True,0.11,2.0
+L0012,Advanced,Reading,6,Vocabulary,2.87,70.75,67.43,0.53,Revise,True,-0.16,1.88
+L0042,Advanced,Reading,10,Grammar,7.7,47.31,34.01,0.72,Test,False,-0.58,1.0
+L0097,Beginner,JLPT N5,14,Listening,4.57,86.78,100.0,0.72,Test,True,0.58,1.81
+L0094,Advanced,Conversational,6,Grammar,7.18,47.85,52.42,0.74,Repeat,False,0.22,1.47
+L0003,Beginner,Conversational,19,Listening,3.86,80.08,86.52,0.52,Test,False,0.31,1.69
+L0017,Beginner,Reading,2,Vocabulary,6.07,71.37,62.85,0.73,Revise,True,-0.4,1.63
+L0042,Advanced,Writing,2,Vocabulary,4.59,86.78,81.51,0.84,Test,False,-0.26,1.71
+L0071,Beginner,JLPT N5,5,Grammar,3.58,79.67,75.84,0.96,Test,False,-0.19,1.36
+L0086,Beginner,Conversational,11,Listening,4.88,88.44,89.86,0.63,Advance,False,0.07,2.33
+L0058,Advanced,Writing,20,Listening,4.66,33.91,19.34,0.44,Repeat,True,-0.62,1.11
+L0045,Intermediate,JLPT N5,8,Kanji,2.37,81.9,86.09,0.64,Advance,True,0.21,1.93
+L0054,Beginner,JLPT N4,12,Vocabulary,3.6,55.69,51.54,0.94,Test,True,-0.2,1.29
+L0096,Advanced,Conversational,8,Kanji,4.65,72.95,93.09,0.57,Test,True,0.76,2.06
+L0003,Advanced,Reading,9,Vocabulary,6.95,90.99,84.71,0.6,Advance,True,-0.3,1.79
+L0069,Beginner,JLPT N5,19,Vocabulary,4.84,60.32,61.24,0.57,Test,False,0.05,1.49
+L0073,Advanced,JLPT N4,13,Listening,5.59,73.74,70.47,0.7,Test,True,-0.16,1.73
+L0023,Beginner,JLPT N5,17,Grammar,3.66,81.32,91.31,0.75,Advance,False,0.46,1.9
+L0093,Intermediate,Conversational,17,Grammar,5.17,70.55,46.71,0.97,Revise,True,-0.83,1.62
+L0096,Advanced,JLPT N4,15,Listening,4.57,85.46,91.58,0.9,Repeat,True,0.3,1.97
+L0082,Advanced,JLPT N5,15,Listening,2.18,67.95,61.69,0.59,Advance,True,-0.3,1.65
+L0061,Intermediate,Writing,12,Listening,8.16,63.9,69.02,0.33,Repeat,False,0.25,1.81
+L0039,Intermediate,Reading,2,Vocabulary,8.61,71.06,57.54,0.63,Revise,True,-0.59,1.35
+L0068,Advanced,Writing,5,Vocabulary,2.9,32.02,29.75,0.95,Repeat,True,-0.11,1.27
+L0030,Beginner,JLPT N5,18,Vocabulary,2.9,36.04,44.81,0.47,Advance,True,0.41,1.56
+L0070,Beginner,JLPT N4,11,Grammar,6.01,79.4,67.0,0.67,Advance,False,-0.55,1.37
+L0098,Intermediate,Conversational,5,Listening,5.6,59.82,63.47,0.8,Repeat,False,0.18,1.41
+L0029,Beginner,Writing,16,Vocabulary,4.64,68.35,81.27,0.69,Advance,False,0.57,1.66
+L0022,Advanced,JLPT N4,1,Grammar,6.61,63.59,55.69,0.35,Test,True,-0.38,1.88
+L0070,Intermediate,JLPT N4,12,Kanji,4.94,71.78,76.19,0.5,Advance,True,0.22,1.58
+L0099,Beginner,JLPT N5,20,Listening,3.58,100.0,95.85,0.71,Revise,True,-0.2,2.09
+L0056,Intermediate,JLPT N5,11,Grammar,3.05,76.1,74.37,0.81,Test,False,-0.09,1.87
+L0006,Advanced,JLPT N5,17,Grammar,4.22,74.77,87.33,0.51,Revise,True,0.56,1.83
+L0059,Beginner,JLPT N4,19,Kanji,1.32,23.19,25.29,0.47,Repeat,False,0.1,1.2
+L0078,Beginner,JLPT N5,1,Vocabulary,3.08,35.28,55.22,0.62,Repeat,True,0.76,1.36
+L0094,Intermediate,Writing,15,Grammar,4.99,62.0,58.56,0.56,Test,False,-0.17,1.51
+L0091,Advanced,JLPT N5,4,Kanji,4.65,70.38,64.56,0.62,Test,True,-0.28,1.34
+L0018,Advanced,JLPT N5,2,Listening,7.37,93.1,87.57,0.36,Advance,True,-0.27,1.82
+L0088,Intermediate,Writing,20,Listening,4.41,93.82,93.04,0.52,Revise,False,-0.04,1.89
+L0080,Beginner,JLPT N4,18,Vocabulary,2.43,83.23,77.32,0.64,Repeat,True,-0.29,1.58
+L0073,Beginner,Conversational,9,Kanji,5.97,65.12,81.32,0.94,Repeat,True,0.67,1.69
+L0049,Beginner,Conversational,18,Vocabulary,3.25,77.22,70.51,0.53,Repeat,False,-0.32,1.91
+L0070,Advanced,JLPT N4,7,Grammar,6.32,96.5,100.0,0.59,Test,True,0.17,2.02
+L0068,Intermediate,Writing,1,Kanji,4.66,65.11,69.01,0.5,Repeat,False,0.19,1.66
+L0067,Intermediate,Conversational,8,Kanji,3.12,77.15,94.31,0.91,Advance,False,0.7,1.92
+L0006,Beginner,Conversational,9,Kanji,6.34,87.68,100.0,0.33,Test,False,0.55,1.8
+L0021,Intermediate,JLPT N5,3,Vocabulary,6.69,74.07,65.89,0.51,Repeat,False,-0.39,1.66
+L0086,Beginner,Reading,19,Grammar,4.36,78.14,78.89,0.62,Advance,False,0.04,2.05
+L0029,Beginner,JLPT N5,20,Vocabulary,7.0,56.55,27.59,0.73,Repeat,True,-0.9,1.27
+L0075,Beginner,JLPT N5,6,Vocabulary,3.37,84.0,94.94,0.55,Repeat,True,0.5,1.84
+L0061,Intermediate,Conversational,13,Kanji,5.01,47.82,42.95,0.85,Repeat,True,-0.24,1.14
+L0013,Beginner,JLPT N4,4,Vocabulary,1.54,90.01,100.0,0.69,Revise,True,0.46,2.01
+L0053,Intermediate,Reading,18,Grammar,2.36,70.3,72.1,0.39,Repeat,True,0.09,1.99
+L0037,Beginner,JLPT N5,19,Listening,1.58,66.24,74.1,0.91,Advance,True,0.37,2.01
+L0022,Beginner,JLPT N5,6,Listening,3.85,58.93,41.77,0.86,Test,False,-0.7,1.14
+L0062,Advanced,Reading,2,Grammar,3.93,58.64,46.83,0.73,Test,False,-0.53,1.47
+L0007,Advanced,Writing,11,Grammar,5.05,66.0,65.44,0.68,Advance,False,-0.03,1.74
+L0024,Advanced,JLPT N5,9,Vocabulary,9.45,92.28,99.91,0.35,Repeat,False,0.36,1.61
+L0086,Beginner,Conversational,7,Vocabulary,5.12,60.94,57.51,0.73,Repeat,False,-0.17,1.16
+L0066,Intermediate,Writing,14,Kanji,3.45,98.48,99.35,0.5,Test,True,0.04,1.79
+L0030,Beginner,Reading,6,Listening,4.94,59.71,47.02,0.53,Revise,False,-0.56,1.5
+L0008,Intermediate,JLPT N5,1,Listening,2.34,94.39,87.79,0.87,Repeat,True,-0.32,2.09
+L0029,Beginner,Reading,6,Kanji,4.36,33.92,20.24,0.97,Revise,True,-0.59,1.0
+L0100,Beginner,Conversational,2,Grammar,5.42,61.59,76.68,0.99,Revise,False,0.64,1.69
+L0073,Beginner,JLPT N5,1,Listening,3.74,71.48,74.87,0.45,Advance,True,0.17,1.55
+L0031,Intermediate,Reading,17,Listening,1.05,80.21,80.77,0.34,Revise,True,0.03,1.92
+L0029,Beginner,Conversational,1,Listening,4.91,51.5,65.41,0.39,Test,False,0.6,1.38
+L0041,Advanced,JLPT N4,14,Kanji,6.14,65.03,59.84,0.85,Revise,True,-0.25,1.77
+L0095,Intermediate,JLPT N4,18,Listening,4.61,52.57,45.0,0.3,Revise,False,-0.36,1.62
+L0080,Advanced,Writing,16,Kanji,3.54,99.62,84.04,0.79,Revise,True,-0.65,2.41
+L0082,Beginner,Reading,19,Grammar,3.85,60.75,52.9,0.7,Revise,False,-0.37,1.65
+L0038,Advanced,Writing,9,Kanji,5.06,52.63,47.92,0.6,Test,False,-0.23,1.69
+L0072,Beginner,Conversational,11,Kanji,4.34,44.52,63.03,0.96,Test,True,0.73,1.58
+L0068,Advanced,Conversational,5,Vocabulary,5.45,62.03,67.59,0.79,Test,False,0.27,1.51
+L0081,Beginner,Conversational,1,Grammar,2.72,94.07,100.0,0.41,Repeat,False,0.29,1.84
+L0077,Intermediate,Writing,9,Kanji,2.42,74.93,77.85,0.74,Revise,True,0.15,1.91
+L0098,Beginner,JLPT N4,11,Kanji,1.58,60.15,52.93,0.55,Repeat,False,-0.35,1.43
+L0064,Beginner,JLPT N4,13,Vocabulary,3.37,72.64,60.14,0.99,Revise,True,-0.55,1.55
+L0065,Intermediate,Conversational,2,Grammar,2.77,87.95,81.98,0.75,Repeat,False,-0.29,1.48
+L0090,Intermediate,Writing,16,Grammar,5.32,90.43,88.07,0.41,Revise,True,-0.12,1.86
+L0002,Advanced,Reading,6,Grammar,2.76,86.04,75.78,0.63,Test,False,-0.47,1.83
+L0093,Intermediate,JLPT N4,5,Grammar,5.81,100.0,79.08,0.35,Advance,False,-0.78,1.78
+L0031,Beginner,Conversational,7,Vocabulary,2.01,38.14,45.35,0.64,Test,False,0.35,1.34
+L0057,Advanced,JLPT N4,18,Grammar,4.17,81.27,79.23,0.73,Advance,True,-0.1,1.76
+L0090,Intermediate,Conversational,15,Grammar,3.19,93.58,84.57,0.56,Revise,True,-0.42,1.35
+L0041,Advanced,Writing,17,Listening,5.68,79.69,73.7,0.6,Repeat,True,-0.29,1.63
+L0049,Advanced,JLPT N5,12,Grammar,5.15,88.34,85.66,0.83,Advance,False,-0.13,2.16
+L0058,Advanced,JLPT N4,1,Listening,7.54,55.3,39.12,0.76,Revise,False,-0.67,1.47
+L0058,Intermediate,Writing,11,Grammar,5.24,68.6,88.19,0.65,Advance,False,0.75,1.79
+L0038,Beginner,Writing,15,Kanji,4.85,72.95,68.38,0.93,Advance,True,-0.22,1.71
+L0010,Intermediate,Writing,1,Kanji,7.2,64.29,76.19,0.53,Repeat,True,0.53,2.08
+L0022,Advanced,JLPT N4,5,Kanji,1.0,74.69,95.61,0.31,Repeat,False,0.78,1.95
+L0012,Intermediate,JLPT N4,13,Listening,1.02,59.88,58.04,0.65,Revise,False,-0.09,1.36
+L0052,Advanced,Reading,13,Vocabulary,3.43,96.59,97.6,0.87,Repeat,False,0.05,2.07
+L0030,Beginner,Conversational,13,Vocabulary,6.6,41.9,48.36,0.68,Advance,False,0.31,1.26
+L0014,Advanced,JLPT N4,2,Listening,3.71,80.26,68.97,0.92,Revise,True,-0.51,1.86
+L0025,Intermediate,Reading,1,Vocabulary,5.51,56.54,50.87,0.47,Advance,True,-0.28,1.68
+L0093,Beginner,JLPT N5,10,Vocabulary,3.66,86.23,95.3,0.97,Advance,False,0.42,2.21
+L0004,Beginner,Writing,18,Listening,7.45,46.29,58.74,0.75,Repeat,True,0.55,2.03
+L0040,Intermediate,Writing,7,Kanji,3.51,48.09,45.67,0.62,Advance,True,-0.12,1.5
+L0018,Beginner,Writing,7,Listening,5.99,63.12,57.83,0.91,Repeat,False,-0.26,1.75
+L0089,Intermediate,JLPT N5,19,Grammar,5.27,70.38,63.22,0.88,Test,False,-0.34,1.79
+L0065,Advanced,JLPT N4,3,Kanji,5.34,56.17,67.85,0.67,Test,True,0.53,1.68
+L0019,Beginner,Writing,5,Vocabulary,2.32,66.75,99.15,0.87,Repeat,True,0.92,2.17
+L0009,Beginner,Reading,14,Listening,3.46,74.89,74.92,0.93,Test,False,0.0,2.11
+L0064,Advanced,Writing,8,Listening,4.78,64.33,52.68,0.82,Repeat,True,-0.52,1.55
+L0041,Beginner,JLPT N5,4,Vocabulary,8.31,79.35,81.74,0.77,Revise,False,0.12,1.91
+L0088,Beginner,Conversational,9,Vocabulary,7.38,85.28,61.32,0.46,Repeat,True,-0.83,1.57
+L0094,Beginner,Conversational,1,Kanji,6.0,81.31,90.69,0.42,Advance,True,0.44,1.66
+L0021,Beginner,Writing,1,Listening,5.87,78.37,80.28,0.72,Revise,True,0.1,1.85
+L0061,Advanced,Reading,16,Grammar,4.57,82.56,79.35,0.52,Test,False,-0.16,1.48
+L0090,Advanced,Writing,17,Grammar,6.15,54.87,57.39,0.54,Advance,False,0.13,1.48
+L0038,Advanced,JLPT N5,18,Vocabulary,2.99,64.61,55.35,0.7,Revise,True,-0.43,1.51
+L0055,Beginner,JLPT N5,13,Grammar,1.73,84.52,83.41,0.74,Repeat,False,-0.06,1.78
+L0044,Intermediate,Reading,10,Vocabulary,1.07,61.19,44.85,0.42,Advance,False,-0.67,1.36
+L0001,Intermediate,JLPT N4,17,Listening,2.15,71.04,79.67,0.35,Repeat,True,0.41,1.46
+L0077,Beginner,Writing,11,Listening,6.18,80.93,89.2,0.77,Test,False,0.39,2.09
+L0033,Beginner,Reading,9,Vocabulary,4.29,71.64,84.6,0.65,Repeat,False,0.57,1.96
+L0041,Advanced,JLPT N4,9,Kanji,4.82,70.49,78.1,0.59,Advance,False,0.36,1.88
+L0074,Advanced,Conversational,13,Kanji,5.68,92.5,93.25,0.66,Test,False,0.04,2.14
+L0077,Intermediate,JLPT N4,10,Vocabulary,5.1,80.84,77.18,0.37,Advance,True,-0.18,2.25
+L0078,Intermediate,JLPT N4,7,Kanji,3.46,62.03,76.6,0.7,Repeat,False,0.62,1.93
+L0048,Advanced,JLPT N4,19,Listening,5.42,84.52,83.44,0.89,Advance,False,-0.05,1.62
+L0087,Intermediate,Reading,16,Vocabulary,2.44,56.57,43.2,0.33,Repeat,True,-0.58,1.7
+L0009,Beginner,Conversational,20,Listening,4.29,69.78,67.06,0.61,Repeat,True,-0.13,1.54
+L0074,Intermediate,JLPT N4,14,Listening,3.47,68.58,67.23,0.99,Test,True,-0.07,1.83
+L0052,Intermediate,Reading,18,Grammar,2.57,64.77,66.41,0.95,Test,False,0.08,1.47
+L0074,Beginner,Writing,6,Listening,4.67,56.93,57.65,0.67,Advance,False,0.04,1.72
+L0081,Beginner,Reading,4,Kanji,4.77,76.76,85.13,0.69,Revise,False,0.4,1.78
+L0082,Advanced,JLPT N5,19,Grammar,3.82,73.46,62.12,0.82,Repeat,True,-0.51,1.69
+L0094,Beginner,JLPT N4,19,Listening,9.68,57.09,62.43,0.51,Revise,True,0.26,1.48
+L0100,Intermediate,Reading,1,Vocabulary,4.69,54.1,81.19,0.77,Test,True,0.88,1.97
+L0055,Advanced,Writing,18,Grammar,4.77,72.22,64.6,0.57,Test,True,-0.36,1.69
+L0073,Beginner,Reading,7,Kanji,2.12,82.4,74.17,0.8,Test,False,-0.39,1.69
+L0009,Advanced,Reading,1,Grammar,5.91,66.75,74.27,0.74,Advance,False,0.36,1.58
+L0053,Advanced,JLPT N5,14,Listening,5.09,84.34,79.49,0.92,Revise,False,-0.24,1.79
+L0054,Advanced,Conversational,15,Vocabulary,4.97,80.25,86.16,0.32,Test,True,0.29,1.82
+L0083,Intermediate,Reading,1,Listening,2.06,59.91,61.09,0.95,Test,False,0.06,1.71
+L0044,Advanced,Reading,9,Grammar,4.02,60.76,53.59,0.37,Advance,True,-0.34,1.47
+L0016,Advanced,Writing,18,Kanji,4.68,56.23,57.15,0.48,Test,True,0.05,1.26
+L0050,Advanced,JLPT N4,1,Vocabulary,3.86,73.05,77.68,0.68,Advance,True,0.23,1.8
+L0028,Beginner,Writing,7,Kanji,4.27,95.67,100.0,0.37,Test,True,0.21,1.62
+L0052,Intermediate,Conversational,20,Listening,2.31,64.07,86.45,0.78,Repeat,True,0.81,1.68
+L0027,Advanced,JLPT N4,17,Kanji,1.0,57.98,65.84,0.39,Revise,False,0.37,1.48
+L0048,Beginner,JLPT N5,15,Grammar,4.09,78.62,65.85,0.89,Repeat,False,-0.56,1.81
+L0025,Intermediate,Conversational,19,Vocabulary,1.0,67.76,53.45,0.4,Revise,True,-0.61,1.44
+L0053,Beginner,JLPT N4,11,Listening,1.75,59.5,59.9,0.58,Test,True,0.02,1.55
+L0100,Beginner,JLPT N4,12,Vocabulary,3.9,53.54,76.46,0.76,Advance,True,0.82,2.14
+L0062,Beginner,JLPT N5,20,Grammar,3.92,49.95,65.23,0.37,Test,True,0.64,1.55
+L0074,Advanced,Writing,3,Vocabulary,4.05,50.43,41.5,0.41,Repeat,True,-0.42,1.09
+L0024,Advanced,JLPT N5,9,Listening,4.3,67.21,65.68,0.93,Test,True,-0.08,2.03
+L0038,Intermediate,JLPT N4,6,Listening,1.6,69.0,70.93,0.45,Repeat,True,0.1,1.9
+L0068,Intermediate,Writing,13,Grammar,3.78,69.57,58.41,0.87,Test,True,-0.51,1.38
+L0051,Intermediate,Reading,15,Listening,6.16,85.72,80.95,0.78,Repeat,False,-0.23,2.14
+L0037,Beginner,Conversational,17,Vocabulary,6.58,53.22,70.89,0.8,Advance,False,0.71,1.5
+L0027,Intermediate,Reading,20,Kanji,2.71,53.01,44.9,0.74,Repeat,False,-0.38,1.5
+L0021,Intermediate,JLPT N4,8,Kanji,5.79,63.93,68.98,0.54,Test,False,0.25,1.97
+L0064,Intermediate,Reading,6,Kanji,3.03,67.91,87.49,0.45,Test,False,0.75,2.04
+L0041,Advanced,Conversational,17,Grammar,2.99,65.03,79.19,0.95,Test,False,0.61,1.95
+L0048,Beginner,Reading,2,Listening,3.8,72.09,72.83,0.77,Repeat,False,0.04,1.92
+L0080,Advanced,Writing,7,Listening,4.28,81.13,80.21,0.72,Revise,False,-0.05,1.59
+L0049,Advanced,Writing,5,Kanji,6.29,72.31,70.37,0.48,Test,False,-0.1,1.68
+L0005,Advanced,JLPT N5,3,Listening,5.07,83.67,91.77,0.8,Advance,True,0.38,2.1
+L0061,Intermediate,JLPT N4,5,Vocabulary,6.33,54.68,51.5,0.85,Revise,True,-0.16,1.22
+L0027,Advanced,JLPT N5,3,Vocabulary,7.02,50.84,54.96,0.94,Test,True,0.2,1.39
+L0092,Intermediate,Conversational,11,Vocabulary,3.55,64.76,56.06,0.62,Test,False,-0.41,1.42
+L0045,Advanced,JLPT N4,18,Kanji,5.61,61.74,55.58,0.95,Test,True,-0.3,1.61
+L0056,Intermediate,JLPT N5,20,Vocabulary,3.38,82.85,82.17,0.89,Advance,False,-0.03,1.83
+L0095,Intermediate,Conversational,4,Grammar,4.34,86.66,61.97,0.51,Advance,False,-0.84,1.73
+L0088,Intermediate,Conversational,6,Listening,3.36,100.0,99.95,0.89,Repeat,True,-0.0,2.19
+L0095,Beginner,Writing,20,Vocabulary,2.69,100.0,91.93,0.31,Advance,True,-0.38,2.06
+L0025,Beginner,JLPT N4,8,Grammar,1.88,91.28,94.77,0.9,Advance,True,0.17,2.0
+L0077,Advanced,Writing,3,Vocabulary,6.38,63.33,64.72,0.99,Test,False,0.07,1.64
+L0074,Beginner,JLPT N4,18,Listening,6.55,79.27,77.1,0.8,Advance,False,-0.11,1.42
+L0085,Intermediate,JLPT N5,19,Vocabulary,6.95,79.36,62.82,0.46,Test,True,-0.68,1.42
+L0008,Intermediate,Writing,7,Kanji,2.29,81.02,60.25,0.61,Revise,False,-0.78,1.56
+L0011,Intermediate,JLPT N5,2,Listening,5.79,59.79,57.76,0.5,Advance,False,-0.1,1.47
+L0046,Intermediate,Reading,2,Listening,5.49,95.97,100.0,0.82,Repeat,False,0.2,1.88
+L0014,Beginner,Writing,9,Listening,7.24,89.12,87.4,0.71,Test,True,-0.09,2.09
+L0051,Beginner,Writing,6,Grammar,4.2,57.81,56.06,0.82,Revise,True,-0.09,1.72
+L0045,Intermediate,JLPT N4,1,Kanji,6.48,60.89,54.96,0.97,Test,True,-0.29,1.82
+L0018,Advanced,Writing,7,Listening,4.84,77.64,82.65,0.78,Repeat,True,0.25,1.59
+L0034,Advanced,Reading,16,Grammar,1.0,66.83,58.18,0.88,Test,False,-0.41,1.8
+L0018,Beginner,Conversational,16,Listening,6.76,48.49,51.79,0.5,Revise,True,0.16,1.36
+L0046,Intermediate,Conversational,13,Listening,6.42,62.51,62.73,0.7,Advance,True,0.01,1.52
+L0042,Intermediate,Conversational,6,Grammar,4.84,74.6,70.22,0.58,Repeat,True,-0.22,1.74
+L0017,Beginner,Reading,9,Listening,3.35,94.72,92.47,0.58,Revise,True,-0.11,2.12
+L0053,Beginner,JLPT N5,10,Vocabulary,5.99,67.93,65.6,0.48,Advance,False,-0.12,1.77
+L0085,Advanced,JLPT N4,19,Kanji,2.91,78.89,78.85,0.91,Repeat,True,-0.0,2.16
+L0028,Advanced,Conversational,6,Vocabulary,7.71,63.0,56.71,0.56,Repeat,False,-0.3,1.04
+L0043,Intermediate,Conversational,7,Grammar,8.07,88.19,81.94,0.76,Repeat,False,-0.3,1.67
+L0048,Intermediate,JLPT N5,6,Vocabulary,4.2,80.82,66.39,0.53,Revise,False,-0.62,1.69
+L0060,Intermediate,Conversational,10,Kanji,3.59,75.45,68.7,0.83,Repeat,False,-0.33,1.44
+L0068,Advanced,JLPT N5,13,Grammar,6.23,44.77,51.34,0.56,Advance,False,0.32,1.49
+L0070,Beginner,Writing,5,Vocabulary,4.29,92.31,91.83,0.91,Repeat,True,-0.02,2.05
+L0018,Intermediate,JLPT N5,20,Grammar,5.58,77.43,69.29,0.78,Test,False,-0.39,1.64
+L0003,Intermediate,Conversational,15,Listening,7.07,56.34,53.9,0.37,Test,False,-0.12,1.6
+L0078,Beginner,Conversational,3,Listening,3.0,62.84,66.57,0.83,Advance,True,0.18,1.68
+L0008,Intermediate,Conversational,6,Kanji,1.0,74.59,73.16,0.48,Test,True,-0.07,1.54
+L0081,Intermediate,Writing,5,Listening,7.49,83.02,100.0,0.55,Test,False,0.69,1.9
+L0036,Beginner,Reading,5,Kanji,6.6,72.63,59.95,0.9,Test,True,-0.56,1.96
+L0098,Beginner,Conversational,8,Listening,4.54,67.04,56.25,0.65,Repeat,True,-0.49,1.43
+L0016,Intermediate,JLPT N5,12,Kanji,7.61,46.31,35.92,0.38,Revise,False,-0.48,1.62
+L0036,Advanced,JLPT N5,7,Kanji,2.98,76.73,64.91,0.46,Test,True,-0.53,1.73
+L0004,Beginner,Reading,7,Vocabulary,4.26,82.11,93.3,0.61,Repeat,False,0.51,1.99
+L0083,Advanced,Reading,10,Grammar,5.04,57.96,63.75,0.73,Test,False,0.28,1.73
+L0008,Beginner,JLPT N4,8,Vocabulary,3.05,79.93,79.76,0.66,Repeat,True,-0.01,1.72
+L0081,Beginner,JLPT N4,15,Listening,5.46,55.06,62.5,0.73,Test,True,0.36,1.76
+L0033,Advanced,JLPT N5,18,Listening,6.89,75.51,68.49,0.42,Revise,False,-0.34,1.65
+L0043,Beginner,Conversational,20,Grammar,5.79,58.79,55.98,0.35,Test,False,-0.14,1.28
+L0088,Intermediate,Conversational,19,Vocabulary,7.42,85.32,94.25,0.38,Revise,True,0.42,1.97
+L0039,Intermediate,JLPT N4,6,Vocabulary,2.94,67.05,47.12,0.5,Repeat,True,-0.76,1.73
+L0097,Intermediate,JLPT N4,11,Kanji,7.12,45.78,33.89,0.39,Advance,True,-0.53,1.39
+L0018,Beginner,Conversational,16,Vocabulary,6.01,69.48,76.77,0.32,Revise,False,0.35,1.89
+L0086,Beginner,Conversational,7,Grammar,4.72,56.56,72.58,0.88,Revise,False,0.66,1.71
+L0097,Advanced,JLPT N4,19,Listening,5.51,43.1,40.22,0.46,Test,True,-0.14,1.45
+L0061,Advanced,JLPT N4,6,Listening,7.92,83.53,86.01,0.9,Advance,False,0.12,1.88
+L0097,Intermediate,Reading,7,Vocabulary,1.0,51.37,56.51,0.57,Revise,False,0.25,1.88
+L0021,Intermediate,Conversational,10,Vocabulary,5.0,43.02,38.46,0.53,Revise,True,-0.22,1.19
+L0063,Beginner,Conversational,19,Kanji,8.78,80.35,69.81,0.63,Advance,True,-0.48,1.9
+L0033,Beginner,JLPT N4,14,Vocabulary,3.43,73.05,79.87,0.71,Repeat,False,0.33,1.99
+L0079,Intermediate,Writing,16,Vocabulary,5.0,79.01,80.38,0.68,Test,True,0.07,1.94
+L0020,Intermediate,JLPT N5,7,Listening,5.53,73.8,66.77,0.3,Revise,True,-0.34,1.64
+L0030,Advanced,Reading,1,Listening,6.47,81.48,72.29,0.82,Revise,False,-0.43,1.62
+L0038,Beginner,Writing,5,Kanji,9.51,63.05,61.37,0.85,Test,False,-0.08,1.78
+L0087,Intermediate,Conversational,8,Listening,3.48,64.1,67.92,0.34,Revise,True,0.19,1.42
+L0095,Advanced,Conversational,8,Listening,1.0,68.58,62.92,0.81,Repeat,True,-0.28,1.42
+L0013,Advanced,Reading,20,Listening,1.84,61.13,67.1,0.59,Repeat,True,0.29,1.44
+L0040,Advanced,Reading,12,Vocabulary,6.25,97.15,100.0,0.38,Test,True,0.14,2.22
+L0021,Advanced,Reading,19,Grammar,6.3,68.72,72.49,0.57,Revise,True,0.19,1.54
+L0056,Beginner,JLPT N5,1,Vocabulary,6.31,58.03,68.94,0.67,Repeat,False,0.5,1.85
+L0097,Intermediate,Reading,14,Listening,6.73,29.39,22.19,0.61,Advance,True,-0.35,1.04
+L0039,Intermediate,Writing,13,Grammar,5.52,77.21,79.78,0.85,Repeat,False,0.13,2.2
+L0037,Beginner,JLPT N5,7,Vocabulary,5.29,68.73,70.31,0.84,Advance,False,0.08,1.76
+L0026,Beginner,JLPT N4,7,Listening,5.18,71.01,61.31,0.6,Revise,True,-0.45,1.37
+L0053,Advanced,JLPT N5,1,Listening,3.97,56.12,38.56,0.5,Repeat,False,-0.71,1.25
+L0030,Beginner,Reading,10,Grammar,7.5,86.23,82.92,0.55,Revise,False,-0.16,1.88
+L0078,Intermediate,Conversational,17,Grammar,6.04,53.81,63.78,0.52,Revise,True,0.46,1.86
+L0060,Intermediate,Conversational,16,Vocabulary,4.0,31.13,23.14,0.41,Revise,False,-0.38,1.0
+L0035,Beginner,JLPT N4,12,Grammar,2.68,66.17,78.33,0.32,Advance,True,0.54,1.3
+L0044,Advanced,JLPT N5,9,Listening,1.0,79.75,83.22,0.37,Test,True,0.17,1.85
+L0085,Advanced,JLPT N5,3,Vocabulary,7.87,74.27,54.64,0.4,Test,False,-0.75,1.64
+L0027,Intermediate,Writing,4,Listening,7.08,77.95,60.9,0.87,Advance,True,-0.69,1.81
+L0049,Beginner,JLPT N5,15,Vocabulary,2.24,46.59,49.14,0.59,Revise,False,0.13,1.35
+L0096,Beginner,JLPT N5,14,Grammar,5.04,72.37,58.81,0.48,Advance,False,-0.59,1.4
+L0034,Advanced,Reading,9,Listening,6.62,74.98,100.0,0.94,Test,False,0.85,1.79
+L0087,Beginner,Reading,5,Vocabulary,2.98,60.57,59.82,0.42,Advance,False,-0.04,1.72
+L0055,Beginner,JLPT N4,2,Kanji,3.24,52.09,39.31,0.45,Revise,False,-0.56,1.59
+L0080,Intermediate,JLPT N4,18,Listening,5.83,74.32,72.34,0.63,Test,True,-0.1,1.42
+L0066,Advanced,Writing,2,Vocabulary,5.16,94.01,100.0,0.31,Revise,False,0.29,2.09
+L0023,Beginner,JLPT N4,4,Vocabulary,8.34,86.31,84.48,0.58,Repeat,False,-0.09,1.73
+L0037,Intermediate,Writing,15,Vocabulary,8.3,60.56,60.24,0.62,Revise,True,-0.02,1.61
+L0059,Beginner,JLPT N4,15,Listening,4.95,57.53,53.64,0.53,Advance,False,-0.19,1.33
+L0031,Beginner,Reading,1,Grammar,6.76,72.35,74.74,0.83,Revise,False,0.12,1.74
+L0099,Intermediate,JLPT N5,15,Listening,3.46,74.18,76.91,0.99,Advance,False,0.14,2.0
+L0066,Advanced,JLPT N4,18,Vocabulary,5.12,66.02,72.86,0.5,Advance,True,0.33,1.64
+L0046,Intermediate,Conversational,19,Kanji,1.81,66.98,68.01,0.98,Repeat,True,0.05,1.87
+L0097,Intermediate,JLPT N5,3,Grammar,6.08,78.3,100.0,0.72,Repeat,True,0.8,1.82
+L0099,Intermediate,JLPT N5,13,Kanji,7.56,36.32,34.31,0.51,Revise,True,-0.1,1.94
+L0036,Beginner,JLPT N5,16,Kanji,5.52,62.73,56.53,0.59,Repeat,True,-0.3,1.45
+L0003,Intermediate,JLPT N4,12,Kanji,2.98,69.98,60.35,0.93,Advance,True,-0.45,1.06
+L0005,Intermediate,JLPT N4,16,Kanji,4.96,79.36,84.17,0.32,Test,False,0.24,1.64
+L0008,Intermediate,JLPT N5,19,Listening,2.01,69.82,68.09,0.4,Test,False,-0.09,1.59
+L0058,Intermediate,Conversational,17,Kanji,2.7,71.64,75.5,0.54,Test,False,0.19,1.52
+L0084,Advanced,JLPT N4,19,Vocabulary,3.84,66.13,59.77,0.6,Advance,True,-0.31,1.48
+L0078,Intermediate,Writing,8,Kanji,3.81,67.46,65.81,0.62,Test,True,-0.08,1.82
+L0066,Intermediate,JLPT N5,9,Kanji,3.97,84.29,76.42,0.65,Advance,True,-0.37,1.59
+L0096,Beginner,Conversational,15,Grammar,2.83,79.91,80.92,0.8,Revise,False,0.05,2.26
+L0087,Advanced,Conversational,16,Grammar,6.9,67.31,68.21,0.78,Repeat,False,0.04,1.92
+L0093,Intermediate,Reading,5,Grammar,7.31,85.78,87.1,0.88,Repeat,True,0.07,1.88
+L0036,Beginner,Reading,19,Vocabulary,2.3,63.17,49.7,0.42,Revise,True,-0.59,1.32
+L0087,Intermediate,Reading,8,Vocabulary,5.09,90.97,63.17,0.38,Repeat,False,-0.88,1.43
+L0033,Intermediate,JLPT N4,13,Kanji,8.38,93.18,77.17,0.34,Advance,False,-0.66,1.39
+L0070,Advanced,Writing,19,Listening,5.18,64.7,63.51,0.95,Revise,True,-0.06,1.96
+L0048,Beginner,Writing,19,Grammar,2.51,76.75,69.67,0.97,Repeat,False,-0.34,1.59
+L0081,Advanced,JLPT N4,10,Vocabulary,3.97,50.67,45.31,0.82,Test,True,-0.26,1.77
+L0014,Advanced,Writing,20,Vocabulary,5.84,63.01,59.34,0.58,Advance,True,-0.18,1.65
+L0066,Beginner,Reading,17,Vocabulary,3.89,69.83,88.3,0.54,Advance,True,0.73,1.95
+L0084,Intermediate,Reading,5,Vocabulary,6.47,59.14,50.13,0.9,Repeat,True,-0.42,1.42
+L0060,Beginner,JLPT N5,13,Kanji,1.77,37.41,36.59,0.54,Test,False,-0.04,1.35
+L0051,Advanced,JLPT N5,16,Vocabulary,4.01,95.71,85.38,0.65,Test,False,-0.48,1.8
+L0072,Intermediate,JLPT N4,1,Listening,5.93,60.95,39.69,0.4,Repeat,False,-0.79,1.38
+L0034,Advanced,Conversational,14,Grammar,3.34,84.44,85.62,0.41,Advance,True,0.06,1.55
+L0066,Beginner,JLPT N5,16,Listening,4.14,50.48,46.19,0.76,Revise,True,-0.21,1.65
+L0039,Intermediate,Reading,12,Grammar,5.33,66.07,61.9,0.47,Advance,True,-0.21,1.23
+L0046,Advanced,Writing,6,Kanji,4.26,80.54,67.21,0.57,Revise,True,-0.58,1.91
+L0005,Intermediate,Writing,1,Grammar,3.68,71.89,78.58,0.52,Repeat,False,0.32,2.01
+L0004,Beginner,Reading,13,Listening,6.54,72.32,73.28,0.9,Revise,True,0.05,1.61
+L0016,Intermediate,Reading,2,Vocabulary,5.39,78.06,72.28,0.94,Test,True,-0.28,1.71
+L0006,Intermediate,JLPT N4,13,Listening,2.87,69.23,88.35,0.65,Revise,True,0.74,2.12
+L0094,Advanced,Conversational,8,Listening,6.16,77.62,85.42,0.44,Test,True,0.37,1.96
+L0009,Beginner,Writing,18,Grammar,4.45,59.92,47.38,0.71,Test,True,-0.56,1.36
+L0002,Intermediate,Writing,10,Kanji,1.0,80.08,60.76,0.43,Test,False,-0.75,1.33
+L0074,Beginner,Writing,2,Grammar,5.64,65.56,73.41,0.65,Test,False,0.37,1.41
+L0044,Advanced,JLPT N4,8,Vocabulary,3.5,72.08,70.48,0.94,Revise,False,-0.08,1.81
+L0010,Beginner,JLPT N4,4,Kanji,6.19,91.28,100.0,0.74,Repeat,True,0.41,2.27
+L0057,Beginner,Reading,9,Vocabulary,4.54,53.12,50.63,0.98,Advance,False,-0.12,1.55
+L0026,Intermediate,Conversational,12,Grammar,9.1,45.62,40.05,0.73,Revise,True,-0.27,1.41
+L0045,Intermediate,JLPT N4,16,Kanji,8.61,70.28,66.21,0.38,Test,True,-0.2,1.86
+L0062,Advanced,Conversational,13,Grammar,3.78,62.39,72.85,0.75,Revise,False,0.48,2.05
+L0031,Intermediate,Conversational,8,Listening,5.35,63.79,76.93,0.98,Advance,True,0.58,1.63
+L0008,Beginner,Conversational,3,Grammar,6.96,61.22,52.69,0.88,Advance,True,-0.4,1.39
+L0041,Advanced,JLPT N5,13,Kanji,5.92,47.16,55.14,0.3,Advance,False,0.38,1.44
+L0087,Beginner,Conversational,7,Vocabulary,5.88,74.82,75.37,0.45,Revise,True,0.03,1.67
+L0030,Beginner,Conversational,10,Grammar,4.1,80.1,52.25,0.31,Repeat,False,-0.88,1.74
+L0074,Intermediate,Reading,17,Kanji,8.07,78.96,71.85,0.38,Repeat,False,-0.34,1.74
+L0041,Advanced,JLPT N5,15,Kanji,4.23,66.91,82.97,0.53,Test,True,0.67,1.41
+L0004,Beginner,Reading,13,Grammar,2.26,87.7,95.02,0.75,Test,True,0.35,2.2
+L0002,Intermediate,Conversational,11,Listening,1.88,90.71,99.17,0.78,Revise,True,0.4,2.09
+L0035,Intermediate,JLPT N4,17,Kanji,9.24,60.77,66.89,0.74,Test,True,0.3,2.04
+L0010,Intermediate,Reading,12,Vocabulary,7.01,39.78,48.06,0.9,Advance,False,0.39,1.26
+L0001,Advanced,Conversational,6,Kanji,2.44,54.59,53.94,0.71,Repeat,False,-0.03,2.08
+L0018,Intermediate,JLPT N5,6,Vocabulary,4.85,81.64,88.07,0.36,Revise,False,0.31,1.93
+L0001,Intermediate,JLPT N4,6,Kanji,5.21,65.53,71.87,0.64,Test,True,0.31,1.64
+L0069,Advanced,Reading,20,Vocabulary,7.78,70.52,61.48,0.33,Advance,True,-0.42,1.55
+L0010,Beginner,JLPT N5,20,Listening,3.19,90.94,89.23,0.8,Revise,False,-0.09,2.14
+L0026,Beginner,JLPT N4,16,Grammar,8.42,79.77,77.66,0.6,Test,False,-0.1,1.56
+L0064,Intermediate,Writing,16,Kanji,4.04,69.33,82.75,0.97,Repeat,True,0.59,1.44
+L0029,Beginner,Reading,2,Listening,4.58,76.94,82.15,0.8,Repeat,False,0.25,1.79
+L0060,Advanced,JLPT N5,14,Vocabulary,5.82,77.91,78.92,0.63,Repeat,True,0.05,1.29
+L0073,Advanced,Reading,2,Listening,5.62,67.59,77.28,0.49,Test,True,0.45,1.7
+L0078,Beginner,JLPT N5,5,Vocabulary,5.61,58.76,63.88,0.67,Repeat,True,0.25,1.8
+L0023,Advanced,Conversational,15,Listening,3.25,79.91,76.05,0.53,Test,False,-0.19,1.35
+L0037,Advanced,Reading,1,Grammar,8.31,63.73,73.83,0.86,Advance,True,0.47,1.81
+L0095,Advanced,JLPT N5,19,Kanji,2.62,99.83,99.61,0.79,Test,False,-0.01,1.84
+L0073,Beginner,JLPT N5,15,Listening,4.74,54.66,70.21,0.67,Repeat,True,0.65,1.72
+L0038,Advanced,Reading,3,Listening,4.6,66.37,72.13,0.86,Repeat,False,0.28,1.68
+L0054,Intermediate,Writing,6,Vocabulary,6.46,56.03,56.47,0.68,Test,False,0.02,1.7
+L0033,Advanced,JLPT N5,3,Vocabulary,5.24,63.39,43.03,0.75,Advance,False,-0.77,1.69
+L0037,Beginner,Conversational,12,Vocabulary,3.81,48.18,58.13,0.97,Revise,False,0.46,1.54
+L0032,Beginner,Writing,6,Listening,4.82,77.42,93.17,0.97,Advance,True,0.66,2.08
+L0032,Intermediate,Conversational,17,Vocabulary,8.84,75.33,63.97,0.71,Advance,False,-0.51,1.8
+L0070,Advanced,JLPT N5,11,Grammar,2.46,87.32,100.0,0.58,Revise,True,0.56,1.92
+L0081,Intermediate,JLPT N4,10,Grammar,5.03,78.46,72.54,0.55,Test,False,-0.29,2.04
+L0006,Beginner,Writing,9,Vocabulary,3.8,78.16,89.36,0.75,Test,False,0.51,1.99
+L0019,Advanced,Reading,12,Kanji,8.28,86.18,94.27,0.75,Test,True,0.38,1.9
+L0012,Intermediate,JLPT N4,19,Grammar,2.75,60.02,42.06,0.67,Test,True,-0.72,1.41
+L0050,Advanced,Reading,8,Listening,3.13,55.05,61.93,0.32,Test,True,0.33,1.53
+L0044,Beginner,Writing,11,Kanji,7.74,94.72,100.0,0.95,Advance,True,0.26,2.23
+L0065,Beginner,Conversational,13,Vocabulary,4.98,68.86,59.51,0.77,Test,False,-0.44,1.55
+L0014,Beginner,Writing,2,Vocabulary,5.46,69.72,62.44,0.99,Revise,True,-0.35,1.41
+L0072,Advanced,Writing,15,Kanji,10.0,49.05,48.37,0.44,Advance,False,-0.03,1.73
+L0014,Intermediate,Reading,12,Vocabulary,2.62,71.95,45.55,0.91,Revise,True,-0.87,1.49
+L0095,Advanced,Writing,4,Kanji,3.83,100.0,100.0,0.85,Revise,False,0.0,2.0
+L0097,Advanced,Conversational,12,Listening,5.66,46.56,59.1,0.52,Revise,False,0.56,1.93
+L0061,Beginner,Reading,3,Listening,6.75,100.0,100.0,0.95,Repeat,True,0.0,1.94
+L0096,Intermediate,Conversational,12,Listening,1.0,86.63,81.24,0.37,Repeat,False,-0.26,1.74
+L0037,Advanced,Writing,20,Kanji,4.83,81.55,73.8,0.31,Test,False,-0.37,2.01
+L0052,Advanced,JLPT N4,11,Vocabulary,3.33,64.6,62.21,0.89,Revise,True,-0.12,1.61
+L0057,Intermediate,JLPT N5,15,Listening,4.86,98.38,98.16,0.62,Repeat,False,-0.01,2.15
+L0091,Beginner,JLPT N5,14,Listening,4.69,69.02,55.76,0.51,Advance,True,-0.58,1.7
+L0024,Intermediate,JLPT N4,15,Listening,6.21,80.81,71.94,0.84,Repeat,True,-0.42,1.55
+L0087,Beginner,JLPT N4,3,Vocabulary,3.0,62.1,69.39,0.7,Repeat,False,0.35,1.83
+L0060,Advanced,JLPT N5,5,Vocabulary,4.1,58.66,60.9,0.76,Revise,False,0.11,1.22
+L0082,Beginner,Reading,14,Grammar,3.14,88.65,92.2,0.32,Repeat,True,0.18,1.56
+L0036,Beginner,JLPT N5,6,Grammar,5.07,84.67,89.03,0.95,Repeat,True,0.21,1.98
+L0076,Intermediate,Writing,9,Listening,6.4,92.06,88.42,0.46,Advance,False,-0.18,2.13
+L0053,Advanced,JLPT N4,13,Listening,4.93,77.42,61.82,0.77,Test,True,-0.65,2.03
+L0048,Advanced,Conversational,5,Listening,5.48,74.52,74.16,0.89,Repeat,False,-0.02,1.39
+L0097,Advanced,Conversational,8,Vocabulary,4.92,93.85,91.31,0.49,Repeat,False,-0.13,2.1
+L0075,Advanced,Reading,5,Grammar,7.65,55.68,64.31,0.37,Repeat,False,0.41,1.23
+L0019,Beginner,Conversational,17,Kanji,4.7,77.08,83.58,0.65,Advance,True,0.31,1.56
+L0018,Advanced,JLPT N4,5,Vocabulary,2.44,65.7,59.53,0.87,Test,False,-0.3,1.37
+L0054,Intermediate,JLPT N5,15,Kanji,6.55,66.49,55.23,0.56,Repeat,False,-0.51,1.57
+L0070,Advanced,JLPT N5,6,Grammar,4.21,41.36,46.07,0.89,Revise,True,0.23,1.86
+L0029,Beginner,Conversational,3,Vocabulary,6.14,75.96,85.27,0.38,Revise,False,0.43,1.93
+L0033,Intermediate,Conversational,8,Kanji,4.5,74.71,71.55,0.9,Revise,True,-0.16,1.78
+L0017,Advanced,JLPT N4,17,Listening,4.73,68.39,86.35,0.34,Repeat,True,0.72,1.94
+L0007,Advanced,Reading,19,Vocabulary,6.09,77.99,84.28,0.61,Test,False,0.3,1.56
+L0057,Advanced,JLPT N4,7,Vocabulary,6.63,54.12,63.96,0.51,Test,True,0.46,1.59
+L0090,Intermediate,Writing,17,Vocabulary,6.59,92.44,97.93,0.54,Revise,False,0.27,2.19
+L0082,Beginner,JLPT N5,5,Vocabulary,4.0,74.05,60.02,0.83,Revise,True,-0.61,1.78
+L0005,Intermediate,Reading,17,Listening,5.16,53.72,41.74,0.89,Test,True,-0.54,1.34
+L0030,Intermediate,Reading,17,Listening,4.43,61.49,62.78,0.36,Test,True,0.06,1.51
+L0088,Intermediate,JLPT N4,20,Vocabulary,4.1,74.41,66.68,0.72,Revise,True,-0.37,1.66
+L0097,Advanced,Reading,16,Vocabulary,5.39,66.88,51.69,0.99,Test,True,-0.64,1.8
+L0099,Intermediate,JLPT N4,16,Vocabulary,7.47,66.18,61.6,0.79,Advance,False,-0.23,1.71
+L0031,Beginner,Reading,11,Listening,8.47,80.07,77.61,0.62,Repeat,False,-0.12,1.73
+L0100,Intermediate,JLPT N5,6,Vocabulary,4.5,64.3,59.64,0.33,Revise,True,-0.23,1.13
+L0040,Intermediate,Reading,9,Grammar,2.84,72.77,76.7,0.92,Repeat,True,0.19,1.67
+L0009,Advanced,Reading,16,Vocabulary,5.68,65.59,58.69,0.91,Revise,False,-0.33,1.31
+L0076,Beginner,Reading,17,Kanji,3.73,99.69,82.14,0.48,Revise,True,-0.71,1.38
+L0069,Intermediate,Reading,19,Listening,3.07,84.77,79.8,0.81,Advance,False,-0.24,1.98
+L0078,Advanced,JLPT N5,16,Vocabulary,4.55,74.43,68.84,0.38,Advance,False,-0.27,1.63
+L0039,Beginner,JLPT N4,10,Grammar,9.54,70.81,81.31,0.42,Revise,False,0.48,1.61
+L0050,Advanced,Reading,5,Kanji,2.27,75.91,75.26,0.73,Advance,False,-0.03,1.59
+L0051,Advanced,JLPT N4,18,Vocabulary,6.26,70.95,71.9,0.34,Advance,False,0.05,1.62
+L0058,Intermediate,JLPT N5,11,Grammar,3.4,70.92,80.15,0.43,Test,True,0.43,2.1
+L0095,Intermediate,Reading,10,Kanji,2.31,82.81,75.75,0.64,Repeat,True,-0.34,1.6
+L0078,Intermediate,Conversational,15,Vocabulary,5.35,76.77,76.04,0.92,Revise,False,-0.04,1.6
+L0089,Beginner,JLPT N4,2,Listening,7.03,63.95,49.1,0.74,Repeat,False,-0.63,1.08
+L0071,Advanced,Conversational,9,Listening,5.18,63.4,58.11,0.54,Revise,True,-0.26,1.37
+L0096,Intermediate,Reading,12,Listening,2.17,43.05,55.77,0.37,Revise,True,0.56,1.52
+L0026,Beginner,JLPT N5,1,Grammar,7.78,89.74,100.0,0.71,Repeat,True,0.47,2.01
+L0085,Advanced,JLPT N5,15,Grammar,5.57,87.51,95.27,0.8,Revise,False,0.37,1.71
+L0062,Advanced,JLPT N5,1,Kanji,7.37,66.86,47.16,0.91,Advance,True,-0.76,1.45
+L0093,Intermediate,Reading,2,Kanji,6.29,54.79,68.12,0.41,Test,True,0.58,1.5
+L0045,Beginner,Conversational,10,Kanji,1.58,55.1,47.98,0.66,Test,False,-0.34,1.45
+L0040,Intermediate,Reading,4,Grammar,7.35,61.24,50.39,0.82,Revise,True,-0.5,1.51
+L0060,Advanced,Writing,17,Listening,3.42,77.11,77.55,0.85,Revise,False,0.02,1.95
+L0043,Intermediate,JLPT N5,2,Listening,1.0,67.68,61.51,0.9,Repeat,True,-0.3,1.52
+L0083,Beginner,JLPT N5,13,Kanji,5.74,66.5,70.71,0.96,Advance,True,0.21,1.87
+L0093,Advanced,Writing,7,Kanji,1.71,61.42,69.82,0.57,Advance,False,0.4,1.69
+L0077,Intermediate,Conversational,3,Kanji,4.36,90.06,78.79,0.94,Repeat,True,-0.51,1.99
+L0071,Advanced,Conversational,10,Kanji,4.91,64.89,64.75,0.65,Advance,True,-0.01,1.56
+L0011,Intermediate,Reading,10,Vocabulary,5.04,56.36,53.47,0.88,Test,True,-0.14,1.3
+L0067,Advanced,Conversational,7,Listening,5.69,40.52,46.7,0.64,Advance,True,0.3,1.47
+L0059,Intermediate,Conversational,15,Grammar,10.0,82.67,93.68,0.69,Test,True,0.5,2.04
+L0022,Advanced,Conversational,10,Grammar,4.31,83.52,74.12,0.34,Advance,True,-0.44,1.79
+L0074,Beginner,JLPT N4,12,Listening,6.42,55.46,53.13,0.79,Revise,True,-0.12,1.83
+L0043,Intermediate,Reading,13,Vocabulary,3.11,97.98,87.09,0.66,Advance,False,-0.5,1.83
+L0041,Intermediate,Writing,7,Vocabulary,1.0,65.9,62.28,0.94,Test,False,-0.18,1.66
+L0067,Advanced,JLPT N4,13,Vocabulary,4.91,78.19,62.91,0.31,Repeat,False,-0.64,1.52
+L0065,Beginner,Reading,17,Vocabulary,5.62,58.57,69.53,0.44,Test,True,0.5,1.55
+L0048,Advanced,Conversational,19,Vocabulary,6.52,57.41,71.13,0.85,Repeat,False,0.6,1.74
+L0076,Intermediate,JLPT N4,20,Grammar,6.79,79.63,69.33,0.3,Test,True,-0.47,1.6
+L0075,Beginner,JLPT N5,17,Listening,5.0,86.83,83.1,0.75,Advance,True,-0.18,1.74
+L0005,Advanced,Conversational,8,Grammar,4.86,52.39,54.36,0.86,Advance,True,0.1,1.41
+L0011,Intermediate,JLPT N4,13,Listening,8.6,65.25,58.84,0.98,Advance,True,-0.31,1.67
+L0060,Advanced,Writing,8,Listening,3.88,62.08,60.06,0.85,Advance,False,-0.1,1.93
+L0085,Beginner,JLPT N5,6,Grammar,8.29,62.22,85.87,0.58,Repeat,True,0.83,1.9
+L0031,Intermediate,Conversational,8,Vocabulary,2.38,35.41,48.17,0.76,Revise,False,0.56,1.5
+L0094,Advanced,Conversational,14,Listening,4.61,78.19,77.99,0.84,Test,True,-0.01,1.58
+L0052,Intermediate,JLPT N4,4,Grammar,6.09,72.6,85.2,0.55,Advance,True,0.56,2.02
+L0070,Beginner,Reading,8,Listening,7.6,80.01,72.87,0.42,Revise,False,-0.34,1.96
+L0002,Beginner,JLPT N5,19,Listening,7.56,100.0,90.97,0.93,Test,False,-0.42,1.87
+L0076,Beginner,Writing,9,Listening,5.75,72.5,87.92,0.36,Advance,True,0.65,1.93
+L0025,Advanced,JLPT N5,8,Grammar,4.19,70.03,71.2,0.31,Test,False,0.06,1.38
+L0024,Intermediate,JLPT N4,13,Vocabulary,8.7,68.44,60.05,0.47,Repeat,True,-0.4,1.52
+L0009,Intermediate,Writing,9,Vocabulary,4.31,65.78,72.19,0.85,Test,False,0.31,2.1
+L0040,Beginner,Conversational,7,Listening,3.0,71.3,65.98,0.84,Revise,True,-0.26,1.8
+L0058,Intermediate,Reading,10,Listening,5.65,76.96,76.98,0.49,Test,False,0.0,1.68
+L0070,Intermediate,Reading,15,Kanji,7.63,80.7,70.44,0.65,Test,False,-0.47,1.83
+L0040,Beginner,JLPT N4,20,Listening,5.38,84.72,68.1,0.31,Advance,False,-0.68,1.43
+L0012,Beginner,JLPT N4,15,Listening,6.64,56.33,59.75,0.99,Advance,False,0.17,1.66
+L0084,Advanced,Reading,20,Listening,6.07,84.35,90.14,0.36,Revise,False,0.28,2.01
+L0062,Advanced,Writing,19,Kanji,5.13,83.75,90.94,0.96,Repeat,False,0.34,2.01
+L0014,Intermediate,Reading,14,Kanji,1.0,66.8,63.62,0.56,Repeat,False,-0.16,1.42
+L0012,Beginner,Reading,9,Grammar,6.67,89.94,87.84,0.5,Test,False,-0.1,1.86
+L0048,Beginner,JLPT N4,11,Grammar,5.29,42.49,34.16,0.72,Revise,True,-0.39,1.21
+L0059,Intermediate,Reading,13,Grammar,1.0,68.17,75.43,0.7,Repeat,False,0.35,1.93
+L0053,Intermediate,JLPT N4,8,Vocabulary,1.05,84.46,91.67,0.86,Revise,True,0.35,1.98
+L0051,Intermediate,JLPT N4,16,Grammar,7.1,55.21,64.98,0.37,Advance,False,0.45,1.84
+L0082,Beginner,Writing,9,Vocabulary,5.94,64.55,59.12,0.63,Test,True,-0.26,1.9
+L0009,Intermediate,JLPT N4,12,Listening,6.64,71.72,82.58,0.3,Repeat,True,0.5,1.76
+L0097,Advanced,Reading,16,Vocabulary,1.29,87.12,85.29,0.4,Revise,True,-0.09,2.18
+L0064,Advanced,Writing,14,Listening,4.45,64.57,63.95,0.49,Test,True,-0.03,1.55
+L0081,Advanced,Writing,17,Grammar,8.19,91.98,83.06,0.61,Revise,True,-0.42,1.84
+L0021,Advanced,JLPT N4,15,Grammar,7.11,80.69,87.15,0.99,Advance,True,0.31,1.51
+L0054,Advanced,Reading,18,Listening,4.86,55.26,63.1,0.82,Repeat,False,0.37,1.71
+L0033,Beginner,JLPT N5,17,Listening,4.7,57.25,82.54,0.95,Advance,False,0.85,1.61
+L0046,Advanced,Writing,19,Grammar,2.17,60.36,55.77,0.82,Revise,False,-0.23,1.35
+L0067,Advanced,Writing,5,Kanji,6.34,80.67,94.08,0.72,Test,True,0.59,1.79
+L0029,Intermediate,Writing,2,Kanji,3.84,75.99,62.78,0.64,Advance,True,-0.58,1.58
+L0042,Beginner,Conversational,19,Grammar,7.34,45.17,51.02,0.91,Test,True,0.28,1.46
+L0002,Advanced,Reading,16,Vocabulary,4.78,47.27,35.42,0.36,Revise,True,-0.53,1.59
+L0094,Advanced,JLPT N4,3,Grammar,4.34,39.86,37.98,0.9,Test,True,-0.09,1.41
+L0068,Beginner,Conversational,18,Kanji,1.85,63.89,74.98,0.43,Repeat,False,0.5,1.92
+L0055,Intermediate,Writing,16,Grammar,3.95,100.0,100.0,0.83,Test,True,0.0,2.14
+L0052,Advanced,JLPT N4,11,Grammar,6.55,94.1,88.95,0.74,Advance,True,-0.25,1.89
+L0063,Beginner,JLPT N5,6,Kanji,5.96,68.91,83.39,0.96,Advance,False,0.62,1.95
+L0090,Intermediate,JLPT N5,8,Kanji,2.89,84.5,71.06,0.49,Test,True,-0.59,1.78
+L0052,Advanced,Reading,17,Vocabulary,5.14,74.23,67.68,0.84,Test,True,-0.32,1.47
+L0065,Advanced,Writing,13,Listening,4.23,62.47,77.79,0.73,Repeat,True,0.64,1.85
+L0009,Advanced,JLPT N5,8,Grammar,4.53,69.02,76.98,0.92,Repeat,False,0.38,1.83
+L0072,Beginner,Writing,19,Vocabulary,4.62,82.74,60.56,0.61,Test,False,-0.8,2.09
+L0048,Intermediate,JLPT N4,16,Listening,8.47,74.22,76.92,0.79,Revise,True,0.13,1.58
+L0082,Advanced,JLPT N4,13,Grammar,7.63,86.74,86.98,0.93,Repeat,True,0.01,2.2
+L0076,Intermediate,JLPT N4,19,Vocabulary,4.5,60.4,61.08,0.74,Advance,True,0.03,1.39
+L0100,Advanced,JLPT N4,7,Vocabulary,7.7,100.0,99.59,0.32,Revise,True,-0.02,2.43
+L0003,Intermediate,Writing,14,Kanji,5.07,67.86,54.5,0.54,Revise,True,-0.58,1.76
+L0057,Advanced,JLPT N4,12,Kanji,5.59,74.69,88.07,0.8,Revise,False,0.58,1.53
+L0023,Beginner,Writing,17,Vocabulary,5.48,44.07,41.48,0.59,Test,False,-0.13,1.91
+L0075,Intermediate,Conversational,20,Grammar,3.54,57.3,37.17,0.42,Test,False,-0.76,1.4
+L0042,Advanced,Writing,17,Kanji,1.52,76.81,77.46,0.48,Revise,True,0.03,1.73
+L0087,Intermediate,JLPT N4,17,Listening,5.48,57.39,59.59,0.31,Repeat,True,0.11,1.53
+L0028,Beginner,JLPT N4,1,Vocabulary,7.16,90.65,92.67,0.31,Revise,False,0.1,1.88
+L0074,Advanced,Reading,9,Kanji,6.22,50.22,44.64,0.31,Test,True,-0.27,1.44
+L0021,Intermediate,JLPT N5,20,Kanji,4.08,72.83,61.78,0.94,Test,True,-0.5,1.42
+L0082,Beginner,JLPT N4,5,Vocabulary,8.29,49.78,56.56,0.66,Revise,True,0.33,1.7
+L0036,Advanced,Reading,20,Listening,6.78,66.26,58.25,0.34,Test,True,-0.38,1.39
+L0019,Beginner,JLPT N5,8,Kanji,1.67,74.0,64.28,0.39,Advance,False,-0.45,1.25
+L0075,Intermediate,Reading,3,Grammar,9.24,84.67,60.82,0.94,Test,False,-0.83,1.5
+L0053,Beginner,Conversational,17,Grammar,1.38,55.74,24.35,0.66,Test,False,-0.92,1.22
+L0067,Advanced,Reading,19,Kanji,4.72,46.8,57.62,0.68,Revise,True,0.49,1.53
+L0020,Intermediate,Reading,7,Kanji,8.85,53.45,62.59,0.63,Advance,True,0.43,1.86
+L0043,Beginner,Writing,12,Listening,5.92,65.58,56.57,0.37,Advance,True,-0.42,1.48
+L0056,Beginner,Reading,9,Grammar,9.01,73.34,72.54,0.82,Repeat,False,-0.04,1.55
+L0003,Intermediate,Conversational,19,Listening,6.64,55.51,42.17,0.9,Test,False,-0.58,1.51
+L0001,Intermediate,JLPT N4,16,Grammar,4.15,62.66,57.28,0.32,Test,False,-0.26,1.67
+L0096,Intermediate,JLPT N5,20,Kanji,5.37,55.13,56.18,0.74,Revise,False,0.05,1.59
+L0019,Intermediate,JLPT N5,5,Kanji,6.04,57.39,47.11,0.47,Revise,False,-0.47,1.27
+L0079,Advanced,Writing,13,Vocabulary,5.67,84.05,100.0,0.73,Test,True,0.66,1.94
+L0022,Intermediate,Reading,1,Kanji,5.18,44.23,52.86,0.63,Revise,False,0.41,1.45
+L0096,Beginner,Reading,6,Grammar,3.07,42.69,43.16,0.54,Test,True,0.02,1.08
+L0020,Intermediate,Conversational,19,Listening,5.88,62.19,51.68,0.33,Advance,False,-0.48,1.69
+L0084,Beginner,Conversational,10,Listening,5.46,78.67,82.44,0.43,Test,True,0.19,1.77
+L0029,Advanced,Conversational,11,Kanji,3.15,53.77,72.15,0.95,Revise,True,0.73,1.75
+L0047,Beginner,JLPT N4,20,Listening,4.93,61.24,45.08,0.62,Repeat,True,-0.67,1.28
+L0070,Advanced,Conversational,10,Kanji,6.45,83.82,77.96,0.71,Test,True,-0.29,1.78
+L0077,Intermediate,Conversational,17,Grammar,4.1,85.94,66.67,0.56,Repeat,False,-0.75,1.37
+L0088,Beginner,Reading,17,Vocabulary,6.6,87.81,83.28,0.76,Advance,False,-0.22,1.87
+L0033,Intermediate,JLPT N4,11,Kanji,7.28,52.3,56.48,0.91,Revise,False,0.21,1.56
+L0040,Beginner,Conversational,6,Vocabulary,4.59,72.62,77.3,0.46,Revise,True,0.23,1.82
+L0030,Advanced,Conversational,13,Kanji,5.2,66.79,48.67,0.46,Test,False,-0.72,2.01
+L0059,Intermediate,Conversational,1,Grammar,5.46,49.81,44.87,0.46,Test,True,-0.24,1.15
+L0047,Advanced,JLPT N4,15,Kanji,1.44,76.46,60.71,0.53,Repeat,False,-0.66,1.85
+L0043,Beginner,JLPT N5,19,Listening,5.93,61.84,56.79,0.55,Advance,True,-0.25,1.26
+L0082,Beginner,Conversational,6,Listening,7.53,67.43,99.52,0.44,Revise,False,0.92,1.83
+L0006,Beginner,Conversational,20,Grammar,3.49,68.3,62.86,0.37,Revise,True,-0.27,1.88
+L0045,Beginner,JLPT N4,4,Grammar,6.23,92.36,76.85,0.61,Revise,False,-0.65,1.55
+L0042,Intermediate,Conversational,14,Grammar,7.13,61.6,48.52,0.39,Test,True,-0.57,1.53
+L0001,Beginner,Reading,11,Listening,2.34,69.6,83.21,0.84,Repeat,True,0.59,1.84
+L0077,Intermediate,Writing,17,Kanji,5.82,83.75,64.49,0.31,Repeat,False,-0.75,1.48
+L0070,Advanced,Reading,16,Listening,5.22,84.97,91.41,0.34,Revise,True,0.31,2.33
+L0039,Beginner,Reading,10,Listening,3.0,45.0,63.88,0.5,Test,True,0.74,1.41
+L0068,Beginner,Reading,6,Kanji,3.47,62.58,57.85,0.71,Repeat,True,-0.23,1.44
+L0016,Beginner,Reading,18,Listening,5.48,66.84,72.95,0.35,Revise,False,0.3,1.75
+L0013,Advanced,JLPT N5,4,Listening,3.99,73.6,88.45,0.43,Revise,False,0.63,1.48
+L0006,Intermediate,Conversational,6,Listening,8.35,67.93,61.35,0.54,Advance,True,-0.32,1.43
+L0037,Intermediate,Conversational,11,Grammar,4.26,85.63,92.0,1.0,Advance,True,0.31,1.85
+L0002,Beginner,Conversational,14,Vocabulary,6.79,69.08,55.19,0.65,Revise,False,-0.6,1.37
+L0026,Intermediate,Writing,11,Kanji,5.54,65.56,67.38,0.54,Revise,True,0.09,1.8
+L0023,Beginner,JLPT N5,8,Vocabulary,3.2,57.05,62.7,0.33,Repeat,False,0.28,1.66
+L0059,Beginner,JLPT N5,18,Listening,1.87,80.88,77.38,0.5,Advance,False,-0.17,1.93
+L0013,Beginner,JLPT N4,14,Kanji,3.59,49.76,49.96,0.65,Test,True,0.01,1.42
+L0065,Intermediate,Reading,14,Grammar,8.84,72.97,93.06,0.89,Repeat,False,0.76,1.72
+L0015,Beginner,Conversational,19,Vocabulary,4.62,48.33,45.69,0.65,Revise,True,-0.13,1.58
+L0090,Beginner,JLPT N4,16,Listening,2.43,58.78,69.13,0.47,Test,True,0.48,1.84
+L0027,Advanced,Writing,17,Listening,5.34,78.81,67.49,0.31,Revise,True,-0.51,1.52
+L0066,Intermediate,JLPT N4,20,Grammar,8.15,81.23,82.16,0.82,Repeat,True,0.05,1.44
+L0014,Beginner,Writing,8,Grammar,7.64,76.92,69.73,0.84,Repeat,True,-0.34,1.71
+L0086,Intermediate,Reading,9,Grammar,5.63,82.83,82.24,0.87,Test,False,-0.03,1.8
+L0066,Intermediate,JLPT N5,17,Grammar,3.73,41.41,40.52,0.73,Revise,False,-0.04,1.85
+L0080,Advanced,Conversational,12,Listening,4.25,77.35,78.73,0.99,Revise,True,0.07,1.91
+L0072,Intermediate,Conversational,4,Listening,1.12,47.39,51.98,0.35,Advance,False,0.23,1.81
+L0091,Advanced,JLPT N4,6,Listening,6.66,81.97,67.73,0.53,Test,False,-0.61,2.06
+L0021,Beginner,Writing,19,Listening,5.2,77.48,81.81,0.35,Repeat,True,0.21,1.9
+L0042,Beginner,JLPT N5,17,Vocabulary,5.57,72.83,78.34,0.91,Test,True,0.27,1.76
+L0081,Beginner,JLPT N5,19,Listening,4.55,52.17,66.6,0.71,Repeat,True,0.62,1.29
+L0033,Advanced,JLPT N4,7,Kanji,4.62,60.06,41.42,0.31,Advance,True,-0.73,1.57
+L0051,Intermediate,JLPT N5,6,Kanji,5.27,70.09,96.46,0.57,Advance,False,0.87,2.26
+L0077,Beginner,JLPT N5,16,Listening,3.44,51.49,37.8,0.46,Test,True,-0.59,1.34
+L0006,Beginner,Writing,14,Listening,9.04,59.94,55.51,0.43,Repeat,True,-0.22,1.7
+L0009,Beginner,Writing,12,Listening,4.97,73.9,87.91,0.53,Repeat,False,0.6,2.39
+L0085,Beginner,JLPT N4,17,Grammar,2.82,59.38,58.88,0.69,Repeat,True,-0.03,1.8
+L0071,Beginner,Reading,5,Grammar,1.99,61.65,65.94,0.68,Repeat,False,0.21,1.81
+L0009,Intermediate,JLPT N5,20,Listening,4.22,72.37,58.24,0.96,Revise,False,-0.61,1.64
+L0100,Advanced,Conversational,1,Grammar,4.63,82.0,87.89,0.91,Test,True,0.29,1.65
+L0020,Beginner,JLPT N5,15,Vocabulary,7.14,51.33,48.3,0.95,Revise,True,-0.15,1.58
+L0051,Beginner,Writing,5,Listening,5.5,33.39,31.55,0.55,Revise,True,-0.09,1.27
+L0077,Intermediate,Conversational,7,Grammar,5.35,55.84,55.16,0.51,Repeat,True,-0.03,1.49
+L0061,Intermediate,Writing,12,Grammar,10.0,87.84,79.56,0.56,Test,True,-0.39,1.94
+L0081,Beginner,Writing,20,Listening,4.87,78.27,86.39,0.49,Revise,False,0.38,2.03
+L0067,Beginner,JLPT N5,1,Grammar,4.02,30.32,32.28,0.5,Advance,True,0.1,1.0
+L0061,Beginner,Writing,9,Vocabulary,1.0,43.46,43.05,0.55,Repeat,False,-0.02,1.47
+L0005,Beginner,JLPT N4,10,Vocabulary,5.47,87.47,93.73,0.6,Advance,False,0.3,1.9
+L0027,Advanced,Reading,10,Kanji,6.89,56.11,61.36,0.81,Revise,False,0.26,1.78
+L0012,Advanced,Reading,14,Vocabulary,9.24,50.13,58.3,0.37,Repeat,True,0.39,1.38
+L0055,Advanced,Reading,16,Listening,6.74,56.05,52.04,0.79,Advance,True,-0.2,1.84
+L0080,Advanced,Writing,12,Kanji,3.8,56.97,63.1,0.47,Advance,False,0.3,1.62
+L0050,Beginner,JLPT N5,17,Kanji,1.44,62.0,54.34,0.86,Repeat,False,-0.37,1.53
+L0053,Advanced,Conversational,10,Listening,4.34,63.28,65.48,0.35,Test,True,0.11,1.69
+L0062,Intermediate,JLPT N5,14,Listening,2.71,62.97,50.68,0.99,Test,False,-0.55,1.46
+L0057,Beginner,Reading,16,Kanji,7.15,63.63,75.5,0.37,Repeat,False,0.53,1.57
+L0030,Beginner,Writing,18,Listening,1.49,76.81,67.95,0.31,Revise,False,-0.42,1.55
+L0053,Intermediate,JLPT N5,18,Kanji,2.8,80.98,91.06,0.79,Advance,True,0.46,1.92
+L0088,Advanced,Conversational,2,Kanji,6.03,58.79,62.66,0.69,Test,False,0.19,1.63
+L0081,Intermediate,JLPT N5,16,Kanji,5.87,78.99,63.1,0.45,Repeat,False,-0.66,1.89
+L0074,Beginner,Conversational,11,Grammar,4.95,52.45,68.17,0.33,Test,True,0.66,1.38
+L0005,Advanced,JLPT N4,8,Grammar,5.46,60.78,61.4,0.48,Advance,True,0.03,1.35
+L0012,Advanced,JLPT N5,10,Vocabulary,7.28,100.0,90.29,0.75,Repeat,True,-0.45,1.99
+L0015,Advanced,JLPT N4,14,Grammar,3.77,69.97,61.49,0.75,Advance,False,-0.4,1.44
+L0087,Intermediate,JLPT N4,5,Vocabulary,4.47,37.09,30.21,0.79,Repeat,True,-0.33,1.79
+L0058,Intermediate,JLPT N5,5,Vocabulary,6.77,51.82,47.26,0.61,Revise,False,-0.22,1.56
+L0021,Intermediate,JLPT N5,14,Vocabulary,5.01,78.77,81.15,0.81,Advance,False,0.12,1.91
+L0048,Intermediate,JLPT N4,10,Grammar,2.43,79.55,51.5,0.56,Repeat,True,-0.89,1.59
+L0069,Intermediate,JLPT N5,8,Vocabulary,4.69,67.34,57.35,0.54,Revise,False,-0.46,1.23
+L0046,Beginner,Reading,14,Listening,6.98,90.42,97.6,0.96,Test,True,0.34,1.48
+L0044,Advanced,JLPT N4,15,Listening,3.24,48.36,53.16,0.75,Repeat,False,0.24,1.81
+L0023,Intermediate,Reading,3,Grammar,3.28,57.17,58.63,0.41,Revise,False,0.07,1.68
+L0051,Beginner,JLPT N4,8,Kanji,6.84,88.42,85.82,0.37,Test,False,-0.13,1.65
+L0037,Advanced,Reading,9,Grammar,5.12,98.89,99.71,0.46,Test,True,0.04,2.23
+L0002,Intermediate,Reading,15,Kanji,2.34,58.87,64.13,0.7,Revise,False,0.26,1.64
+L0080,Intermediate,Reading,14,Listening,7.76,62.25,61.25,0.86,Repeat,False,-0.05,1.52
+L0021,Beginner,Conversational,17,Kanji,3.6,64.11,66.78,0.92,Test,True,0.13,1.88
+L0024,Intermediate,JLPT N5,2,Grammar,7.32,69.67,68.46,0.5,Advance,False,-0.06,1.5
+L0009,Intermediate,JLPT N5,5,Grammar,3.56,76.17,80.27,0.96,Test,False,0.2,2.05
+L0041,Intermediate,JLPT N5,17,Grammar,5.68,58.67,71.55,0.44,Repeat,False,0.57,1.66
+L0097,Beginner,Conversational,18,Vocabulary,5.32,94.52,88.54,0.74,Revise,False,-0.29,1.85
+L0057,Beginner,JLPT N5,17,Listening,3.25,82.43,79.12,0.97,Advance,False,-0.16,2.02
+L0011,Beginner,Conversational,13,Listening,3.6,66.86,81.41,0.66,Advance,True,0.62,1.49
+L0083,Beginner,JLPT N4,12,Vocabulary,6.44,89.02,96.8,0.48,Revise,False,0.37,1.79
+L0071,Intermediate,JLPT N5,13,Kanji,7.55,46.31,42.24,0.52,Test,False,-0.2,1.36
+L0100,Intermediate,JLPT N5,15,Vocabulary,7.71,76.21,87.44,0.59,Revise,True,0.51,2.2
+L0087,Advanced,JLPT N4,12,Listening,6.17,73.03,69.74,0.6,Advance,True,-0.16,1.63
+L0071,Intermediate,JLPT N5,8,Kanji,2.96,57.18,63.88,0.34,Test,False,0.32,2.09
+L0016,Advanced,JLPT N4,18,Vocabulary,3.95,100.0,99.89,0.59,Test,True,-0.01,1.94
+L0076,Intermediate,JLPT N5,18,Grammar,4.43,87.86,98.08,0.9,Test,False,0.47,2.02
+L0070,Intermediate,JLPT N5,3,Grammar,6.29,59.73,46.46,0.93,Revise,False,-0.58,1.41
+L0063,Beginner,Conversational,16,Kanji,8.03,87.2,76.07,0.54,Test,False,-0.51,1.53
+L0051,Advanced,Reading,3,Kanji,4.04,85.78,72.98,0.68,Advance,True,-0.57,1.57
+L0066,Advanced,Writing,20,Vocabulary,4.43,85.79,90.84,0.9,Repeat,True,0.25,2.27
+L0083,Intermediate,JLPT N5,18,Kanji,7.92,60.57,49.29,0.94,Revise,False,-0.51,1.41
+L0004,Intermediate,Conversational,6,Vocabulary,2.82,78.42,84.05,0.47,Revise,True,0.27,1.81
+L0008,Beginner,JLPT N4,4,Grammar,4.29,94.72,95.4,0.62,Test,False,0.03,1.98
+L0051,Advanced,Reading,4,Kanji,6.59,94.96,91.71,0.51,Repeat,True,-0.16,2.09
+L0036,Beginner,Conversational,8,Listening,1.86,76.82,67.59,0.72,Revise,True,-0.43,1.78
+L0013,Intermediate,Conversational,7,Grammar,6.24,66.93,56.36,0.69,Advance,True,-0.48,1.74
+L0083,Advanced,Conversational,19,Listening,5.18,82.44,67.11,0.68,Test,True,-0.64,1.68
+L0026,Beginner,Reading,10,Listening,6.74,74.91,63.7,0.66,Advance,True,-0.51,1.91
+L0094,Intermediate,JLPT N5,18,Grammar,3.49,34.86,35.55,0.44,Repeat,False,0.03,1.58
+L0069,Advanced,JLPT N4,10,Kanji,5.29,64.18,66.13,0.32,Revise,False,0.1,1.58
+L0012,Intermediate,JLPT N4,4,Grammar,4.79,52.29,68.21,0.86,Repeat,True,0.66,1.56
+L0093,Beginner,JLPT N4,14,Grammar,2.11,79.57,97.02,0.95,Test,True,0.7,2.1
+L0009,Beginner,Writing,9,Kanji,7.83,56.89,55.77,0.58,Advance,False,-0.06,1.47
+L0014,Advanced,Conversational,8,Grammar,6.53,82.27,93.28,0.39,Advance,False,0.5,1.96
+L0064,Advanced,JLPT N5,10,Grammar,1.0,48.74,41.72,0.38,Repeat,False,-0.34,1.15
+L0098,Intermediate,Conversational,7,Listening,5.24,38.51,21.27,0.94,Repeat,True,-0.7,1.26
+L0002,Intermediate,Conversational,19,Grammar,4.87,77.79,94.22,0.45,Repeat,False,0.68,2.01
+L0098,Advanced,JLPT N5,12,Listening,4.6,52.26,28.35,0.61,Test,False,-0.83,1.31
+L0043,Intermediate,JLPT N5,8,Vocabulary,4.3,73.59,81.04,0.82,Revise,False,0.36,2.02
+L0066,Advanced,Writing,12,Kanji,4.8,65.91,46.37,0.79,Repeat,False,-0.75,1.4
+L0086,Intermediate,JLPT N5,8,Kanji,4.73,63.83,81.47,0.32,Revise,False,0.71,1.58
+L0036,Advanced,JLPT N5,18,Kanji,7.5,90.65,100.0,0.91,Repeat,False,0.44,1.65
+L0070,Intermediate,Reading,12,Grammar,6.32,67.8,66.55,0.75,Repeat,True,-0.06,1.75
+L0054,Intermediate,Reading,19,Grammar,4.31,87.13,98.71,0.84,Test,True,0.52,1.95
+L0071,Intermediate,Reading,11,Kanji,7.37,52.53,40.49,0.52,Repeat,True,-0.54,1.45
+L0013,Intermediate,JLPT N5,10,Listening,4.27,74.15,71.96,0.36,Advance,True,-0.11,1.66
+L0062,Beginner,Writing,17,Kanji,1.0,63.64,64.27,0.56,Test,True,0.03,1.59
+L0011,Beginner,Writing,18,Grammar,6.26,49.76,55.27,0.33,Advance,False,0.27,1.41
+L0042,Advanced,Reading,4,Listening,2.66,82.16,91.54,0.83,Advance,True,0.44,1.82
+L0050,Beginner,JLPT N4,8,Grammar,6.96,42.54,30.48,0.74,Advance,False,-0.54,1.67
+L0091,Advanced,JLPT N5,12,Grammar,5.72,72.37,93.73,0.98,Repeat,True,0.79,2.17
+L0098,Beginner,Writing,9,Grammar,8.53,82.95,70.66,0.75,Advance,False,-0.55,1.9
+L0013,Beginner,Reading,12,Vocabulary,3.93,67.27,55.48,0.7,Revise,True,-0.53,1.65
+L0005,Intermediate,Writing,11,Listening,3.61,84.92,100.0,0.87,Advance,False,0.64,2.05
+L0085,Advanced,JLPT N5,1,Grammar,5.75,73.57,74.03,0.46,Repeat,True,0.02,1.75
+L0011,Beginner,JLPT N4,16,Vocabulary,3.97,82.52,89.71,0.5,Repeat,False,0.34,1.87
+L0015,Intermediate,Conversational,18,Grammar,4.97,55.68,44.9,0.51,Test,True,-0.49,1.63
+L0094,Intermediate,Reading,8,Grammar,7.78,65.78,56.92,0.74,Repeat,False,-0.42,1.62
+L0041,Beginner,Conversational,3,Kanji,4.92,62.63,85.03,0.77,Repeat,True,0.81,1.47
+L0027,Beginner,Conversational,6,Grammar,5.93,65.0,62.25,0.43,Advance,False,-0.14,1.38
+L0027,Advanced,Reading,6,Vocabulary,1.0,64.43,74.24,0.69,Revise,False,0.45,1.67
+L0053,Beginner,JLPT N4,15,Vocabulary,5.09,74.29,54.92,0.88,Repeat,True,-0.75,1.75
+L0042,Beginner,Conversational,8,Vocabulary,3.1,55.87,64.66,0.61,Test,True,0.41,1.34
+L0032,Intermediate,Conversational,15,Kanji,2.34,76.42,87.43,0.92,Revise,True,0.5,1.59
+L0003,Intermediate,JLPT N4,7,Kanji,3.05,72.4,68.17,0.5,Repeat,True,-0.21,1.53
+L0057,Beginner,JLPT N5,15,Grammar,6.59,58.51,65.03,0.74,Repeat,True,0.31,1.71
+L0030,Intermediate,Writing,7,Vocabulary,3.99,71.93,58.57,0.93,Test,True,-0.58,1.7
+L0054,Intermediate,JLPT N4,2,Vocabulary,8.37,75.89,65.01,0.77,Revise,True,-0.5,1.63
+L0045,Advanced,Writing,1,Vocabulary,3.37,65.15,51.76,0.51,Advance,False,-0.58,1.7
+L0063,Advanced,Conversational,17,Listening,5.87,58.74,27.33,0.97,Advance,False,-0.92,1.43
+L0066,Beginner,Conversational,8,Vocabulary,6.01,81.05,72.63,0.75,Repeat,False,-0.4,1.8
+L0051,Beginner,Writing,8,Grammar,7.83,97.63,96.17,0.61,Advance,True,-0.07,2.03
+L0003,Beginner,Writing,3,Listening,3.91,81.19,86.19,0.54,Advance,True,0.25,1.91
+L0069,Intermediate,JLPT N4,18,Vocabulary,2.57,68.04,83.23,0.94,Advance,False,0.64,1.95
+L0071,Beginner,Reading,10,Listening,4.2,53.13,49.79,0.97,Test,False,-0.17,1.68
+L0067,Advanced,Writing,3,Vocabulary,7.37,66.78,82.32,0.43,Repeat,False,0.65,1.96
+L0100,Intermediate,Writing,4,Vocabulary,6.33,46.82,43.19,0.38,Advance,False,-0.18,1.49
+L0019,Intermediate,Reading,7,Listening,6.07,92.39,88.48,0.83,Advance,False,-0.19,2.18
+L0089,Beginner,Reading,3,Listening,6.63,56.3,59.37,0.54,Repeat,False,0.15,1.58
+L0058,Advanced,Writing,8,Grammar,4.39,90.54,89.55,0.82,Revise,False,-0.05,2.06
+L0099,Advanced,Writing,12,Listening,3.64,60.79,76.03,0.72,Revise,True,0.64,1.67
+L0036,Beginner,JLPT N5,19,Kanji,3.26,89.56,98.21,0.61,Advance,True,0.41,1.65
+L0093,Advanced,JLPT N4,2,Listening,7.33,93.83,86.98,0.83,Revise,True,-0.33,2.03
+L0089,Beginner,Writing,3,Listening,4.25,44.66,56.63,0.34,Advance,False,0.54,1.51
+L0031,Beginner,Conversational,15,Vocabulary,2.45,75.61,77.6,0.58,Advance,False,0.1,2.31
+L0046,Intermediate,Conversational,4,Kanji,3.78,73.9,81.6,0.72,Advance,False,0.37,2.17
+L0069,Advanced,Writing,12,Grammar,8.72,74.14,86.85,0.56,Revise,True,0.56,1.89
+L0038,Beginner,JLPT N5,1,Kanji,8.4,82.37,74.13,0.53,Revise,False,-0.39,1.32
+L0087,Beginner,JLPT N5,9,Grammar,4.94,75.93,76.26,0.65,Repeat,False,0.02,2.03
+L0075,Advanced,JLPT N4,2,Grammar,6.38,65.66,74.08,0.79,Advance,True,0.4,2.15
+L0030,Advanced,JLPT N4,7,Vocabulary,4.43,69.25,67.06,0.74,Revise,True,-0.11,1.72
+L0015,Advanced,JLPT N4,7,Vocabulary,1.0,82.81,69.91,0.46,Repeat,True,-0.57,1.98
+L0095,Beginner,JLPT N4,12,Listening,4.63,68.28,53.45,0.77,Advance,False,-0.63,1.76
+L0026,Intermediate,Reading,17,Vocabulary,2.74,83.1,92.89,0.58,Repeat,False,0.45,2.01
+L0037,Beginner,Reading,20,Kanji,8.5,61.34,65.47,0.81,Advance,False,0.2,1.42
+L0066,Beginner,Conversational,6,Vocabulary,3.06,72.83,57.14,0.35,Revise,True,-0.66,1.46
+L0061,Beginner,Writing,4,Listening,1.61,54.19,68.46,0.64,Repeat,False,0.61,1.58
+L0024,Advanced,JLPT N4,18,Listening,4.24,74.7,77.47,0.64,Repeat,True,0.14,1.76
+L0017,Beginner,JLPT N4,18,Kanji,6.39,64.79,53.22,0.68,Advance,True,-0.52,1.79
+L0014,Beginner,Reading,14,Grammar,4.97,79.83,100.0,0.3,Repeat,True,0.77,2.01
+L0076,Advanced,Conversational,2,Listening,4.32,85.33,92.66,0.56,Repeat,True,0.35,2.2
+L0024,Intermediate,JLPT N4,4,Grammar,8.2,58.88,72.98,0.8,Test,True,0.61,1.74
+L0019,Beginner,JLPT N4,18,Listening,4.12,74.36,76.35,0.78,Advance,False,0.1,2.01
+L0041,Intermediate,JLPT N5,12,Vocabulary,3.75,87.69,81.23,0.75,Repeat,False,-0.31,1.57
+L0014,Beginner,JLPT N5,7,Kanji,8.23,80.94,80.11,0.62,Repeat,False,-0.04,2.08
+L0065,Beginner,Conversational,18,Kanji,4.05,71.77,88.96,0.89,Revise,False,0.7,2.0
+L0069,Intermediate,Reading,20,Kanji,6.92,94.08,100.0,0.88,Test,False,0.29,2.04
+L0046,Advanced,Conversational,8,Kanji,2.75,51.21,43.07,0.36,Advance,True,-0.39,1.36
+L0057,Advanced,JLPT N4,6,Listening,3.78,81.95,81.93,0.37,Revise,False,-0.0,1.78
+L0019,Advanced,Conversational,14,Listening,4.14,44.43,41.95,0.85,Test,True,-0.12,1.32
+L0060,Beginner,JLPT N5,3,Grammar,1.48,79.76,94.52,0.32,Repeat,True,0.63,1.13
+L0067,Intermediate,Reading,7,Grammar,6.78,90.57,81.31,0.33,Repeat,False,-0.43,2.17
+L0018,Advanced,Conversational,4,Listening,9.77,100.0,99.28,0.64,Revise,False,-0.04,2.03
+L0069,Intermediate,Reading,5,Listening,5.55,75.13,64.15,0.45,Repeat,False,-0.5,1.65
+L0057,Advanced,Conversational,16,Grammar,4.23,58.21,59.43,0.92,Test,True,0.06,1.54
+L0012,Intermediate,JLPT N5,9,Listening,2.95,63.13,62.18,0.93,Revise,False,-0.05,1.54
+L0095,Advanced,JLPT N5,10,Kanji,4.66,69.01,51.92,0.35,Revise,True,-0.69,1.6
+L0100,Advanced,Reading,7,Listening,2.35,100.0,97.16,0.62,Advance,True,-0.14,1.62
+L0073,Intermediate,Conversational,16,Kanji,6.24,75.2,65.11,0.73,Advance,True,-0.47,1.35
+L0019,Intermediate,JLPT N5,6,Kanji,6.22,77.28,78.39,0.65,Revise,True,0.06,1.76
+L0069,Intermediate,JLPT N5,11,Listening,6.05,35.05,23.3,0.48,Repeat,True,-0.53,1.43
+L0100,Intermediate,Writing,19,Vocabulary,3.52,72.1,77.48,1.0,Test,True,0.26,1.8
+L0016,Beginner,Reading,9,Listening,6.54,63.5,69.72,0.55,Test,True,0.3,1.83
+L0056,Advanced,JLPT N4,19,Grammar,5.47,71.54,74.78,0.99,Repeat,False,0.16,1.85
+L0076,Advanced,Conversational,16,Vocabulary,6.88,47.05,32.11,0.41,Advance,False,-0.63,1.36
+L0079,Advanced,Conversational,9,Vocabulary,3.3,84.52,82.75,0.83,Repeat,True,-0.09,1.86
+L0091,Advanced,Reading,9,Kanji,7.35,50.31,55.68,0.84,Repeat,False,0.26,1.22
+L0032,Intermediate,Reading,20,Listening,3.32,51.81,59.63,0.93,Test,True,0.37,1.58
+L0073,Advanced,Writing,12,Grammar,5.68,69.66,89.2,0.53,Repeat,False,0.75,2.03
+L0088,Advanced,Conversational,13,Vocabulary,7.66,44.87,36.8,0.44,Revise,False,-0.38,1.7
+L0037,Beginner,Conversational,1,Grammar,3.21,75.58,91.3,0.42,Advance,False,0.66,1.93
+L0083,Intermediate,Reading,3,Listening,5.49,89.13,83.02,0.65,Repeat,True,-0.3,1.75
+L0002,Intermediate,Reading,18,Listening,8.57,63.49,78.45,0.8,Repeat,True,0.63,2.04
+L0006,Advanced,Conversational,19,Kanji,1.65,82.15,97.55,0.71,Test,True,0.65,1.89
+L0018,Advanced,Reading,9,Grammar,7.76,70.53,89.94,0.38,Repeat,False,0.75,1.92
+L0020,Advanced,Conversational,13,Grammar,5.69,83.7,100.0,0.79,Advance,False,0.67,1.87
+L0048,Beginner,JLPT N5,15,Vocabulary,5.04,79.09,76.42,0.33,Test,True,-0.13,1.83
+L0094,Beginner,JLPT N5,12,Listening,3.59,54.79,49.51,0.81,Repeat,True,-0.26,1.55
+L0006,Intermediate,Writing,20,Grammar,1.69,97.96,100.0,0.3,Test,True,0.1,2.1
+L0066,Beginner,Conversational,14,Kanji,6.17,93.48,100.0,0.35,Test,True,0.32,1.94
+L0056,Beginner,Writing,2,Kanji,4.43,55.04,50.4,0.56,Test,True,-0.23,1.28
+L0010,Intermediate,Writing,4,Kanji,6.78,100.0,100.0,0.79,Test,False,0.0,1.84
+L0036,Advanced,Conversational,6,Grammar,4.1,63.91,64.88,0.7,Revise,False,0.05,1.33
+L0100,Intermediate,JLPT N5,20,Kanji,3.28,72.23,91.32,0.94,Revise,False,0.74,1.61
+L0075,Beginner,Writing,13,Listening,3.06,50.95,50.37,0.86,Test,False,-0.03,1.39
+L0046,Intermediate,JLPT N4,10,Grammar,6.19,75.75,86.02,0.48,Advance,False,0.47,1.94
+L0070,Beginner,Conversational,8,Kanji,5.06,67.57,70.88,0.99,Revise,True,0.16,1.86
+L0051,Advanced,JLPT N4,8,Kanji,4.35,71.31,69.5,0.67,Advance,True,-0.09,1.81
+L0051,Advanced,Reading,13,Listening,5.76,93.19,94.06,0.55,Revise,False,0.04,1.73
+L0080,Intermediate,Writing,6,Grammar,6.57,48.8,54.18,0.64,Test,False,0.26,1.71
+L0002,Intermediate,Reading,1,Grammar,4.21,74.64,88.88,0.99,Advance,False,0.61,2.17
+L0021,Advanced,Writing,3,Vocabulary,1.0,40.31,33.5,0.38,Repeat,False,-0.33,1.25
+L0091,Intermediate,JLPT N5,9,Kanji,3.87,62.72,59.79,0.51,Test,False,-0.15,1.51
+L0097,Intermediate,Conversational,10,Listening,8.29,55.61,34.43,0.51,Test,True,-0.79,1.34
+L0100,Beginner,JLPT N5,3,Vocabulary,10.0,56.91,62.55,0.76,Test,False,0.27,1.81
+L0040,Advanced,Conversational,5,Kanji,3.41,96.2,100.0,0.85,Repeat,False,0.19,2.16
+L0039,Beginner,Writing,15,Kanji,4.56,69.53,71.23,0.44,Repeat,True,0.08,1.85
+L0038,Intermediate,Reading,16,Listening,3.07,74.53,59.14,0.81,Revise,False,-0.65,1.67
+L0073,Beginner,Conversational,6,Grammar,4.39,66.93,66.64,0.47,Test,True,-0.01,1.59
+L0028,Beginner,Writing,3,Vocabulary,6.51,78.73,72.78,0.57,Repeat,True,-0.29,2.1
+L0096,Advanced,Conversational,5,Kanji,4.22,90.34,89.99,0.36,Repeat,False,-0.02,1.72
+L0010,Beginner,JLPT N5,1,Listening,6.76,57.5,46.47,0.37,Test,False,-0.5,1.38
+L0064,Beginner,Conversational,14,Vocabulary,8.47,75.76,76.84,0.88,Revise,False,0.05,1.72
+L0037,Advanced,JLPT N5,4,Grammar,3.75,66.12,56.68,0.33,Advance,False,-0.44,1.84
+L0036,Beginner,Writing,5,Listening,4.07,82.71,84.89,0.62,Repeat,False,0.11,1.57
+L0039,Beginner,Conversational,12,Grammar,4.46,63.36,59.67,0.52,Advance,False,-0.18,1.64
+L0096,Beginner,JLPT N4,4,Grammar,4.52,87.67,83.91,0.79,Revise,False,-0.19,1.82
+L0078,Beginner,Conversational,9,Grammar,3.15,76.51,78.19,0.58,Repeat,False,0.08,1.6
+L0094,Intermediate,JLPT N4,6,Listening,3.75,93.87,100.0,0.8,Repeat,False,0.3,2.1
+L0041,Intermediate,JLPT N4,16,Listening,5.06,74.49,75.22,0.92,Revise,False,0.04,1.6
+L0051,Advanced,JLPT N5,3,Vocabulary,6.56,59.02,66.83,0.6,Revise,False,0.37,1.68
+L0058,Advanced,Conversational,2,Grammar,7.92,71.94,66.61,0.91,Repeat,True,-0.26,1.79
+L0037,Beginner,Conversational,1,Kanji,3.69,72.86,69.3,0.35,Advance,False,-0.18,1.77
+L0018,Intermediate,JLPT N5,8,Listening,7.04,87.88,81.75,0.66,Repeat,False,-0.3,2.0
+L0092,Beginner,JLPT N5,14,Listening,5.82,93.64,75.06,0.65,Test,True,-0.73,1.65
+L0026,Intermediate,Reading,1,Vocabulary,4.86,67.75,74.63,0.45,Repeat,True,0.33,1.9
+L0058,Intermediate,JLPT N4,7,Grammar,2.02,89.43,87.81,0.81,Repeat,False,-0.08,2.12
+L0076,Advanced,JLPT N5,11,Vocabulary,5.42,69.32,65.0,0.49,Test,True,-0.21,1.73
+L0028,Intermediate,JLPT N5,18,Listening,6.89,70.82,71.59,0.58,Test,False,0.04,2.07
+L0043,Advanced,JLPT N5,1,Kanji,2.21,75.45,71.86,0.43,Revise,False,-0.18,1.66
+L0040,Intermediate,JLPT N4,17,Kanji,1.31,58.24,54.2,0.59,Test,True,-0.2,1.15
+L0023,Intermediate,JLPT N4,19,Kanji,4.7,45.5,47.56,0.76,Revise,False,0.1,1.55
+L0099,Intermediate,Reading,8,Listening,8.7,87.86,85.85,0.74,Test,False,-0.1,1.78
+L0034,Advanced,JLPT N4,10,Listening,6.69,57.21,69.87,0.53,Revise,True,0.56,1.82
+L0054,Beginner,JLPT N5,3,Kanji,2.62,76.63,78.38,0.82,Advance,False,0.09,1.75
+L0068,Intermediate,Conversational,18,Listening,3.71,84.47,88.99,0.51,Advance,True,0.22,2.01
+L0024,Intermediate,JLPT N5,10,Vocabulary,4.96,69.74,60.16,0.87,Repeat,False,-0.45,1.79
+L0064,Beginner,Conversational,18,Listening,4.9,57.86,63.71,0.83,Advance,False,0.28,1.76
+L0088,Advanced,JLPT N5,11,Vocabulary,9.49,53.65,51.81,0.99,Revise,True,-0.09,1.59
+L0075,Intermediate,Conversational,2,Grammar,2.1,85.71,90.18,0.89,Test,False,0.22,1.84
+L0029,Beginner,Reading,10,Listening,5.93,88.36,90.29,0.62,Repeat,False,0.1,1.73
+L0071,Advanced,JLPT N4,1,Kanji,2.6,67.55,76.4,0.6,Repeat,True,0.42,1.98
+L0016,Advanced,JLPT N5,7,Kanji,5.81,57.32,41.21,0.31,Repeat,False,-0.67,1.56
+L0033,Beginner,JLPT N5,7,Grammar,6.09,76.81,59.15,0.96,Advance,True,-0.71,1.9
+L0081,Beginner,JLPT N4,14,Listening,3.61,52.12,62.18,0.83,Revise,True,0.46,1.69
+L0013,Beginner,Reading,6,Kanji,2.27,49.08,47.47,0.72,Repeat,False,-0.08,1.49
+L0027,Intermediate,Conversational,1,Listening,4.38,61.74,62.98,0.59,Revise,False,0.06,1.82
+L0077,Advanced,Reading,17,Listening,7.19,77.14,71.16,0.34,Repeat,False,-0.29,1.56
+L0016,Intermediate,Writing,13,Kanji,4.0,41.9,37.4,0.5,Repeat,False,-0.22,1.46
+L0027,Beginner,Conversational,11,Kanji,7.05,60.28,63.91,0.35,Advance,True,0.18,1.54
+L0028,Advanced,Reading,13,Kanji,6.47,83.94,91.25,0.67,Repeat,True,0.35,1.63
+L0073,Intermediate,Reading,9,Listening,2.83,69.64,50.05,0.42,Advance,False,-0.75,1.62
+L0019,Advanced,JLPT N5,6,Kanji,4.86,48.9,48.14,0.53,Test,False,-0.04,1.78
+L0069,Intermediate,Conversational,17,Grammar,6.31,63.17,50.83,0.42,Advance,True,-0.55,1.38
+L0008,Intermediate,JLPT N4,11,Kanji,4.41,80.62,79.01,0.98,Advance,True,-0.08,1.75
+L0006,Advanced,Reading,3,Grammar,6.39,80.5,94.71,0.72,Repeat,False,0.61,1.98
+L0098,Beginner,Writing,14,Listening,4.92,71.34,67.55,0.82,Revise,True,-0.19,1.37
+L0026,Advanced,Conversational,12,Listening,6.18,87.43,75.25,0.89,Test,False,-0.54,1.8
+L0035,Advanced,Conversational,20,Grammar,5.18,71.62,77.17,0.75,Test,True,0.27,1.8
+L0007,Intermediate,JLPT N5,2,Vocabulary,1.66,60.13,67.73,0.5,Test,False,0.36,1.83
+L0038,Beginner,JLPT N5,14,Listening,4.94,66.72,68.36,0.63,Revise,True,0.08,1.68
+L0094,Beginner,Conversational,3,Kanji,1.0,67.64,56.39,0.5,Advance,True,-0.51,1.34
+L0020,Intermediate,JLPT N5,6,Kanji,4.51,76.7,82.57,0.42,Revise,True,0.29,1.83
+L0008,Intermediate,JLPT N4,8,Vocabulary,5.25,71.57,68.08,0.62,Test,False,-0.17,1.88
+L0081,Beginner,Writing,5,Vocabulary,2.43,65.03,69.58,0.4,Revise,True,0.22,1.68
