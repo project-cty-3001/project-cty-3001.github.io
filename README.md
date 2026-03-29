@@ -1,6 +1,10 @@
 # App for leaning Japanese with gamification
 
-## Group name
+## Group number
+- Group 7
+
+## Group name 
+- 東京大冒險
 
 ## Group member
 - Cheung Tsz Yin
