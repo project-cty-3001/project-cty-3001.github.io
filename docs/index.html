@@ -481,13 +481,13 @@
     </div>
 </section>
 <section id="screen-time-chart" class="section">
-    <h2 class="section-title">每日螢幕時間分佈圖 <span>Daily Screen Time by Occupation</span></h2>
+    <h2 class="section-title">按每日螢幕時間組別職業分佈圖 <span>Occupation Distribution by Screen Time</span></h2>
     <div style="max-width:800px; margin: 0 auto;">
         <canvas id="stackedChart" width="800" height="450"></canvas>
     </div>
 </section>
 <section id="age-screen-time-chart" class="section">
-    <h2 class="section-title">按年齡組別的每日螢幕時間分佈圖 <span>Daily Screen Time by Age Group</span></h2>
+    <h2 class="section-title">每日螢幕時間的按年齡組別分佈圖 <span>Age Group Distribution by Screen Time</span></h2>
     <div style="max-width:800px; margin: 0 auto;">
         <canvas id="ageChart" width="800" height="450"></canvas>
     </div>
@@ -657,24 +657,24 @@ function getRange(screenTime) {
 async function renderStackedChart() {
     try {
         const data = await fetchDataset();
-        const occupationCounts = {};
+        const rangeCounts = {};
+        const occupations = [...new Set(data.map(item => item.occupation))].sort();
+        occupations.forEach(occ => {
+            rangeCounts[occ] = { '0-2': 0, '2-4': 0, '4-6': 0, '6-8': 0, '8+': 0 };
+        });
         data.forEach(item => {
-            if (!occupationCounts[item.occupation]) {
-                occupationCounts[item.occupation] = { '0-2': 0, '2-4': 0, '4-6': 0, '6-8': 0, '8+': 0 };
-            }
             const range = getRange(item.screenTime);
-            occupationCounts[item.occupation][range]++;
+            rangeCounts[item.occupation][range]++;
         });
 
-        const occupations = Object.keys(occupationCounts).sort();
         const ranges = ['0-2', '2-4', '4-6', '6-8', '8+'];
-        const colors = ['#42a5f5', '#66bb6a', '#ffa726', '#ab47bc', '#ef5350'];
-        const borderColors = ['#1e88e5', '#43a047', '#fb8c00', '#8e24aa', '#e53935'];
-        const datasets = ranges.map((range, i) => ({
-            label: range + ' hours',
-            data: occupations.map(occ => occupationCounts[occ][range]),
-            backgroundColor: colors[i],
-            borderColor: borderColors[i],
+        const colors = ['#42a5f5', '#66bb6a', '#ffa726', '#ab47bc', '#ef5350', '#26a69a', '#ec407a', '#8d6e63'];
+        const borderColors = ['#1e88e5', '#43a047', '#fb8c00', '#8e24aa', '#e53935', '#009688', '#e91e63', '#6d4c41'];
+        const datasets = occupations.map((occ, i) => ({
+            label: occ,
+            data: ranges.map(range => rangeCounts[occ][range]),
+            backgroundColor: colors[i % colors.length],
+            borderColor: borderColors[i % borderColors.length],
             borderWidth: 1
         }));
 
@@ -682,14 +682,14 @@ async function renderStackedChart() {
         new Chart(ctx, {
             type: 'bar',
             data: {
-                labels: occupations,
+                labels: ranges,
                 datasets: datasets
             },
             options: {
                 responsive: true,
                 maintainAspectRatio: false,
                 scales: {
-                    x: { title: { display: true, text: 'Occupation' }, stacked: true },
+                    x: { title: { display: true, text: 'Screen Time Ranges (hours)' }, stacked: true },
                     y: { beginAtZero: true, title: { display: true, text: 'Count' }, precision: 0, stacked: true }
                 }
             }
@@ -705,31 +705,32 @@ renderStackedChart();
 
 function getAgeGroup(age) {
     if (age <= 20) return '20 or below';
-    if (age <= 35) return '21-35';
-    if (age <= 50) return '36-50';
+    if (age <= 30) return '21-30';
+    if (age <= 40) return '31-40';
+    if (age <= 50) return '41-50';
     return '51+';
 }
 
 async function renderAgeChart() {
     try {
         const data = await fetchDataset();
-        const ageCounts = {};
+        const rangeCounts = {};
+        const ageGroups = ['20 or below', '21-30', '31-40', '41-50', '51+'];
+        ageGroups.forEach(group => {
+            rangeCounts[group] = { '0-2': 0, '2-4': 0, '4-6': 0, '6-8': 0, '8+': 0 };
+        });
         data.forEach(item => {
             const ageGroup = getAgeGroup(item.age);
-            if (!ageCounts[ageGroup]) {
-                ageCounts[ageGroup] = { '0-2': 0, '2-4': 0, '4-6': 0, '6-8': 0, '8+': 0 };
-            }
             const range = getRange(item.screenTime);
-            ageCounts[ageGroup][range]++;
+            rangeCounts[ageGroup][range]++;
         });
 
-        const ageGroups = ['20 or below', '21-35', '36-50', '51+'];
         const ranges = ['0-2', '2-4', '4-6', '6-8', '8+'];
         const colors = ['#42a5f5', '#66bb6a', '#ffa726', '#ab47bc', '#ef5350'];
         const borderColors = ['#1e88e5', '#43a047', '#fb8c00', '#8e24aa', '#e53935'];
-        const datasets = ranges.map((range, i) => ({
-            label: range + ' hours',
-            data: ageGroups.map(group => ageCounts[group][range]),
+        const datasets = ageGroups.map((group, i) => ({
+            label: group,
+            data: ranges.map(range => rangeCounts[group][range]),
             backgroundColor: colors[i],
             borderColor: borderColors[i],
             borderWidth: 1
@@ -739,14 +740,14 @@ async function renderAgeChart() {
         new Chart(ctx, {
             type: 'bar',
             data: {
-                labels: ageGroups,
+                labels: ranges,
                 datasets: datasets
             },
             options: {
                 responsive: true,
                 maintainAspectRatio: false,
                 scales: {
-                    x: { title: { display: true, text: 'Age Group' }, stacked: true },
+                    x: { title: { display: true, text: 'Screen Time Ranges (hours)' }, stacked: true },
                     y: { beginAtZero: true, title: { display: true, text: 'Count' }, precision: 0, stacked: true }
                 }
             }
