@@ -23,19 +23,19 @@ body {
 nav {
     position: sticky;
     top: 0;
-    background-color: var(--primary-navy);
-    color: white;
+    background: linear-gradient(135deg, rgba(255, 234, 167, 0.95), rgba(248, 245, 242, 0.95));
+    color: var(--primary-navy);
     padding: 1rem 5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
     z-index: 100;
 }
 .nav-logo { font-size: 1.4rem; font-weight: 700; display: flex; align-items: center; gap: 0.5rem; }
 .nav-logo span { color: var(--primary-coral); }
 .nav-links { display: flex; gap: 1.5rem; list-style: none; }
-.nav-links a { color: white; text-decoration: none; padding: 0.5rem 0; border-bottom: 2px solid transparent; transition: all 0.3s ease; }
+.nav-links a { color: var(--primary-navy); text-decoration: none; padding: 0.5rem 0; border-bottom: 2px solid transparent; transition: all 0.3s ease; }
 .nav-links a:hover { border-bottom: 2px solid var(--accent-mint); color: var(--accent-mint); }
 .gamification-hub { background-color: var(--primary-coral); padding: 0.5rem 1rem; border-radius: 20px; text-decoration: none; color: white; font-weight: 600; transition: all 0.3s ease; }
 .gamification-hub:hover { background-color: var(--accent-mint); color: var(--primary-navy); }
