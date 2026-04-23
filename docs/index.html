@@ -14,14 +14,19 @@
             display: flex;
             align-items: center;
             gap: 0.5rem;
+            color: white;
         }
         .nav-logo span {
-            color: var(--primary-coral);
+            color: white;
         }
         .nav-links {
             display: flex;
             gap: 1.5rem;
             list-style: none;
+        }
+        nav {
+            background: black;
+            color: white;
         }
         .nav-links a {
             color: white;
@@ -35,7 +40,7 @@
             color: var(--accent-mint);
         }
         .gamification-hub {
-            background-color: var(--primary-coral);
+            background-color: black;
             padding: 0.5rem 1rem;
             border-radius: 20px;
             text-decoration: none;
@@ -45,7 +50,11 @@
         }
         .gamification-hub:hover {
             background-color: var(--accent-mint);
-            color: var(--primary-navy);
+            color: black;
+        }
+        body {
+            background-color: #fef3c7;
+            color: black;
         }
         .hero {
             padding: 5rem 5%;
@@ -53,7 +62,7 @@
             flex-wrap: wrap;
             align-items: center;
             gap: 3rem;
-            background: linear-gradient(135deg, var(--base-cream) 0%, #f0ebe8 100%);
+            background: #fefce8;
             border-bottom: 3px solid var(--japan-indigo);
         }
         .hero-text {
@@ -62,18 +71,19 @@
         .hero-text h1 {
             font-size: 2.5rem;
             margin-bottom: 1rem;
-            color: var(--primary-navy);
+            color: black;
         }
         .hero-text h1 span {
-            color: var(--primary-coral);
+            color: var(--accent-mint);
         }
         .hero-text p {
             font-size: 1.1rem;
             margin-bottom: 2rem;
             max-width: 600px;
+            color: black;
         }
         .cta-btn {
-            background-color: var(--primary-navy);
+            background-color: black;
             color: white;
             padding: 0.8rem 2rem;
             border-radius: 8px;
@@ -88,7 +98,7 @@
         .cta-btn.secondary {
             background-color: transparent;
             border: 2px solid var(--primary-coral);
-            color: var(--primary-coral);
+            color: black;
         }
         .cta-btn:hover {
             background-color: var(--japan-indigo);
@@ -97,7 +107,7 @@
         }
         .cta-btn.secondary:hover {
             background-color: var(--primary-coral);
-            color: white;
+            color: black;
         }
         .hero-visual {
             flex: 1 1 400px;
@@ -115,7 +125,7 @@
         .section-title {
             text-align: center;
             font-size: 2rem;
-            color: var(--primary-navy);
+            color: black !important;
             margin-bottom: 3rem;
             position: relative;
         }
@@ -132,7 +142,7 @@
         }
         .section-title span {
             font-size: 1.2rem;
-            color: var(--japan-indigo);
+            color: black !important;
             font-style: italic;
             margin-left: 1rem;
         }
@@ -160,14 +170,14 @@
             border-top-color: var(--accent-mint);
         }
         .card h3 {
-            color: var(--primary-navy);
+            color: black;
             margin-bottom: 1rem;
             display: flex;
             align-items: center;
             gap: 0.5rem;
         }
         .card h3 i {
-            color: var(--primary-coral);
+            color: black;
         }
         .card p {
             margin-bottom: 1.5rem;
@@ -186,26 +196,45 @@
             border: none;
             cursor: pointer;
         }
+        .section#stories .card-btn {
+            background-color: black;
+            color: white;
+        }
+        .section#stories .card-btn:hover {
+            background-color: #333;
+            color: white;
+        }
+        .section#vocab .card-btn {
+            background-color: black;
+            color: white;
+        }
+        .section#vocab .card-btn:hover {
+            background-color: #333;
+            color: white;
+        }
         .card-btn:hover {
             background-color: var(--primary-coral);
             color: white;
         }
         .gamification-section {
-            background-color: var(--primary-navy);
+            background-color: black;
             color: white;
             border-radius: 10px;
             padding: 2rem;
             margin: 2rem 0;
         }
         .gamification-section h3 {
-            color: var(--accent-yellow);
+            color: white;
             margin-bottom: 1.5rem;
             font-size: 1.5rem;
+        }
+        .gamification-section p {
+            color: white;
         }
         .progress-bar {
             width: 100%;
             height: 20px;
-            background-color: var(--light-gray);
+            background-color: #333;
             border-radius: 10px;
             margin-bottom: 1rem;
             overflow: hidden;
@@ -247,7 +276,7 @@
             color: var(--primary-coral);
         }
         footer {
-            background-color: var(--primary-navy);
+            background-color: black;
             color: white;
             padding: 3rem 5%;
             margin-top: 4rem;

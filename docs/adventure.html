@@ -15,6 +15,33 @@
         .dialog-bubble { position: relative; margin: 8px 0; }
         .dialog-bubble::before { content: ""; position: absolute; left: -8px; top: 16px; width: 0; height: 0; border-top: 8px solid transparent; border-bottom: 8px solid transparent; border-right: 8px solid white; }
         .dialog-bubble-right::before { left: auto; right: -8px; border-right: none; border-left: 8px solid #e6f2ff; }
+        .stage-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; margin-bottom: 1.5rem; }
+        .stage-card { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.65rem; background: white; border: 1px solid #e5e7eb; border-radius: 1rem; padding: 1rem; box-shadow: 0 10px 20px rgba(15,23,42,0.05); cursor: pointer; transition: transform 0.2s ease, box-shadow 0.2s ease; text-align: center; }
+        .stage-card:hover { transform: translateY(-3px); box-shadow: 0 16px 30px rgba(15,23,42,0.1); }
+        .stage-card .stage-icon { width: 48px; height: 48px; border-radius: 9999px; display: flex; align-items: center; justify-content: center; color: white; font-size: 1.2rem; }
+        .stage-card .stage-icon.airport { background: #ef4444; }
+        .stage-card .stage-icon.restaurant { background: #f97316; }
+        .stage-card .stage-icon.festival { background: #ec4899; }
+        .stage-card .stage-icon.tourist { background: #8b5cf6; }
+        .stage-card p { margin: 0; color: #0f172a; font-weight: 600; }
+        .stage-card small { color: #64748b; }
+        .modal-overlay { position: fixed; inset: 0; background: rgba(15,23,42,0.55); display: flex; align-items: center; justify-content: center; padding: 1rem; z-index: 1000; }
+        .modal-card { width: min(680px, 100%); max-height: 90vh; overflow-y: auto; background: white; border-radius: 1rem; padding: 1.5rem; box-shadow: 0 25px 80px rgba(15,23,42,0.18); }
+        .modal-card h3 { margin-bottom: 0.75rem; }
+        .modal-card p { color: #475569; line-height: 1.65; }
+        .stats-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.9rem; margin-bottom: 1rem; }
+        .stats-grid .stat { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 1rem; padding: 1rem; }
+        .stats-grid .stat p:first-child { font-size: 0.85rem; color: #475569; margin-bottom: 0.4rem; }
+        .stats-grid .stat p:last-child { font-size: 1.5rem; font-weight: 700; }
+        .progress-meta { display: flex; flex-wrap: wrap; gap: 0.75rem; justify-content: space-between; margin-top: 0.5rem; color: #64748b; font-size: 0.85rem; }
+        .progress-row { margin-bottom: 1.5rem; }
+        .progress-row .progress-label { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.45rem; font-size: 0.95rem; color: #0f172a; }
+        .progress-row .progress-label small { color: #64748b; font-size: 0.85rem; }
+        .progress-bar { height: 18px; border-radius: 9999px; background: #e2e8f0; overflow: hidden; }
+        .progress-fill { border-radius: 9999px; box-shadow: inset 0 1px 2px rgba(0,0,0,0.12); }
+        .btn-secondary { background: #f8fafc; color: #0f172a; border: 1px solid #cbd5e1; }
+        .btn-secondary:hover { background: #e2e8f0; }
+        .modal-close { font-size: 1.5rem; line-height: 1; color: #475569; cursor: pointer; border: none; background: transparent; }
     </style>
 </head>
 <body>
@@ -78,7 +105,7 @@
                 </div>
                 
                 <!-- 餐厅标记 -->
-                <div id="marker-restaurant" class="map-marker top-[40%] left-[50%] opacity-50 pointer-events-none">
+                <div id="marker-restaurant" class="map-marker top-[40%] left-[50%] opacity-50 pointer-events-none" onclick="goToLocation('restaurant')" role="button" aria-label="前往レストランステージ">
                     <div class="w-8 h-8 bg-gray-400 rounded-full flex items-center justify-center text-white shadow-md">
                         <i class="fa fa-cutlery"></i>
                     </div>
@@ -87,7 +114,7 @@
                 </div>
                 
                 <!-- 祭り标记 -->
-                <div id="marker-festival" class="map-marker top-[60%] left-[70%] opacity-50 pointer-events-none">
+                <div id="marker-festival" class="map-marker top-[60%] left-[70%] opacity-50 pointer-events-none" onclick="goToLocation('festival')" role="button" aria-label="前往祭りステージ">
                     <div class="w-8 h-8 bg-gray-400 rounded-full flex items-center justify-center text-white shadow-md">
                         <i class="fa fa-fire"></i>
                     </div>
@@ -96,12 +123,35 @@
                 </div>
                 
                 <!-- 観光案内标记 -->
-                <div id="marker-tourist" class="map-marker top-[30%] left-[80%] opacity-50 pointer-events-none">
+                <div id="marker-tourist" class="map-marker top-[30%] left-[80%] opacity-50 pointer-events-none" onclick="goToLocation('tourist')" role="button" aria-label="前往観光案内ステージ">
                     <div class="w-8 h-8 bg-gray-400 rounded-full flex items-center justify-center text-white shadow-md">
                         <i class="fa fa-user"></i>
                     </div>
                     <p class="text-xs mt-1 bg-white/80 px-1 rounded font-medium">観光案内</p>
                     <p class="text-[10px] text-white bg-gray-400/80 px-1 rounded mt-1">ステージ4</p>
+                </div>
+            </div>
+
+            <div class="stage-grid">
+                <div class="stage-card" onclick="goToLocation('airport')" aria-label="前往空港ステージ">
+                    <div class="stage-icon airport"><i class="fa fa-plane"></i></div>
+                    <p>空港</p>
+                    <small>ステージ1</small>
+                </div>
+                <div class="stage-card" onclick="goToLocation('restaurant')" aria-label="前往レストランステージ">
+                    <div class="stage-icon restaurant"><i class="fa fa-cutlery"></i></div>
+                    <p>レストラン</p>
+                    <small>ステージ2</small>
+                </div>
+                <div class="stage-card" onclick="goToLocation('festival')" aria-label="前往祭りステージ">
+                    <div class="stage-icon festival"><i class="fa fa-fire"></i></div>
+                    <p>祭り</p>
+                    <small>ステージ3</small>
+                </div>
+                <div class="stage-card" onclick="goToLocation('tourist')" aria-label="前往観光案内ステージ">
+                    <div class="stage-icon tourist"><i class="fa fa-user"></i></div>
+                    <p>観光案内</p>
+                    <small>ステージ4</small>
                 </div>
             </div>
 
@@ -161,14 +211,53 @@
             </div>
 
             <div class="grid grid-cols-2 gap-3 mb-4">
-                <button onclick="showCurrentProgress()" class="bg-blue-600 text-white py-2 px-4 rounded-xl font-medium text-sm btn-primary">
-                    <i class="fa fa-line-chart mr-1"></i> 進捗状況を確認
+                <button onclick="showCurrentProgress()" class="bg-black text-white py-2 px-4 rounded-xl font-medium text-sm btn-primary">
+                    <i class="fa fa-chart-bar mr-1"></i> 查看進度詳情
                 </button>
-                <button onclick="resetGame()" class="bg-red-500 text-white py-2 px-4 rounded-xl font-medium text-sm btn-primary">
-                    <i class="fa fa-refresh mr-1"></i> ゲームをリセット
+                <button onclick="openConfirmModal()" class="bg-red-500 text-white py-2 px-4 rounded-xl font-medium text-sm btn-primary">
+                    <i class="fa fa-refresh mr-1"></i> 確認重置遊戲
                 </button>
             </div>
-            
+
+            <div id="progressModal" class="hidden modal-overlay">
+                <div class="modal-card">
+                    <div class="flex justify-between items-start mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold">遊戲進度詳情</h3>
+                            <p>展示更完整的任務完成比例、區域進度與獲得資源。以條列與橫向進度條呈現，讓資料一目了然。</p>
+                        </div>
+                        <button class="modal-close" onclick="closeProgressModal()" aria-label="關閉進度視窗">×</button>
+                    </div>
+                    <div class="stats-grid">
+                        <div class="stat"><p>總進度</p><p id="summaryPercent">0%</p></div>
+                        <div class="stat"><p>任務完成</p><p id="summaryTasks">0/8</p></div>
+                        <div class="stat"><p>經驗值</p><p id="summaryExp">0pt</p></div>
+                        <div class="stat"><p>持有硬幣</p><p id="summaryCoins">0枚</p></div>
+                    </div>
+                    <div id="progressDetailBars"></div>
+                    <div class="flex gap-3 justify-end mt-4">
+                        <button class="btn-secondary py-2 px-4 rounded-xl" onclick="closeProgressModal()">關閉</button>
+                        <button class="bg-blue-600 text-white py-2 px-4 rounded-xl btn-primary" onclick="copyProgressSummary()">複製進度摘要</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="confirmModal" class="hidden modal-overlay">
+                <div class="modal-card">
+                    <div class="flex justify-between items-start mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold">確認重置遊戲</h3>
+                            <p>重置後會清除所有已完成的關卡、經驗值與硬幣。請在重新開始前慎重確認。</p>
+                        </div>
+                        <button class="modal-close" onclick="closeConfirmModal()" aria-label="關閉確認視窗">×</button>
+                    </div>
+                    <div class="flex gap-3 justify-end">
+                        <button class="btn-secondary py-2 px-4 rounded-xl" onclick="closeConfirmModal()">取消</button>
+                        <button class="bg-red-500 text-white py-2 px-4 rounded-xl" onclick="confirmResetGame()">確定重置</button>
+                    </div>
+                </div>
+            </div>
+
             <div class="bg-blue-50 p-3 rounded-xl text-sm text-blue-800">
                 <i class="fa fa-lightbulb-o mr-1"></i> 
                 <strong>ヒント：</strong>各ステージで正しい選択をして、単語クイズに合格すると次のステージが開放されます！
@@ -744,28 +833,91 @@ function showCurrentProgress() {
     const done = gameData.player.completed.length;
     const total = 8;
     const per = Math.round((done / total) * 100);
-    
-    let progressText = `🎮 現在の進捗状況:\n\n`;
-    progressText += `• 全体進捗: ${per}% (${done}/${total})\n`;
-    progressText += `• 獲得経験値: ${gameData.player.exp}pt\n`;
-    progressText += `• 所持コイン: ${gameData.player.coins}枚\n\n`;
-    
-    progressText += `• クリア済みステージ:\n`;
-    const locations = ['空港', 'レストラン', '祭り', '観光案内'];
-    const locationKeys = ['airport', 'restaurant', 'festival', 'tourist'];
-    
-    locationKeys.forEach((key, index) => {
-        const count = gameData.player.completed.filter(x => x.startsWith(key)).length;
-        const status = count === 2 ? '✅ クリア済み' : `🔄 進行中 (${count}/2)`;
-        progressText += `  - ${locations[index]}: ${status}\n`;
+    const sections = [
+        { key: 'airport', label: '空港ミッション', color: 'bg-blue-500' },
+        { key: 'restaurant', label: 'レストランミッション', color: 'bg-orange-500' },
+        { key: 'festival', label: '祭りミッション', color: 'bg-pink-500' },
+        { key: 'tourist', label: '観光案内ミッション', color: 'bg-purple-500' }
+    ];
+
+    document.getElementById('summaryPercent').innerText = `${per}%`;
+    document.getElementById('summaryTasks').innerText = `${done}/${total}`;
+    document.getElementById('summaryExp').innerText = `${gameData.player.exp}pt`;
+    document.getElementById('summaryCoins').innerText = `${gameData.player.coins}枚`;
+
+    const detailHtml = sections.map(section => {
+        const count = gameData.player.completed.filter(x => x.startsWith(section.key)).length;
+        const percentage = Math.round((count / 2) * 100);
+        const status = count === 2 ? '✅ 已完成' : `🔄 進行中 (${count}/2)`;
+        const next = count === 2 ? '已解鎖下一階段' : `還差 ${2 - count} 項完成`;
+
+        return `
+            <div class="progress-row">
+                <div class="progress-label">
+                    <span>${section.label}</span>
+                    <small>${percentage}%</small>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill ${section.color}" style="width:${percentage}%;"></div>
+                </div>
+                <div class="progress-meta">
+                    <span>${status}</span>
+                    <span>${next}</span>
+                </div>
+            </div>
+        `;
+    }).join('');
+
+    document.getElementById('progressDetailBars').innerHTML = detailHtml;
+    document.getElementById('progressModal').classList.remove('hidden');
+}
+
+function closeProgressModal() {
+    document.getElementById('progressModal').classList.add('hidden');
+}
+
+function copyProgressSummary() {
+    const textLines = [
+        `總進度：${document.getElementById('summaryPercent').innerText}`,
+        `完成任務：${document.getElementById('summaryTasks').innerText}`,
+        `經驗值：${document.getElementById('summaryExp').innerText}`,
+        `硬幣：${document.getElementById('summaryCoins').innerText}`
+    ];
+    const sectionRows = Array.from(document.querySelectorAll('#progressDetailBars .progress-row')).map(row => {
+        const label = row.querySelector('.progress-label span').innerText;
+        const percent = row.querySelector('.progress-label small').innerText;
+        const status = row.querySelector('.progress-meta span').innerText;
+        return `${label} ${percent} ${status}`;
     });
-    
-    // 检查是否全部完成
-    if (done === total) {
-        progressText += `\n🎉 おめでとう！すべてのステージをクリアしました！`;
-    }
-    
-    alert(progressText);
+    const payload = `${textLines.join('\n')}\n\n${sectionRows.join('\n')}`;
+    navigator.clipboard.writeText(payload).then(() => {
+        alert('進度摘要已複製到剪貼簿！');
+    }).catch(() => {
+        alert('無法複製，請手動複製內容。');
+    });
+}
+
+function openConfirmModal() {
+    document.getElementById('confirmModal').classList.remove('hidden');
+}
+
+function closeConfirmModal() {
+    document.getElementById('confirmModal').classList.add('hidden');
+}
+
+function confirmResetGame() {
+    gameData.player = {
+        exp: 0,
+        coins: 0,
+        completed: []
+    };
+    localStorage.removeItem('tokyoSave');
+    updateUI();
+    updateProgress();
+    checkUnlock();
+    closeConfirmModal();
+    closeProgressModal();
+    alert('遊戲已重置，請從頭開始新的冒險吧！');
 }
 
 // 语音朗读对话
@@ -797,20 +949,9 @@ function hideRewardPopup() {
     document.getElementById('reward-popup').classList.add('hidden');
 }
 
-// 重置游戏
+// 重置游戏（旧版兼容调用）
 function resetGame() {
-    if (confirm('ゲームデータをリセットしますか？\nこの操作は元に戻せません。')) {
-        gameData.player = {
-            exp: 0,
-            coins: 0,
-            completed: []
-        };
-        localStorage.removeItem('tokyoSave');
-        updateUI();
-        updateProgress();
-        checkUnlock();
-        alert('ゲームデータをリセットしました！最初から冒険を始めましょう！');
-    }
+    openConfirmModal();
 }
 
 // 页面加载完成后初始化
