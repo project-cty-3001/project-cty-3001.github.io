@@ -16,7 +16,7 @@
     font-family: 'Noto Sans JP', 'Noto Sans TC', 'Montserrat', sans-serif;
 }
 body {
-    background-color: var(--base-cream);
+    background-color: var(--accent-yellow);
     color: var(--text-charcoal);
     line-height: 1.6;
 }
