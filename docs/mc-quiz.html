@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Japanese Quiz</title> <!-- ✅ UPDATED: CLEAN SIMPLE TITLE AS REQUESTED -->
+    <title>である 文法測驗｜正式書面表現</title>
     <link rel="stylesheet" href="./styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
@@ -28,163 +28,178 @@
             line-height: 1.5;
         }
         /* ✨ REFINED: Premium Quiz Container (Elegant Washi Box Style) */
+        .quiz-shell {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 0 0 1.2rem;
+        }
+        .quiz-meta {
+            margin-bottom: 1.4rem;
+            padding: 1.4rem 1.6rem;
+            border-radius: 24px;
+            background: rgba(238, 235, 255, 0.92);
+            border: 1px solid #d8d4ff;
+            box-shadow: 0 14px 40px rgba(79, 84, 227, 0.08);
+        }
+        .stage-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: #5c6bc0;
+            color: #fff;
+            padding: 0.55rem 1rem;
+            border-radius: 999px;
+            font-weight: 700;
+            letter-spacing: 0.03em;
+            margin-bottom: 0.75rem;
+            font-size: 0.95rem;
+        }
+        .stage-title {
+            font-size: 1.9rem;
+            color: #263238;
+            margin-bottom: 0.55rem;
+            letter-spacing: 0.01em;
+        }
+        .stage-copy {
+            color: #4a4a4a;
+            line-height: 1.8;
+            font-size: 1.03rem;
+            margin: 0;
+        }
+        .grammar-intro {
+            max-width: 680px;
+            margin: 0 auto 26px;
+            padding: 24px 28px;
+            border-radius: 22px;
+            background: rgba(255, 242, 235, 0.92);
+            border: 1px solid #FFE0B2;
+            box-shadow: 0 10px 25px rgba(255, 160, 119, 0.12);
+        }
+        .grammar-intro h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+            color: #263238;
+        }
+        .grammar-intro p {
+            color: #4a4a4a;
+            line-height: 1.75;
+            margin-bottom: 0.65rem;
+        }
+        .grammar-tagline {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: #ffe7d9;
+            color: #d84315;
+            padding: 0.55rem 0.9rem;
+            border-radius: 999px;
+            font-weight: 700;
+            margin-top: 0.75rem;
+            border: 1px solid #ffd0b2;
+        }
         .quiz-container {
-            background: #FFFFFF;
+            background: linear-gradient(180deg, rgba(255,255,255,0.98), rgba(248,241,255,0.95));
             width: 100%;
             max-width: 680px;
-            border-radius: 24px; /* Rounded softer corners */
-            padding: 35px 30px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.08), 0 0 0 6px #FFC2D118;
-            border: 1px solid #FFC2D1; /* Muted Sakura Pink (softer than before) */
+            border-radius: 28px; /* Rounded softer corners */
+            padding: 35px 32px;
+            box-shadow: 0 18px 45px rgba(45,64,89,0.12), 0 0 0 6px rgba(255,194,209,0.18);
+            border: 1px solid rgba(255,194,209,0.6); /* Muted Sakura Pink */
             animation: fadeIn 0.9s ease-in-out 0.1s both; /* Delayed smooth fade */
             position: relative;
             overflow: hidden;
             background-clip: padding-box;
         }
-        /* ✨ REFINED: Sakura & Matcha Deco (bigger, softer position, subtle shadow) */
-        .quiz-container::before {
-            content: "🌸";
-            font-size: 36px;
-            position: absolute;
-            top: 20px;
-            left: 25px;
-            filter: drop-shadow(0 2px 2px rgba(0,0,0,0.05));
+        .progress-meter {
+            width: 100%;
+            height: 12px;
+            background: rgba(255,255,255,0.55);
+            border-radius: 999px;
+            overflow: hidden;
+            margin-top: 14px;
+            box-shadow: inset 0 0 0 1px rgba(63,81,181,0.08);
         }
-        .quiz-container::after {
-            content: "🍵";
-            font-size: 36px;
-            position: absolute;
-            bottom: 20px;
-            right: 25px;
-            filter: drop-shadow(0 2px 2px rgba(0,0,0,0.05));
+        .progress-meter-fill {
+            width: 0;
+            height: 100%;
+            background: linear-gradient(90deg, #5c6bc0, #3f51b5);
+            border-radius: 999px;
+            transition: width 0.45s ease;
         }
-        /* ✨ REFINED: Score Bar (Polished Sakura Dotted Line + Perfect Spacing) */
         .score {
             text-align: right;
-            font-size: 19px;
+            font-size: 18px;
             font-weight: 600;
-            color: #66BB6A; /* Soft Premium Matcha Green (not bright) */
-            margin-bottom: 25px;
-            padding-bottom: 12px;
-            border-bottom: 2px dotted #FFC2D1;
-            letter-spacing: 0.5px;
+            color: #3f51b5;
+            margin-bottom: 20px;
+            letter-spacing: 0.02em;
         }
-        /* ✨ REFINED: Question Style (Ultra Clear, Bigger, Centered Perfectly) */
         .question {
-            font-size: 21px;
-            margin-bottom: 30px;
+            font-size: 22px;
+            margin-bottom: 28px;
             line-height: 1.7;
-            text-align: center;
-            font-weight: 600;
+            text-align: left;
+            font-weight: 700;
             color: #263238;
             animation: fadeIn 0.6s ease 0.2s both;
-            letter-spacing: 0.3px;
+            letter-spacing: 0.02em;
         }
-        /* ✨ REFINED: Answer Grid (Better Gap + Perfect Alignment) */
         .answers {
             display: grid;
             gap: 14px;
             margin-bottom: 22px;
         }
-        /* ✨ REFINED: Answer Buttons (ULTIMATE POLISH - Core Feature!) */
         .answer-btn {
-            background: #FFFDF7; /* Warm off-white (luxury washi) */
-            border: 2px solid #FFC2D1;
-            border-radius: 18px; /* Soft rounded buttons */
-            padding: 16px 22px;
+            background: #ffffff;
+            border: 2px solid rgba(99, 92, 190, 0.16);
+            border-radius: 18px;
+            padding: 18px 22px;
             font-size: 17px;
             cursor: pointer;
-            transition: all 0.35s cubic-bezier(0.25, 0.8, 0.25, 1); /* SMOOTHER hover curve */
+            transition: all 0.32s cubic-bezier(0.25, 0.8, 0.25, 1);
             text-align: left;
-            color: #263238;
-            letter-spacing: 0.2px;
+            color: #2b2b2b;
+            letter-spacing: 0.02em;
+            box-shadow: 0 10px 20px rgba(79, 84, 227, 0.06);
         }
-        /* ✨ SOFTER HOVER: Gentle bounce up (no harsh jump) + glow effect */
         .answer-btn:hover {
-            transform: translateY(-3px); /* Smaller bounce (elegant) */
-            background: #FFC2D110;
-            border-color: #66BB6A;
-            box-shadow: 0 6px 12px rgba(102, 187, 106, 0.12);
+            transform: translateY(-2px);
+            background: #f3f1ff;
+            border-color: #5c6bc0;
+            box-shadow: 0 14px 20px rgba(79, 84, 227, 0.12);
             outline: none;
         }
-        /* ✨ REFINED: Correct/Incorrect Buttons (SOFT COLORS + GLOW + GENTLE FLASH) */
         .answer-btn.correct {
-            background: #66BB6A; /* Soft Matcha Green ✅ */
+            background: #66bb6a;
             color: white;
-            border-color: #4CAF50;
-            box-shadow: 0 0 15px rgba(102, 187, 106, 0.3); /* Soft glow */
+            border-color: #4caf50;
+            box-shadow: 0 0 18px rgba(102, 187, 106, 0.28);
             animation: correctFlash 0.6s ease both;
         }
         .answer-btn.incorrect {
-            background: #EC407A; /* Soft Sakura Red ❌ (muted, not bright) */
+            background: #ec407a;
             color: white;
-            border-color: #D81B60;
-            box-shadow: 0 0 15px rgba(236, 64, 122, 0.3); /* Soft glow */
+            border-color: #d81b60;
+            box-shadow: 0 0 18px rgba(236, 64, 122, 0.28);
             animation: wrongFlash 0.6s ease both;
         }
-        .answer-btn:disabled {
-            cursor: not-allowed;
-            opacity: 0.92;
-            transform: none; /* No hover effect when disabled */
-            box-shadow: none;
-        }
-        /* ✨ REFINED: Progress Text (Polished Matcha, Better Position) */
         .progress {
             text-align: center;
-            font-size: 16px;
-            color: #66BB6A;
-            margin-top: 20px;
-            font-weight: 500;
-            opacity: 0.9;
+            font-size: 15px;
+            color: #5c6bc0;
+            margin-top: 16px;
+            font-weight: 600;
+            opacity: 0.95;
         }
-        /* ✅ 🌟 SUPER FUN + REFINED RESULT PAGE (FUNNY + CUTE + ENCOURAGING) 🌟✅ */
         .result {
             text-align: center;
             padding: 25px 15px 20px;
             animation: fadeIn 0.9s ease both;
             position: relative;
         }
-        /* Cute Sakura on Result Page Top */
-        .result::before {
-            content: "🌸🌸🌸";
-            font-size: 24px;
-            display: block;
-            margin-bottom: 10px;
-            filter: drop-shadow(0 1px 1px rgba(0,0,0,0.05));
-        }
-        /* Cute Matcha on Result Page Bottom */
-        .result::after {
-            content: "🍵🍵🍵";
-            font-size: 24px;
-            display: block;
-            margin-top: 15px;
-            filter: drop-shadow(0 1px 1px rgba(0,0,0,0.05));
-        }
-        .result h2 {
-            font-size: 34px;
-            color: #66BB6A;
-            margin-bottom: 12px;
-            font-weight: 700;
-            letter-spacing: 1.2px;
-            text-shadow: 0 1px 2px rgba(102,187,106,0.15);
-        }
-        .result .rank {
-            font-size: 20px;
-            color: #EC407A;
-            font-weight: 600;
-            margin-bottom: 18px;
-            letter-spacing: 0.5px;
-        }
-        .result p {
-            font-size: 22px;
-            margin-bottom: 30px;
-            color: #263238;
-            font-weight: 500;
-            line-height: 1.6;
-        }
-        /* ✨ UPGRADED: FUN Restart Button (Sparkle Hover + Soft Bounce + Cute Emoji) */
         .restart-btn {
-            background: linear-gradient(120deg, #66BB6A, #4CAF50);
+            background: linear-gradient(120deg, #66bb6a, #4caf50);
             color: white;
             border: none;
             border-radius: 20px;
@@ -197,41 +212,15 @@
             letter-spacing: 0.5px;
         }
         .restart-btn:hover {
-            transform: translateY(-4px) scale(1.02);
-            box-shadow: 0 8px 20px rgba(76, 175, 80, 0.3);
-            filter: brightness(1.05);
+            transform: translateY(-3px) scale(1.01);
+            box-shadow: 0 10px 18px rgba(76, 175, 80, 0.3);
+            filter: brightness(1.03);
         }
-        /* ✨ REFINED: All Animations (SMOOTHER, SLOWER, GENTLER) */
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(12px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-        @keyframes correctFlash {
-            0% { background: #FFFDF7; border-color: #FFC2D1; }
-            60% { background: #66BB6A; border-color: #4CAF50; }
-            100% { background: #66BB6A; border-color: #4CAF50; }
-        }
-        @keyframes wrongFlash {
-            0% { background: #FFFDF7; border-color: #FFC2D1; }
-            60% { background: #EC407A; border-color: #D81B60; }
-            100% { background: #EC407A; border-color: #D81B60; }
-        }
-        /* ✅ 🌟 SUPER FESTIVE CONFETTI (MORE PIECES + JAPANESE COLORS + MIXED SHAPES) 🌟✅ */
-        .confetti {
-            position: absolute;
-	width: calc(8px + var(--size, 6px));
-	height: calc(8px + var(--size, 6px));
-	background-color: var(--color);
-	border-radius: var(--radius, 50%);
-	animation: confettiFall 4s linear infinite;
-	opacity: 0.95;
-	filter: drop-shadow(0 1px 2px rgba(0,0,0,0.08));
-        }
-        /* ✨ MOBILE RESPONSIVE (PERFECT FOR PHONES - REFINED PADDING/SIZES) */
         @media (max-width: 480px) {
             .quiz-container { padding: 28px 20px; max-width: 95%; }
-            .question { font-size: 19px; margin-bottom: 25px; }
-            .answer-btn { font-size: 16px; padding: 14px 18px; }
+            .stage-title { font-size: 1.6rem; }
+            .question { font-size: 20px; margin-bottom: 22px; }
+            .answer-btn { font-size: 16px; padding: 16px 18px; }
             .result h2 { font-size: 28px; }
             .result .rank { font-size: 18px; }
             .result p { font-size: 19px; }
@@ -253,11 +242,25 @@
     <a href="#" class="gamification-hub"><i class="fas fa-trophy"></i> 我的獎勵</a>
 </nav>
 <main class="max-w-6xl mx-auto" style="padding: 1rem 5%;">
-    <div class="quiz-container" id="quiz">
-        <div class="score" id="score">Score: 0 / 10</div>
-        <div class="question" id="question"></div>
-        <div class="answers" id="answers"></div>
-        <div class="progress" id="progress">Question 1 / 10</div>
+    <div class="grammar-intro">
+        <h1>である 文法測驗</h1>
+        <p>本測驗專注於「である」在正式書面與口語文本中的用法。掌握這個助動詞，能讓你的日語表達更成熟、嚴謹且具備報告風格。</p>
+        <p>發音：<strong>de aru</strong>。使用情境：學術報告、文章敘述、新聞說明。</p>
+        <div class="grammar-tagline">正式語氣 / 敘述句 / 書面用法</div>
+    </div>
+    <div class="quiz-shell">
+        <div class="quiz-meta">
+            <div class="stage-pill">精緻關卡</div>
+            <h2 class="stage-title">挑戰你的「である」語感</h2>
+            <p class="stage-copy">關卡設計已更精緻化，保留原始文化句子內容不變，讓你專注於正式書面表現。</p>
+        </div>
+        <div class="quiz-container" id="quiz">
+            <div class="score" id="score">Score: 0 / 10</div>
+            <div class="question" id="question"></div>
+            <div class="answers" id="answers"></div>
+            <div class="progress-meter"><div class="progress-meter-fill" id="progressFill"></div></div>
+            <div class="progress" id="progress">Question 1 / 10</div>
+        </div>
     </div>
     <script>
         // 🇯🇵 SUPER EASY JAPANESE VOCAB MCQs (ABSOLUTE BEGINNER - NO GRAMMAR)
@@ -359,6 +362,7 @@
         const answersElement = document.getElementById('answers');
         const scoreElement = document.getElementById('score');
         const progressElement = document.getElementById('progress');
+        const progressBarFill = document.getElementById('progressFill');
         let currentQuestionIndex = 0;
         let score = 0;
         // Start Quiz
@@ -374,6 +378,7 @@
             resetAnswers();
             questionElement.textContent = question.question;
             progressElement.textContent = `Question ${currentQuestionIndex + 1} / 10`;
+            progressBarFill.style.width = `${((currentQuestionIndex + 1) / quizQuestions.length) * 100}%`;
             question.answers.forEach(answer => {
                 const button = document.createElement('button');
                 button.classList.add('answer-btn');
